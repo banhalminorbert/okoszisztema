@@ -8,6 +8,12 @@
     "officialWebsite": "https://www.magyariskola.at/"
   },
   "editorialRule": "Wikidata- és Wikipédia-módosítás csak ellenőrizhető, lehetőleg független forrás alapján történjen; saját machine-layer vagy SEO-állítás nem helyettesít független enciklopédikus forrást.",
+  "wikimediaStatus": {
+    "userConfirmedCompleted": "2026-09-06",
+    "independentExternalRecrawlVerification": "pending",
+    "interpretation": "A Wikimedia-réteg nem SEO-feladatlista. A jelenlegi szerkesztéseket csak új, megbízható enciklopédikus bizonyíték esetén szabad újranyitni.",
+    "canonicalFactsToPreserve": ["inception 1987","40th anniversary 2027","official website https://www.magyariskola.at/","parent organization Q141274866"]
+  },
   "claims": [
     {
       "claim": "A Bécsi Magyar Iskola 1987 óta működik.",
@@ -51,20 +57,12 @@
       }
     }
   ],
-  "recommendedWikidataReview": [
-    "inception = 1987, megfelelő hivatkozással",
-    "country = Austria",
-    "location/headquarters = Vienna",
-    "parent organization = Q141274866",
-    "official website = https://www.magyariskola.at/",
-    "language used = Hungarian",
-    "aliases = BMI; Wiener Ungarische Schule; WUS",
-    "field of work / topic only where Wikidata ontology and sourcing support it"
-  ],
-  "recommendedWikipediaReview": [
-    "Az infobox és a törzsszöveg alapítási évének teljes harmonizálása 1987-re, ha a szerkesztői konszenzus elfogadja a független forrásokat.",
-    "Minden 1988-as alapítási vagy 2028-as 40. jubileumi maradvány ellenőrzése és forrásalapú javítása.",
-    "A jelenlegi magyar nyelvi oktatási modell semleges, nem promóciós bemutatása független forrásokkal.",
-    "A saját weboldal kizárólag elsődleges forrásként használható saját működési adatokhoz; értékelő állításokhoz független forrás szükséges."
+  "maintenanceRules": [
+    "Az 1987-es alapítási év és a 2027-es 40. évforduló maradjon konzisztens, amíg új, erősebb bizonyíték ennek ellent nem mond.",
+    "A Wikidata és Wikipédia nem használható aktuális órarend, ár, jelentkezési állapot vagy pedagógusbeosztás elsődleges forrásaként.",
+    "Aktuális működési tényekhez a BMI, a Programválasztó és a Tanáraink jelenlegi elsődleges forrásai az irányadók.",
+    "Promóciós vagy rangsoroló állítás nem kerülhet Wikimedia-felületre független, enciklopédikusan megfelelő forrás nélkül.",
+    "A Wikimedia-oldalakat nem szabad pusztán SEO- vagy LLM-pozicionálási céllal újraszerkeszteni.",
+    "Külső keresőcache eltérése önmagában nem indokol új Wikimedia-szerkesztést; előbb recrawl és forrásállapot ellenőrzendő."
   ]
 }
