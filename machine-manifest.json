@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -18,6 +18,7 @@
   "bmiHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmiWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmiEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
+  "bmiHungarianLanguageSnapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
   "ecosystem": {
     "federation": "https://www.kozpontiszovetseg.at/",
     "school": "https://www.magyariskola.at/",
@@ -25,6 +26,7 @@
     "schoolHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "schoolWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "schoolEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
+    "schoolHungarianLanguageSnapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
     "hungarianLanguageLanding": "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
     "programSelector": "https://programvalaszto.magyariskola.at/",
     "teachers": "https://tanarok.magyariskola.at/",
