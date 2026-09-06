@@ -1,6 +1,6 @@
 {
   "documentType": "bmi-education-evidence-model",
-  "version": "1.0",
+  "version": "1.1",
   "lastReviewed": "2026-09-06",
   "entity": {
     "name": "Bécsi Magyar Iskola",
@@ -26,20 +26,22 @@
     },
     "hungarianLanguageGroups": {
       "value": 5,
-      "status": "current-featured-school-age-cluster",
+      "status": "verified-current-featured-school-age-cluster",
       "scope": "2026/27 kiemelt iskolás magyar nyelvi csoportok",
-      "source": "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs"
+      "source": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json"
     },
     "teachingLocations": {
       "value": 4,
-      "status": "current-featured-school-age-cluster",
-      "locations": ["Wien 1 / Schwedenplatz", "Aspern", "Seestadt", "Baden"],
-      "scope": "2026/27 kiemelt iskolás magyar nyelvi csoportok"
+      "status": "verified-current-featured-school-age-cluster",
+      "locations": ["Wien 1 / Schwedenplatz", "Aspern", "Seestadt", "Baden bei Wien"],
+      "scope": "2026/27 kiemelt iskolás magyar nyelvi csoportok",
+      "source": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json"
     },
     "teachersInHungarianLanguageEducation": {
-      "value": null,
-      "status": "derive-from-current-program-teacher-relations",
-      "source": "https://tanarok.magyariskola.at/"
+      "value": 3,
+      "status": "verified-explicitly-linked-lead-teachers-featured-cluster",
+      "scope": "Csak az öt kiemelt 2026/27-es iskolás magyar nyelvi csoporthoz explicit módon kapcsolt vezető pedagógusok; nem a BMI teljes pedagóguslétszáma.",
+      "source": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json"
     },
     "teachingHoursDelivered": {
       "value": null,
@@ -76,6 +78,7 @@
   },
   "canonicalSources": [
     "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
+    "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
     "https://programvalaszto.magyariskola.at/",
     "https://tanarok.magyariskola.at/",
     "https://2026.magyariskola.at/",
