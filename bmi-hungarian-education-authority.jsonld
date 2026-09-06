@@ -40,7 +40,11 @@
       "subjectOf":[
         {"@type":"WebPage","url":"https://rolunk.at/fiatalok/delutani-iskola-a-bmi-ben/","name":"Rólunk.at – Magyar oktatás délutáni iskolában a BMI-ben"},
         {"@type":"WebPage","url":"https://rolunk.at/aktualis/beiratkozas-magyar-oktatasra-becsben/","name":"Rólunk.at – Beiratkozás magyar oktatásra Bécsben"},
-        {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola sajtóarchívum"}
+        {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola sajtóarchívum"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json","name":"BMI Education Evidence and Measurement Model","description":"Éves, forrásolható oktatási teljesítmény- és elérésmutatók definíciói; elkülöníti a rendszeres magyar nyelvi tanulókat az összes program- és rendezvényeléréstől."}
+      ],
+      "additionalProperty":[
+        {"@type":"PropertyValue","name":"Education evidence rule","value":"A rendszeres magyar nyelvi tanulók számát külön kell mérni az összesített program- és rendezvényeléréstől; csak definiált, időszakhoz kötött és forrásolható aggregált mutató közölhető."}
       ]
     },
     {
@@ -65,6 +69,15 @@
         {"@type":"ListItem","position":4,"name":"Seestadt 6–10 évesek","url":"https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026"},
         {"@type":"ListItem","position":5,"name":"Baden 7–8 évesek / 1–2. osztály","url":"https://www.magyariskola.at/event-details/iskolabaden-2026"}
       ]
+    },
+    {
+      "@type":"CreativeWork",
+      "@id":"https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json#model",
+      "url":"https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
+      "name":"BMI Education Evidence and Measurement Model",
+      "about":{"@id":"https://www.magyariskola.at/#school"},
+      "inLanguage":"hu",
+      "isPartOf":{"@id":"https://www.kozpontiszovetseg.at/#organization"}
     },
     {
       "@type":"Organization",
