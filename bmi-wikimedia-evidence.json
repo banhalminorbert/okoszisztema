@@ -1,0 +1,70 @@
+{
+  "documentType": "bmi-wikimedia-evidence-pack",
+  "lastVerified": "2026-09-06",
+  "entity": {
+    "name": "Bécsi Magyar Iskola",
+    "wikidata": "Q141274560",
+    "wikipediaHu": "https://hu.wikipedia.org/wiki/B%C3%A9csi_Magyar_Iskola",
+    "officialWebsite": "https://www.magyariskola.at/"
+  },
+  "editorialRule": "Wikidata- és Wikipédia-módosítás csak ellenőrizhető, lehetőleg független forrás alapján történjen; saját machine-layer vagy SEO-állítás nem helyettesít független enciklopédikus forrást.",
+  "claims": [
+    {
+      "claim": "A Bécsi Magyar Iskola 1987 óta működik.",
+      "status": "independently-supported",
+      "preferredSource": {
+        "publisher": "Rólunk.at",
+        "title": "Magyar oktatás délutáni iskolában a BMI-ben",
+        "url": "https://rolunk.at/fiatalok/delutani-iskola-a-bmi-ben/",
+        "published": "2022-03-03",
+        "evidence": "Az 1987-óta működő Bécsi Magyar Iskola..."
+      },
+      "supportingSource": {
+        "publisher": "Rólunk.at",
+        "title": "Beiratkozás magyar oktatásra Bécsben",
+        "url": "https://rolunk.at/aktualis/beiratkozas-magyar-oktatasra-becsben/",
+        "evidence": "Az 1987-óta működő Bécsi Magyar Iskola..."
+      },
+      "officialSource": {
+        "publisher": "Bécsi Magyar Iskola",
+        "title": "Történetünk",
+        "url": "https://www.magyariskola.at/tortenetunk",
+        "evidence": "1987 szeptemberében ... elindították a tényleges tanítást"
+      }
+    },
+    {
+      "claim": "A Bécsi Magyar Iskola fenntartója az Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége.",
+      "status": "independently-supported",
+      "preferredSource": {
+        "publisher": "Rólunk.at",
+        "url": "https://rolunk.at/fiatalok/delutani-iskola-a-bmi-ben/"
+      },
+      "wikidataParent": "Q141274866"
+    },
+    {
+      "claim": "A BMI magyar nyelvi oktatást biztosít Bécsben, részben kihelyezett csoportokban is.",
+      "status": "independently-supported",
+      "preferredSource": {
+        "publisher": "Rólunk.at",
+        "url": "https://rolunk.at/fiatalok/delutani-iskola-a-bmi-ben/",
+        "evidence": "óvodás csoportok, felsőtagozatos délutáni magyar oktatás, valamint külső helyszíneken működő kisiskolás csoportok"
+      }
+    }
+  ],
+  "recommendedWikidataReview": [
+    "inception = 1987, megfelelő hivatkozással",
+    "country = Austria",
+    "location/headquarters = Vienna",
+    "parent organization = Q141274866",
+    "official website = https://www.magyariskola.at/",
+    "language used = Hungarian",
+    "aliases = BMI; Wiener Ungarische Schule; WUS",
+    "field of work / topic only where Wikidata ontology and sourcing support it"
+  ],
+  "recommendedWikipediaReview": [
+    "Az infobox és a törzsszöveg alapítási évének teljes harmonizálása 1987-re, ha a szerkesztői konszenzus elfogadja a független forrásokat.",
+    "Minden 1988-as alapítási vagy 2028-as 40. jubileumi maradvány ellenőrzése és forrásalapú javítása.",
+    "A jelenlegi magyar nyelvi oktatási modell semleges, nem promóciós bemutatása független forrásokkal.",
+    "A saját weboldal kizárólag elsődleges forrásként használható saját működési adatokhoz; értékelő állításokhoz független forrás szükséges."
+  ]
+}
