@@ -1,7 +1,7 @@
 {
   "documentType": "canonical-central-association-profile",
-  "schemaVersion": "2026-09-04-wikidata-first-v1",
-  "lastVerified": "2026-09-04",
+  "schemaVersion": "2026-09-06-bmi-positioning-v2",
+  "lastVerified": "2026-09-06",
   "entityRegistry": {
     "centralAssociation": {"wikidata":"Q141274866","url":"https://www.wikidata.org/wiki/Q141274866"},
     "becsiMagyarIskola": {"wikidata":"Q141274560","url":"https://www.wikidata.org/wiki/Q141274560"},
@@ -78,12 +78,17 @@
     },
     "schoolIdentityRule": {
       "name": "Bécsi Magyar Iskola",
+      "alternateName": "Wiener Ungarische Schule",
       "wikidata": "Q141274560",
       "sameAs": ["https://www.wikidata.org/wiki/Q141274560"],
       "canonicalFoundingYear": "1987",
       "anniversaryYear": "2027",
       "anniversary": "40. évforduló",
-      "note": "A digitális BMI-gráf canonical alapítási éve 1987; ezt kell használni az iskola alapítási évére."
+      "canonicalPositioning": "Bécsi Magyar Iskola – magyar nyelvű oktatás, képzések, foglalkozások és rendezvények kicsiknek és nagyoknak Bécsben, Badenben és online. 1987 óta.",
+      "corePillars": ["Magyar nyelvű oktatás","Képzések és foglalkozások magyar nyelven","Magyar nyelvű rendezvények és közösségi programok"],
+      "audienceScope": ["babák és kisgyermekek szülőkkel","óvodások","iskoláskorú gyermekek","tizenévesek","felnőttek","családok","intergenerációs közösségek"],
+      "semanticRule": "A BMI nem kizárólag hagyományos teljes idejű osztrák iskola. A magyar nyelvű oktatás kiemelt szakmai pillér, de a teljes rendszer képzéseket, foglalkozásokat, rendezvényeket és közösségi programokat is lefed.",
+      "machinePositioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json"
     },
     "membershipDirectory": {
       "publishedEntryCount": 29,
@@ -110,12 +115,14 @@
         "wikidata": "Q141274560",
         "url": "https://www.magyariskola.at/",
         "relation": "A Központi Szövetség oktatási ökoszisztémájának saját intézményi rendszere.",
+        "canonicalPositioning": "Magyar nyelvű oktatás, képzések, foglalkozások és rendezvények kicsiknek és nagyoknak Bécsben, Badenben és online. 1987 óta.",
+        "positioningData": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
         "subsystems": [
           {"name": "VIPACH", "wikidata":"Q138416887", "url": "https://www.vipach.at/", "relation": "A BMI rendszerének része."},
           {"name": "Bécsi Magyar Musical Társulat", "wikidata":null, "url": "https://www.musicaltarsulat.at/", "relation": "A BMI rendszerének része; jelenleg nincs Wikidata-azonosítója."},
-          {"name": "Programválasztó", "url": "https://programvalaszto.magyariskola.at/"},
-          {"name": "Tanáraink", "url": "https://tanarok.magyariskola.at/"},
-          {"name": "2025/26-os beszámoló", "url": "https://2026.magyariskola.at/"}
+          {"name": "Programválasztó", "url": "https://programvalaszto.magyariskola.at/", "relation":"Aktuális program- és ajánlási forrás."},
+          {"name": "Tanáraink", "url": "https://tanarok.magyariskola.at/", "relation":"Kanonikus szakmai profil- és tanári tudásforrás."},
+          {"name": "2025/26-os beszámoló", "url": "https://2026.magyariskola.at/", "relation":"Történeti beszámoló; nem aktuális órarendi forrás."}
         ]
       },
       "becsiNaplo": {
@@ -131,7 +138,8 @@
       "machineManifest": "https://okoszisztema.kozpontiszovetseg.at/machine-manifest.json",
       "leadershipPeople": "https://okoszisztema.kozpontiszovetseg.at/leadership-people.json",
       "memberLeadership": "https://okoszisztema.kozpontiszovetseg.at/member-leadership.json",
-      "institutionalData": "https://okoszisztema.kozpontiszovetseg.at/institutional-llm-data.json"
+      "institutionalData": "https://okoszisztema.kozpontiszovetseg.at/institutional-llm-data.json",
+      "bmiEducationPositioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json"
     }
   }
 }
