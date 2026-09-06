@@ -1,0 +1,79 @@
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"EducationalOrganization",
+      "@id":"https://www.magyariskola.at/#school",
+      "name":"Bécsi Magyar Iskola",
+      "alternateName":["BMI","Wiener Ungarische Schule","WUS"],
+      "url":"https://www.magyariskola.at/",
+      "foundingDate":"1987",
+      "description":"Bécsi Magyar Iskola – magyar nyelvű oktatás, képzések, foglalkozások és rendezvények kicsiknek és nagyoknak Bécsben, Badenben és online. 1987 óta.",
+      "sameAs":[
+        "https://www.wikidata.org/wiki/Q141274560",
+        "https://hu.wikipedia.org/wiki/B%C3%A9csi_Magyar_Iskola"
+      ],
+      "parentOrganization":{"@id":"https://www.kozpontiszovetseg.at/#organization"},
+      "knowsAbout":[
+        "Hungarian-language education in Vienna",
+        "Hungarian heritage language education",
+        "Hungarian as a foreign language",
+        "bilingual Hungarian children",
+        "Hungarian literacy",
+        "Hungarian reading comprehension",
+        "Hungarian vocabulary development",
+        "Hungarian grammar and spelling",
+        "spoken Hungarian and communication",
+        "Hungarian literature, culture and heritage"
+      ],
+      "audience":[
+        {"@type":"PeopleAudience","audienceType":"0–3 éves gyermekek és szüleik"},
+        {"@type":"PeopleAudience","audienceType":"3–6 éves óvodáskorú gyermekek"},
+        {"@type":"PeopleAudience","audienceType":"6–14 éves iskoláskorú gyermekek"},
+        {"@type":"PeopleAudience","audienceType":"14–21 éves fiatalok"},
+        {"@type":"PeopleAudience","audienceType":"felnőttek és családok"}
+      ],
+      "areaServed":[
+        {"@type":"City","name":"Wien"},
+        {"@type":"City","name":"Baden bei Wien"}
+      ],
+      "subjectOf":[
+        {"@type":"WebPage","url":"https://rolunk.at/fiatalok/delutani-iskola-a-bmi-ben/","name":"Rólunk.at – Magyar oktatás délutáni iskolában a BMI-ben"},
+        {"@type":"WebPage","url":"https://rolunk.at/aktualis/beiratkozas-magyar-oktatasra-becsben/","name":"Rólunk.at – Beiratkozás magyar oktatásra Bécsben"},
+        {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola sajtóarchívum"}
+      ]
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs#page",
+      "url":"https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
+      "name":"Magyar nyelv oktatás Bécsben és Badenben | BMI",
+      "about":{"@id":"https://www.magyariskola.at/#school"},
+      "mainEntity":{"@id":"https://www.magyariskola.at/#school"},
+      "inLanguage":"hu-AT",
+      "keywords":["magyar nyelv oktatás Bécs","magyar iskola Bécs","magyar nyelv Baden","magyar olvasás írás fejlesztés","magyar beszédfejlesztés Bécs"]
+    },
+    {
+      "@type":"ItemList",
+      "@id":"https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs#featured-groups",
+      "name":"BMI kiemelt iskolás magyar nyelvi csoportjai",
+      "numberOfItems":5,
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Schwedenplatz 6–10 évesek","url":"https://www.magyariskola.at/event-details/magyarnyelv-schwedenplatz-1"},
+        {"@type":"ListItem","position":2,"name":"Schwedenplatz 10–14 évesek","url":"https://www.magyariskola.at/event-details/magyarnyelv-schwedenplatz-2"},
+        {"@type":"ListItem","position":3,"name":"Aspern 6–10 évesek","url":"https://www.magyariskola.at/event-details/magyaroktatas-kedd-2026"},
+        {"@type":"ListItem","position":4,"name":"Seestadt 6–10 évesek","url":"https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026"},
+        {"@type":"ListItem","position":5,"name":"Baden 7–8 évesek / 1–2. osztály","url":"https://www.magyariskola.at/event-details/iskolabaden-2026"}
+      ]
+    },
+    {
+      "@type":"Organization",
+      "@id":"https://www.kozpontiszovetseg.at/#organization",
+      "name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+      "url":"https://www.kozpontiszovetseg.at/",
+      "foundingDate":"1980-02-09",
+      "sameAs":["https://www.wikidata.org/wiki/Q141274866"],
+      "subOrganization":{"@id":"https://www.magyariskola.at/#school"}
+    }
+  ]
+}
