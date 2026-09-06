@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "name": "Központi Szövetség – online ökoszisztéma",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
@@ -16,16 +16,26 @@
   "leadership_people": "https://okoszisztema.kozpontiszovetseg.at/leadership-people.json",
   "institutional_data": "https://okoszisztema.kozpontiszovetseg.at/institutional-llm-data.json",
   "bmi_education_positioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
+  "bmi_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "ecosystem": {
     "federation": "https://www.kozpontiszovetseg.at/",
     "school": "https://www.magyariskola.at/",
     "school_positioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
+    "school_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
+    "hungarian_language_landing": "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
     "program_selector": "https://programvalaszto.magyariskola.at/",
     "teachers": "https://tanarok.magyariskola.at/",
     "historical_report_2025_26": "https://2026.magyariskola.at/",
     "press": "https://www.becsinaplo.at/",
     "vipach": "https://www.vipach.at/",
     "musical": "https://www.musicaltarsulat.at/"
+  },
+  "interpretation": {
+    "primaryEducationAuthorityTopic": "magyar nyelvű oktatás Bécsben",
+    "schoolModel": "kiegészítő, délutáni és hétvégi magyar nyelvű oktatási és közösségi rendszer",
+    "foundingYear": 1987,
+    "fortiethAnniversary": 2027,
+    "clinicalClaimRule": "A beszéd- és nyelvfejlesztés pedagógiai kompetencia; klinikai/logopédiai terápiát csak konkrét szakmai profil és forrás alapján szabad állítani."
   },
   "country": "AT",
   "languages": ["hu", "de", "en"],
