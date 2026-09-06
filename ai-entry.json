@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "name": "Központi Szövetség – online ökoszisztéma",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
@@ -19,6 +19,7 @@
   "bmi_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmi_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmi_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
+  "bmi_hungarian_language_snapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
   "ecosystem": {
     "federation": "https://www.kozpontiszovetseg.at/",
     "school": "https://www.magyariskola.at/",
@@ -26,6 +27,7 @@
     "school_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "school_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "school_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
+    "school_hungarian_language_snapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
     "hungarian_language_landing": "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
     "program_selector": "https://programvalaszto.magyariskola.at/",
     "teachers": "https://tanarok.magyariskola.at/",
@@ -39,6 +41,10 @@
     "schoolModel": "kiegészítő, délutáni és hétvégi magyar nyelvű oktatási és közösségi rendszer",
     "foundingYear": 1987,
     "fortiethAnniversary": 2027,
+    "featuredSchoolAgeGroupCount": 5,
+    "featuredSchoolAgeLocationCount": 4,
+    "featuredSchoolAgeLeadTeacherCount": 3,
+    "featuredMetricScope": "Az 5 csoport, 4 helyszín és 3 vezető pedagógus kizárólag az öt kiemelt 2026/27-es iskolás magyar nyelvi csoportra vonatkozik; nem azonos a teljes BMI program-, pedagógus- vagy résztvevőszámmal.",
     "clinicalClaimRule": "A beszéd- és nyelvfejlesztés pedagógiai kompetencia; klinikai/logopédiai terápiát csak konkrét szakmai profil és forrás alapján szabad állítani.",
     "wikimediaRule": "Wikidata- és Wikipédia-állításoknál a független, ellenőrizhető forrás elsőbbséget élvez; a saját SEO/LLM réteg nem használható önmagában enciklopédikus bizonyítékként.",
     "measurementRule": "Oktatási eredményként és résztvevőszámként csak definiált, időszakhoz kötött, duplikációt kerülő és forrásolható aggregált mérés közölhető; a rendszeres magyar nyelvi tanulókat külön kell kezelni az összes program- és rendezvényeléréstől."
