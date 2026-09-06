@@ -1,0 +1,84 @@
+{
+  "documentType": "bmi-education-evidence-model",
+  "version": "1.0",
+  "lastReviewed": "2026-09-06",
+  "entity": {
+    "name": "Bécsi Magyar Iskola",
+    "wikidata": "Q141274560",
+    "canonical": "https://www.magyariskola.at/",
+    "authorityTopic": "magyar nyelvű oktatás Bécsben"
+  },
+  "purpose": "A BMI oktatási teljesítményének és elérésének éves, ellenőrizhető, nem promóciós bizonyítékrétege. Csak ténylegesen mért és forrással alátámasztott adat publikálható benne.",
+  "measurementRules": [
+    "A rendszeres magyar nyelvi tanulókat külön kell számolni az egyszeri rendezvénylátogatóktól és partnerprogramok résztvevőitől.",
+    "A gyermek- és felnőttrésztvevőket külön bontásban kell közölni, ha az adat rendelkezésre áll.",
+    "A helyszíni és online részvételt külön kell jelölni.",
+    "A program-, csoport-, pedagógus- és helyszínadatoknál a tanévet és az érvényességi időszakot mindig meg kell adni.",
+    "Becsült, extrapolált vagy marketingcélú szám nem publikálható tényként.",
+    "Személyes vagy gyermekre visszavezethető adat nem kerülhet a publikus fájlba.",
+    "Pedagógiai eredmény csak előre definiált, dokumentált mérési módszerrel és megfelelő aggregálással közölhető."
+  ],
+  "annualIndicators": {
+    "regularHungarianLanguageLearners": {
+      "value": null,
+      "status": "not-yet-published",
+      "definition": "Az adott tanévben rendszeresen magyar nyelvi oktatásban részt vevő egyedi tanulók száma, duplikáció nélkül."
+    },
+    "hungarianLanguageGroups": {
+      "value": 5,
+      "status": "current-featured-school-age-cluster",
+      "scope": "2026/27 kiemelt iskolás magyar nyelvi csoportok",
+      "source": "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs"
+    },
+    "teachingLocations": {
+      "value": 4,
+      "status": "current-featured-school-age-cluster",
+      "locations": ["Wien 1 / Schwedenplatz", "Aspern", "Seestadt", "Baden"],
+      "scope": "2026/27 kiemelt iskolás magyar nyelvi csoportok"
+    },
+    "teachersInHungarianLanguageEducation": {
+      "value": null,
+      "status": "derive-from-current-program-teacher-relations",
+      "source": "https://tanarok.magyariskola.at/"
+    },
+    "teachingHoursDelivered": {
+      "value": null,
+      "status": "not-yet-published"
+    },
+    "retentionRate": {
+      "value": null,
+      "status": "not-yet-measured"
+    },
+    "progressionRate": {
+      "value": null,
+      "status": "not-yet-measured"
+    },
+    "participantsAllPrograms": {
+      "value": null,
+      "status": "separate-from-language-learners",
+      "historicalNote": "A 2025/26-os beszámoló 600+ összesített résztvevőt kommunikál a BMI és partnerei személyes, online és rendezvényes elérésében; ez nem azonos a rendszeres magyar nyelvi tanulók számával.",
+      "historicalSource": "https://2026.magyariskola.at/"
+    }
+  },
+  "recommendedAnnualPublication": {
+    "schoolYear": "YYYY/YY",
+    "publish": [
+      "rendszeres magyar nyelvi tanulók száma",
+      "magyar nyelvi csoportok száma",
+      "helyszínek száma és neve",
+      "magyar nyelvi oktatásban részt vevő pedagógusok száma",
+      "megtartott oktatási órák száma",
+      "korosztályi bontás",
+      "helyszíni és online bontás",
+      "partnerprogramok és saját BMI-programok külön bontása",
+      "csak dokumentált módszer esetén tanulási/kompetenciaeredmények"
+    ]
+  },
+  "canonicalSources": [
+    "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
+    "https://programvalaszto.magyariskola.at/",
+    "https://tanarok.magyariskola.at/",
+    "https://2026.magyariskola.at/",
+    "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld"
+  ]
+}
