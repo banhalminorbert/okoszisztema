@@ -1,7 +1,7 @@
 {
   "documentType": "entity-quality-audit",
-  "schemaVersion": "2026-09-05-v2",
-  "lastVerified": "2026-09-05",
+  "schemaVersion": "2026-09-06-v3",
+  "lastVerified": "2026-09-06",
   "scope": ["Q141274866","Q141274560","Q141275731","Q138416887","Q112411009","Q137127822","Q56391118"],
   "qualityModel": {
     "identity": "Wikidata Q-item plus canonical official URL where one exists",
@@ -14,7 +14,7 @@
   },
   "completedImprovements": [
     {"entity":"Q141274866","changes":["German and short-name aliases","founding date 1980-02-09","AT/Vienna/address context","ZVR 079797621","Hungarian Wikipedia link"]},
-    {"entity":"Q141274560","changes":["BMI/Wiener Ungarische Schule/WUS aliases","1987 founding year","2027 40th-anniversary context","Vienna address","Austrian trademark registration 266006 and AM 4985/2011","Hungarian Wikipedia link","non-merging rule against similarly named organizations"]},
+    {"entity":"Q141274560","changes":["BMI/Wiener Ungarische Schule/WUS aliases","1987 founding year","2027 40th-anniversary context","Vienna address","Austrian trademark registration 266006 and AM 4985/2011","Hungarian Wikipedia link","non-merging rule against similarly named organizations","visible Történetünk address corrected to Schwedenplatz 2 by the site owner on 2026-09-06","Hungarian-language authority landing canonical verified","landing focus keywords synchronized across saved and published Wix revisions"]},
     {"entity":"Q141275731","changes":["ISSN 9000-1257","March 1980 origin","Vienna/Hungarian publication context","owner/publisher Q141274866","current and legacy official domains","Hungarian Wikipedia link","print and online editorial layers kept distinct"]},
     {"entity":"Q138416887","changes":["parent relation to BMI Q141274560","founder relation to Q56391118","country AT in canonical machine registry"]},
     {"entity":"Q112411009","changes":["canonical people-authority record created","Wikidata/Wikipedia identity","GND/VIAF/ISNI/BnF/LCCN identifiers","1955 Sopron birth context","University of Vienna academic career","research fields","Tarnai Andor Prize 2019","2026-confirmed Központi president and BMI leader roles","disambiguation against Q137770094"]},
@@ -22,17 +22,19 @@
     {"entity":"Q56391118","changes":["Wikidata/Wikipedia identity","Központi marketing/communications contribution explicitly voluntary","employee/staff/paid-status inference blocked","VIPACH founder relationship retained"]}
   ],
   "machineLayerStatus": {
-    "authorityGraph": "synchronized for Seidler Andrea and Deák Ernő",
-    "wikidataRegistry": "synchronized for Seidler Andrea and Deák Ernő",
-    "peopleAuthority": "created 2026-09-05",
+    "authorityGraph": "BMI Hungarian-language education authority synchronized",
+    "wikidataRegistry": "stable entity identity synchronized",
+    "peopleAuthority": "available",
     "indexEmbeddedJsonLd": "synchronized",
     "gdprAiTrustEmbeddedJsonLd": "synchronized",
-    "aiEntry": "people-authority.json exposed",
-    "machineManifest": "people-authority.json exposed",
-    "sitemap": "people-authority.json included"
+    "aiEntry": "BMI authority and evidence sources exposed",
+    "machineManifest": "BMI Hungarian-language snapshot exposed",
+    "sitemap": "machine authority sources included",
+    "bmiWixRobots": "general crawling allowed; https://www.magyariskola.at/sitemap.xml declared",
+    "bmiLanguageLanding": "canonical resolves to https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs; saved and published focus keywords synchronized on 2026-09-06"
   },
   "wixRollout": {
-    "authorityVersion": "entity-authority-v8",
+    "authorityVersion": "entity-authority-v9",
     "staticPages": {
       "Bécsi Magyar Iskola": {"updated": 39, "failed": 0},
       "Központi Szövetség": {"updated": 11, "failed": 0},
@@ -41,23 +43,22 @@
     },
     "savedAndPublishedRevisionsSynchronized": true
   },
-  "openIssues": [
+  "monitoring": [
     {
-      "severity": "high",
       "entity": "Q141274560",
       "url": "https://www.magyariskola.at/tortenetunk",
-      "issue": "The visible historical narrative still contains the malformed/wrong address text 'Schwedenplatz 27).' even though the canonical current address is Schwedenplatz 2, 1010 Wien.",
+      "status": "source corrected; external crawler caches may temporarily retain the previous Schwedenplatz 27 text until recrawl",
       "canonicalCorrection": "Schwedenplatz 2, 1010 Wien; visitor entrance Laurenzerberg 5, 1st floor, Top 8–9.",
-      "status": "not fixed in visible page body",
-      "reason": "The available API layer supports SEO/structured-data management but not arbitrary classic Wix Editor body-text editing for this page. The machine-readable entity data is already correct; the visible paragraph still requires editor-level content modification."
-    },
+      "rule": "Do not reintroduce the old value from cached search results."
+    }
+  ],
+  "openIssues": [
     {
       "severity": "medium",
       "entity": "Q138416887",
       "issue": "VIPACH Site Properties currently reports locale hu/HU although the business address, currency, timezone and canonical entity country are Austrian.",
       "desiredState": "content/site language hu; Site Properties region Austria, matching the working pattern on Központi Szövetség and Bécsi Magyar Iskola",
-      "status": "dashboard correction still required",
-      "reason": "Wix Multilingual primaryLocale and Site Properties locale are separate layers. Hungarian Multilingual locale supports hu-HU only, so changing Multilingual primary locale is not the correct fix. The remaining mismatch is the Site Properties regional setting; no safe documented public REST write method for locale.country has been identified."
+      "status": "dashboard correction still required"
     },
     {
       "severity": "medium",
@@ -69,10 +70,8 @@
     }
   ],
   "nextExternalAuthorityOpportunities": [
-    "Wikidata: review Q141274866 for ZVR 079797621 and Bécsi Napló ownership/publisher relationships where suitable properties and sources support them",
-    "Wikidata: review Q141275731 for ISSN 9000-1257, current website, publisher/owner Q141274866 and March 1980 inception",
-    "Wikidata: ensure the huwiki sitelinks for Seidler Andrea and Deák Ernő are attached to their correct Q-items",
-    "Independent Austrian/German-language references: increase corroborating coverage for Wiener Ungarische Schule and Zentralverband names",
-    "Központi: obtain or publish the complete 2026-2028 board roster in a current official source"
+    "Independent Austrian/German-language references: increase corroborating coverage for Wiener Ungarische Schule and Hungarian-language education in Vienna",
+    "Központi: obtain or publish the complete 2026-2028 board roster in a current official source",
+    "BMI: publish auditable annual education KPIs when available; never infer learner counts from the historical 600+ ecosystem-reach figure"
   ]
 }
