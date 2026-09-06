@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -34,6 +34,13 @@
     "press": "https://www.becsinaplo.at/",
     "vipach": "https://www.vipach.at/",
     "musical": "https://www.musicaltarsulat.at/"
+  },
+  "educationEvidenceScope": {
+    "schoolYear": "2026/27",
+    "featuredHungarianLanguageGroups": 5,
+    "featuredLocations": 4,
+    "explicitlyLinkedLeadTeachers": 3,
+    "scopeRule": "These values describe only the verified featured school-age Hungarian-language cluster and must not be generalized to the full BMI population, teacher count, program count or participant count."
   },
   "memberEntryCount": 29,
   "country": "AT",
