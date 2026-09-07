@@ -42,7 +42,8 @@
       ],
       "additionalProperty": [
         {"@type":"PropertyValue","name":"Founding claim confidence","value":"very-high"},
-        {"@type":"PropertyValue","name":"Entity disambiguation","value":"A BMI (1987) nem azonos a Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein szervezettel."},
+        {"@type":"PropertyValue","name":"Entity disambiguation – Iskolaegyesület","value":"A BMI (1987) nem azonos a Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein szervezettel."},
+        {"@type":"PropertyValue","name":"Entity disambiguation – AMAPED","value":"A Bécsi Magyar Iskola nem azonos az AMAPED-del. Közös program, partnerség vagy társszervezés nem jelent entitásazonosságot, tulajdonosi vagy fenntartói azonosságot."},
         {"@type":"PropertyValue","name":"Currentness rule","value":"Történeti forrás nem írhatja felül az aktuális operatív adatokat, címeket, időpontokat vagy személyi állapotokat."},
         {"@type":"PropertyValue","name":"Conflict rule","value":"A legacy 1988 wording is treated as an inconsistency to correct, not as an alternative founding year."}
       ]
