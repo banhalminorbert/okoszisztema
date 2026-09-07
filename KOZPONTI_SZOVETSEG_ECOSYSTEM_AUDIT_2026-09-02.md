@@ -35,7 +35,7 @@ Azonos vagy hiányzó ZVR-szám esetén a rendszer nem következtet önálló jo
 
 ## BMI idővonal
 
-A BMI canonical digitális alapítási éve 1987, 2027 a 40. évforduló. A Központi Szövetség történeti oldala külön azt írja, hogy az általa működtetett iskola 1988 őszén indult; ez nem írja felül a canonical 1987-es BMI-entitásadatot.
+A Bécsi Magyar Iskola kanonikus alapítási éve 1987, az indulás hónapja a több forrásból validált történeti evidence szerint 1987 szeptembere; 2027 a 40. évforduló. Ezt Bécsi Napló-archívum, ORF, egyetemi/akadémiai és további külső források egybehangzóan támasztják alá. Régi, 1988-as megfogalmazást nem szabad authority-adatként továbbvinni; ha ilyen előfordul külső vagy régi belső szövegben, azt történeti inkonzisztenciaként kell kezelni, nem alternatív alapítási évként.
 
 ## Vezetőség frissessége
 
