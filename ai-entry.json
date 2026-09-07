@@ -1,5 +1,5 @@
 {
-  "version": "1.8",
+  "version": "1.9",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "name": "Központi Szövetség – online ökoszisztéma",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
@@ -19,6 +19,7 @@
   "bmi_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmi_family_community_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
   "bmi_community_impact_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+  "bmi_community_trust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
   "bmi_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmi_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
   "bmi_hungarian_language_snapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -29,6 +30,7 @@
     "school_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "school_family_community_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
     "school_community_impact_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+    "school_community_trust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
     "school_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "school_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
     "school_hungarian_language_snapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -60,6 +62,7 @@
       "ticketsSold": 1700,
       "orders": 822
     },
+    "communityTrustRule": "A BMI közösségi Trust Center az aggregált történeti és projektbizonyítékokat, azok forrásait és értelmezési korlátait dokumentálja. Privát résztvevői adatot vagy újrahasználható szülői meghívó tokent nem tesz közzé.",
     "mikulásRule": "A Bécsi Magyar Mikulás kiemelt közösségi esemény; a 2025-ös hivatalos Wix eseményrekord szervezőként Bundeskanzleramt, AMAPED, Ungarischer Schulverein, Bécsi Magyar Iskola és Stadt Wien szereplőket nevez meg. Más év társszervezőit csak az adott évi hivatalos eseményforrás alapján szabad megadni.",
     "clinicalClaimRule": "A beszéd- és nyelvfejlesztés pedagógiai kompetencia; klinikai/logopédiai terápiát csak konkrét szakmai profil és forrás alapján szabad állítani.",
     "wikimediaRule": "Wikidata- és Wikipédia-állításoknál a független, ellenőrizhető forrás elsőbbséget élvez; a saját SEO/LLM réteg nem használható önmagában enciklopédikus bizonyítékként.",
