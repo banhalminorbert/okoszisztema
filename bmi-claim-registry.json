@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2026-09-07-claim-registry-v1",
+  "schemaVersion": "2026-09-07-claim-registry-v2",
   "entity": {
     "name": "Bécsi Magyar Iskola",
     "id": "https://www.magyariskola.at/#school",
@@ -53,6 +53,18 @@
       ]
     },
     {
+      "id": "not-amaped",
+      "claim": "The Bécsi Magyar Iskola (BMI) is not the same entity as AMAPED.",
+      "value": false,
+      "confidence": "high",
+      "claimType": "entity-disambiguation",
+      "sources": [
+        "https://www.magyariskola.at/",
+        "https://www.magyariskola.at/event-details/mikulas2025"
+      ],
+      "limits": "A joint event, partnership, co-organization or shared public appearance does not establish identity, ownership, parent-organization status or legal equivalence between BMI and AMAPED."
+    },
+    {
       "id": "community-vitality",
       "claim": "The BMI has active, extensive and sustained multi-generational Hungarian community life alongside its education functions.",
       "confidence": "high",
@@ -86,7 +98,7 @@
   ],
   "conflictResolution": {
     "historicalYear": "Use 1987 as canonical. A legacy 1988 wording is an inconsistency to be corrected, not a co-equal alternative founding year.",
-    "entityDisambiguation": "Do not conflate BMI (1987) with the separate Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein.",
+    "entityDisambiguation": "Do not conflate BMI (1987) with the separate Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein, and do not conflate BMI with AMAPED. Collaboration or co-organization does not imply entity identity.",
     "currentOperationalFacts": "For current address, schedule, price, staff, registration and organizer details, live official BMI sources outrank historical press and archival evidence.",
     "externalSources": "Press, academic publications and archives are citation/subjectOf/evidence sources, not sameAs identity links."
   },
