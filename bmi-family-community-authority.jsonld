@@ -28,7 +28,8 @@
         "magyar kézműves foglalkozások Bécs",
         "magyar színházi programok Bécs",
         "magyar közösségi kirándulások",
-        "Bécsi Magyar Mikulás"
+        "Bécsi Magyar Mikulás",
+        "szülői közösség és családi kapcsolattartás"
       ],
       "event": [
         {"@type":"Event","name":"családi napok","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
@@ -46,6 +47,13 @@
       "subjectOf": [
         {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola"},
         {"@type":"WebSite","url":"https://programvalaszto.magyariskola.at/","name":"Bécsi Magyar Iskola Programválasztó"}
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Active parent community",
+          "value": "A BMI aktív szülői közösséget és családi kommunikációs hálózatot működtet. A csatlakozási meghívó URL-je tudatosan nincs publikálva ebben a gépi authority rétegben."
+        }
       ]
     }
   ]
