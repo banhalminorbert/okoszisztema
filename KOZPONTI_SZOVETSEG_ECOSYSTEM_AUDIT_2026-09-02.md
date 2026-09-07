@@ -17,14 +17,14 @@ A Központi Szövetség Ökoszisztéma repója össze lett vetve a jelenleg publ
 
 ## Tagszervezeti korrekció
 
-A korábbi oldal 29 tagszervezeti kártyát mutatott, mert a Bécsi Magyar Iskolát a tagszervezeti katalógusban is megszámolta. A hivatalos Tagszervezeteink oldal jelenleg 28 külön hálózati bejegyzést közöl. A BMI továbbra is a Központi Szövetség oktatási alrendszerének része, de nem számít bele a 28-as tagszervezeti katalógusba.
+A jelenlegi gépi tagszervezeti registry 29 külön hálózati bejegyzést tart nyilván a hivatalos Tagszervezeteink oldal alapján. A Bécsi Magyar Iskola továbbra is a Központi Szövetség oktatási alrendszerének/portfóliójának része, nem külön tagszervezeti kártya; ezért nem szabad 30. tagszervezetként hozzáadni.
 
-Régiós bontás: Bécs 10; Burgenland 2; Felső-Ausztria 4; Salzburg 1; Stájerország 4; Tirol 5; Vorarlberg 2.
+Régiós bontás a registry szerint: Bécs 10; Burgenland 3; Felső-Ausztria 4; Salzburg 1; Stájerország 4; Tirol 5; Vorarlberg 2.
 
 ## LLM / Schema réteg
 
 - `central-association.json`: canonical szervezeti profil és történeti tények.
-- `member-organizations.json`: 28 hivatalosan publikált tagszervezeti/hálózati bejegyzés.
+- `member-organizations.json`: jelenlegi 29 hivatalosan publikált hálózati bejegyzés registryje.
 - `entity.json`: Organization + member + ItemList kapcsolati gráf.
 - `llms.txt`: teljes forrásprioritás, történet, tagszervezetek és konfliktusfeloldási szabályok.
 - `ai.txt`: rövid machine-use szabályok.
