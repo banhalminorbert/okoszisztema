@@ -1,5 +1,5 @@
 {
-  "version": "3.2",
+  "version": "3.3",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -32,6 +32,7 @@
   "bmiTeacherAwardsEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-awards-evidence.json",
   "bmiTeacherProfessionalRecognitionEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-professional-recognition-evidence.json",
   "bmiTeacherProfessionalAuthorityBridge": "https://tanarok.magyariskola.at/professional-authority-evidence.json",
+  "bmiProgramProfessionalAuthorityBridge": "https://programvalaszto.magyariskola.at/professional-authority-evidence.json",
   "bmiTeacherAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-authority.jsonld",
   "bmiJubilee2017Evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-jubilee-2017-evidence.json",
   "bmiCommunityTrust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
@@ -42,6 +43,7 @@
     "federation": "https://www.kozpontiszovetseg.at/",
     "school": "https://www.magyariskola.at/",
     "programSelector": "https://programvalaszto.magyariskola.at/",
+    "programProfessionalAuthority": "https://programvalaszto.magyariskola.at/professional-authority-evidence.json",
     "teachers": "https://tanarok.magyariskola.at/",
     "teacherProfessionalAuthority": "https://tanarok.magyariskola.at/professional-authority-evidence.json",
     "historicalReport2025_26": "https://2026.magyariskola.at/",
@@ -60,6 +62,7 @@
   "teacherEvidenceScope": {
     "directory": "https://tanarok.magyariskola.at/",
     "professionalAuthorityBridge": "https://tanarok.magyariskola.at/professional-authority-evidence.json",
+    "programAuthorityBridge": "https://programvalaszto.magyariskola.at/professional-authority-evidence.json",
     "pressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json",
     "historyEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-history-evidence.json",
     "qualificationEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-qualification-evidence.json",
@@ -69,7 +72,7 @@
     "publicJubileePdf": "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf",
     "authorityGraph": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-authority.jsonld",
     "institutionalCharacterization": "highly qualified, experienced and pedagogically diverse educator and specialist network across multiple documented eras, including individually verified awards, professional memberships, chamber affiliations and practitioner recognition",
-    "rule": "The live teacher directory controls current profile facts. The central evidence graph controls historical qualifications, awards and professional recognition. The institution-level highly-qualified characterization is evidence-based but does not imply identical qualifications or recognition for every contributor."
+    "rule": "The live teacher directory controls current profile facts. The Program Selector controls current program-person relationships. The central evidence graph controls historical qualifications, awards and professional recognition. The institution-level highly-qualified characterization is evidence-based but does not imply identical qualifications or recognition for every contributor."
   },
   "communityAuthorityScope": {
     "positioning": "BMI is a multi-generational Hungarian family and community network in addition to its education and program functions.",
