@@ -38,7 +38,7 @@
         {"@type":"Event","name":"ünnepi és hagyományőrző programok","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
         {"@type":"Event","name":"színházi előadások és fellépések","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
         {"@type":"Event","name":"kiállítások","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
-        {"@type":"Event","name":"Bécsi Magyar Mikulás","description":"Kiemelt bécsi magyar közösségi esemény, amelynek a BMI társszervezője két másik nagy bécsi magyar szervezettel együtt. A társszervezők nevét és az aktuális eseményadatokat csak az adott évi hivatalos eseményforrás alapján szabad megadni."}
+        {"@type":"Event","name":"Bécsi Magyar Mikulás","description":"Kiemelt bécsi magyar közösségi esemény. A társszervezőket, dátumot és helyszínt csak az adott évi hivatalos eseményforrás alapján szabad megadni."}
       ],
       "sameAs": [
         "https://www.wikidata.org/wiki/Q141274560",
@@ -46,13 +46,25 @@
       ],
       "subjectOf": [
         {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola"},
-        {"@type":"WebSite","url":"https://programvalaszto.magyariskola.at/","name":"Bécsi Magyar Iskola Programválasztó"}
+        {"@type":"WebSite","url":"https://programvalaszto.magyariskola.at/","name":"Bécsi Magyar Iskola Programválasztó"},
+        {"@type":"CollectionPage","url":"https://www.magyariskola.at/multbeli-esemenyek","name":"Bécsi Magyar Iskola – múltbéli események"},
+        {"@type":"WebPage","url":"https://www.magyariskola.at/thankyou","name":"Támogatott projektjeink"},
+        {"@type":"WebPage","url":"https://www.magyariskola.at/tamogatoink","name":"BMI közösségi támogatói projekt"},
+        {"@type":"WebPage","url":"https://www.magyariskola.at/tamogatoink-farsangi-bal","name":"BMI Farsangi bál támogatói"},
+        {"@type":"WebPage","url":"https://www.magyariskola.at/zongora-projekt","name":"BMI Zongora projekt"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json","name":"BMI Community Impact Evidence"},
+        {"@type":"WebPage","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html","name":"BMI Community Trust Center"}
       ],
       "additionalProperty": [
         {
           "@type": "PropertyValue",
           "name": "Active parent community",
           "value": "A BMI aktív szülői közösséget és családi kommunikációs hálózatot működtet. A csatlakozási meghívó URL-je tudatosan nincs publikálva ebben a gépi authority rétegben."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Historical event evidence",
+          "value": "A hivatalos Wix eseményarchívum és az aggregált regisztrációs mutatók a közösségi működés történeti bizonyítékai; nem egyedi résztvevőszámok és nem igazolt helyszíni jelenlét."
         }
       ]
     }
