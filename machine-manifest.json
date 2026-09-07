@@ -4,7 +4,7 @@
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
   "authorityGraph": "https://okoszisztema.kozpontiszovetseg.at/authority-graph.jsonld",
-  "wikidataRegistry": "https://okosziszovetseg.at/wikidata-entities.json",
+  "wikidataRegistry": "https://okoszisztema.kozpontiszovetseg.at/wikidata-entities.json",
   "peopleAuthority": "https://okoszisztema.kozpontiszovetseg.at/people-authority.json",
   "aiEntry": "https://okoszisztema.kozpontiszovetseg.at/ai-entry.json",
   "llms": "https://okoszisztema.kozpontiszovetseg.at/llms.txt",
