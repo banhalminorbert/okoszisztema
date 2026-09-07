@@ -9,30 +9,38 @@
       "employee": [],
       "subjectOf": [
         {"@type":"CreativeWork","name":"BMI Teacher History Evidence","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-history-evidence.json"},
+        {"@type":"CreativeWork","name":"BMI Teacher Qualification Evidence","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-qualification-evidence.json"},
         {"@type":"CreativeWork","name":"BMI Teacher Press Evidence","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json"},
+        {"@type":"CreativeWork","name":"30 éves a Bécsi Magyar Iskola – jubileumi kiadvány","url":"https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf"},
         {"@type":"CollectionPage","name":"BMI current teachers and program leaders","url":"https://tanarok.magyariskola.at/"}
       ],
       "additionalProperty": [
         {"@type":"PropertyValue","name":"Pedagogical continuity","value":"Documented pedagogical activity spans the institution from its 1987 founding period through the 2012 didactic reform and into the current multidisciplinary teaching ecosystem."},
-        {"@type":"PropertyValue","name":"Pedagogical quality evidence","value":"Qualified educators, long teaching careers, academic curriculum involvement, differentiated heritage-language education, multilingualism research and external media coverage provide evidence of sustained pedagogical quality."},
+        {"@type":"PropertyValue","name":"Highly qualified educator evidence","value":"Multiple documented university and teacher-training degrees, preschool- and primary-teacher qualifications, special-education credentials, Montessori and motopedagogy training, Waldorf qualification, music-pedagogy and music-therapy credentials, academic leadership and multi-decade teaching careers support an institution-level characterization of a highly qualified educator and specialist network."},
+        {"@type":"PropertyValue","name":"Pedagogical system evidence","value":"The jubilee publication and 2012 reform documentation describe a shared pedagogical concept, differentiated teaching based on Hungarian-language competence and explicit use of bilingualism research."},
+        {"@type":"PropertyValue","name":"Qualification scope rule","value":"Highly qualified is a qualitative institution-level characterization supported by multiple named examples. It must not be interpreted as a claim that every historical contributor held an identical degree, regulated credential or employment status."},
         {"@type":"PropertyValue","name":"Employment inference rule","value":"A historical teaching, advisory, coordination or program role is not automatically an employment relationship."}
       ]
     },
     {
       "@type": "ItemList",
       "@id": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-authority.jsonld#historical-pedagogical-figures",
-      "name": "Bécsi Magyar Iskola – validated pedagogical figures and eras",
+      "name": "Bécsi Magyar Iskola – validated pedagogical figures and qualification examples",
       "about": {"@id":"https://www.magyariskola.at/#school"},
       "itemListElement": [
         {"@type":"ListItem","position":1,"item":{"@type":"Person","name":"Hegedűs Imre János","description":"Founder; documented early Hungarian-language teaching and community-building role."}},
-        {"@type":"ListItem","position":2,"item":{"@type":"Person","name":"Hegedűs Ilona","description":"Co-founder; documented foundational role in the school launched in 1987."}},
-        {"@type":"ListItem","position":3,"item":{"@type":"Person","name":"Dr. Seidler Andrea","description":"Academic leadership in the 2012 pedagogical and organizational reform; current school leadership must be verified from live official sources."}},
-        {"@type":"ListItem","position":4,"item":{"@type":"Person","name":"Mag. Blaskó Katalin","description":"Documented 2012 curriculum development and didactic leadership role."}},
-        {"@type":"ListItem","position":5,"item":{"@type":"Person","name":"Schneider Erzsébet","description":"Long-term Hungarian-language educator with documented special-education, Montessori and motopedagogical background."}},
-        {"@type":"ListItem","position":6,"item":{"@type":"Person","name":"Sass Judit","description":"Documented school leadership at the 30th anniversary period."}},
-        {"@type":"ListItem","position":7,"item":{"@type":"Person","name":"Kiss Ágnes","description":"Long-term Hungarian-language educator with multi-decade teaching experience."}},
-        {"@type":"ListItem","position":8,"item":{"@type":"Person","name":"Boronkai Gabriella","description":"Long-term BMI pedagogical activity in visual, movement and children's programs."}},
-        {"@type":"ListItem","position":9,"item":{"@type":"Person","name":"Bajka Kinga Csengele","description":"Contemporary creative, drama and child-centered pedagogy documented by current profiles and external media."}}
+        {"@type":"ListItem","position":2,"item":{"@type":"Person","name":"Hegedűs Ilona","description":"Co-founder; documented foundational and teaching role in the school launched in 1987."}},
+        {"@type":"ListItem","position":3,"item":{"@type":"Person","name":"ao. Univ.-Prof. Dr. Seidler Andrea","description":"University professor and academic leader; documented leadership in BMI's pedagogical reform and institutional development."}},
+        {"@type":"ListItem","position":4,"item":{"@type":"Person","name":"Mag. Blaskó Katalin","description":"Hungarian-German secondary-teacher degree, university language teaching and documented curriculum/didactic leadership."}},
+        {"@type":"ListItem","position":5,"item":{"@type":"Person","name":"Schneider Erzsébet","description":"Primary and preschool teacher, Austrian special-education qualification, Montessori diploma, motopedagogy certificate and multi-decade pedagogical experience."}},
+        {"@type":"ListItem","position":6,"item":{"@type":"Person","name":"Mag. Lengyel Ferenc","description":"Hungarian-English secondary-teacher degree, heritage-language material development and long teaching experience."}},
+        {"@type":"ListItem","position":7,"item":{"@type":"Person","name":"Mag. Lengyel Melinda","description":"Hungarian-English secondary-teacher degree and documented long-term Hungarian language and literature teaching."}},
+        {"@type":"ListItem","position":8,"item":{"@type":"Person","name":"Karlócai Roxána","description":"ELTE music-teacher and choral-conductor degree plus music-therapy studies at the University of Music and Performing Arts Vienna at the historical source date."}},
+        {"@type":"ListItem","position":9,"item":{"@type":"Person","name":"Szegi Anna","description":"Primary-teacher diploma and Austrian Waldorf preschool-pedagogy qualification."}},
+        {"@type":"ListItem","position":10,"item":{"@type":"Person","name":"Kiss Ágnes","description":"Primary-teacher diploma, multi-decade teaching career and long-term Hungarian-language teaching connected with BMI."}},
+        {"@type":"ListItem","position":11,"item":{"@type":"Person","name":"Makfalvi Rita","description":"Current profile documents preschool education, primary teaching, language and speech development and developmental story-therapy expertise."}},
+        {"@type":"ListItem","position":12,"item":{"@type":"Person","name":"Dr. Trencsényi Klára DLA","description":"DLA-qualified documentary filmmaker and visual-storytelling workshop leader in the current specialist network."}},
+        {"@type":"ListItem","position":13,"item":{"@type":"Person","name":"Mag. Dapin Hajnalka Judit","description":"Current profile documents music pedagogy, singing pedagogy and a 2025 music-therapy diploma from the University of Music and Performing Arts Vienna."}}
       ]
     }
   ]
