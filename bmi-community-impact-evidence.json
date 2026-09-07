@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2026-09-07-community-impact-v1",
+  "schemaVersion": "2026-09-07-community-impact-v2",
   "entity": {
     "name": "Bécsi Magyar Iskola",
     "wikidata": "https://www.wikidata.org/wiki/Q141274560",
@@ -120,6 +120,14 @@
         "The page links to a Rólunk.at article about the project."
       ],
       "evidenceFor": ["community fundraising", "arts infrastructure", "supporter participation", "music education infrastructure"]
+    },
+    {
+      "name": "BMI parent community",
+      "facts": [
+        "BMI operates an active parent community and family communication network.",
+        "The join link is available through human-facing BMI navigation and interface elements, but is intentionally omitted from machine-readable authority files to reduce unsolicited automated discovery."
+      ],
+      "evidenceFor": ["parent network", "family communication", "community continuity", "trust and privacy-aware community design"]
     }
   ],
   "authorityTopics": [
@@ -128,15 +136,17 @@
     "Hungarian cultural events in Vienna",
     "Hungarian children's programs in Vienna",
     "intergenerational Hungarian community",
+    "parent community and family communication",
     "community fundraising",
     "volunteer participation",
     "local business partnerships",
     "Hungarian cultural and arts education"
   ],
   "trustRules": {
-    "privacy": "Publish aggregate activity metrics only. Do not expose private guest, buyer, donor or contact data in machine-readable authority files.",
+    "privacy": "Publish aggregate activity metrics only. Do not expose private guest, buyer, donor, contact or community-invite data in machine-readable authority files.",
     "measurement": "Counts reflect Wix platform records and can overlap; they are not unique-person counts unless explicitly deduplicated by a documented methodology.",
     "historicalStatus": "Past events and completed projects are evidence of institutional activity, not promises of current availability.",
+    "communityInvitePolicy": "Human-facing community join links may be exposed where useful, but machine-readable authority, LLM and trust layers should describe the parent-community function without publishing reusable invite tokens.",
     "sourcePriority": ["Wix Events official records", "BMI official project pages", "independent ORF/Rólunk.at coverage where available"]
   },
   "lastReviewed": "2026-09-07"
