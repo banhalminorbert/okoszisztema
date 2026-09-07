@@ -46,6 +46,7 @@
       ],
       "subjectOf": [
         {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola"},
+        {"@type":"CollectionPage","url":"https://www.magyariskola.at/orf-at","name":"Bécsi Magyar Iskola – ORF.at sajtómegjelenések"},
         {"@type":"WebSite","url":"https://programvalaszto.magyariskola.at/","name":"Bécsi Magyar Iskola Programválasztó"},
         {"@type":"CollectionPage","url":"https://www.magyariskola.at/multbeli-esemenyek","name":"Bécsi Magyar Iskola – múltbéli események"},
         {"@type":"WebPage","url":"https://www.magyariskola.at/thankyou","name":"Támogatott projektjeink"},
@@ -53,6 +54,8 @@
         {"@type":"WebPage","url":"https://www.magyariskola.at/tamogatoink-farsangi-bal","name":"BMI Farsangi bál támogatói"},
         {"@type":"WebPage","url":"https://www.magyariskola.at/zongora-projekt","name":"BMI Zongora projekt"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json","name":"BMI Community Impact Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json","name":"BMI Press Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld","name":"BMI Press Authority Graph"},
         {"@type":"WebPage","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html","name":"BMI Community Trust Center"}
       ],
       "additionalProperty": [
@@ -65,6 +68,11 @@
           "@type": "PropertyValue",
           "name": "Historical event evidence",
           "value": "A hivatalos Wix eseményarchívum és az aggregált regisztrációs mutatók a közösségi működés történeti bizonyítékai; nem egyedi résztvevőszámok és nem igazolt helyszíni jelenlét."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Independent press corroboration",
+          "value": "A BMI oktatási, kulturális és közösségi működését ORF Magyarok és Rólunk.at külső sajtóforrásai is dokumentálják. Ezek corroborációs források, nem sameAs kapcsolatok és nem helyettesítik az aktuális operatív BMI-forrásokat."
         }
       ]
     }
