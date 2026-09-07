@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "2026-09-07-teacher-awards-v1",
+  "entity": {
+    "school": "Bécsi Magyar Iskola",
+    "teacherDirectory": "https://tanarok.magyariskola.at/"
+  },
+  "purpose": "Verified professional awards, prizes and formal distinctions associated with named BMI teachers, leaders and program specialists. Awards are attached to exact people and exact sources; no award is inferred from reputation, title or media coverage alone.",
+  "verifiedAwards": [
+    {
+      "person": "ao. Univ.-Prof. Dr. Seidler Andrea",
+      "award": "Lotz János-díj",
+      "year": 2026,
+      "awardingBody": "Nemzetközi Magyarságtudományi Társaság",
+      "evidence": "The award recognizes outstanding work in international Hungarian studies and hungarology.",
+      "source": "https://volksgruppen.orf.at/magyarok/stories/3369377/",
+      "sourceClass": "ORF public-service media",
+      "confidence": "high"
+    },
+    {
+      "person": "ao. Univ.-Prof. Dr. Seidler Andrea",
+      "award": "Tarnai Andor-díj",
+      "year": 2019,
+      "awardingBody": "MTA BTK Irodalomtudományi Intézet és a Tarnai család",
+      "evidence": "Award for outstanding achievements in research on the history of literary scholarship and criticism.",
+      "source": "https://volksgruppen.orf.at/v2/magyarok/stories/2976848/index.html",
+      "sourceClass": "ORF public-service media",
+      "confidence": "high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "Golden Dove – Next Masters Competition",
+      "year": 2015,
+      "work": "Reményvasút / Train to Adulthood",
+      "awardingBody": "DOK Leipzig / Media Foundation of Sparkasse Leipzig",
+      "sources": [
+        "https://www.leipziger-medienstiftung.de/en/medienpreis-en/goldene-taube-en/preistr%C3%A4ger-en/kl%C3%A1ra-trencs%C3%A9nyi-en/",
+        "https://eclipsefilm.hu/traintoadulthood"
+      ],
+      "confidence": "very-high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "ZagrebDox Special Mention",
+      "year": 2016,
+      "work": "Reményvasút / Train to Adulthood",
+      "source": "https://eclipsefilm.hu/traintoadulthood",
+      "confidence": "high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "Best Director Award",
+      "year": 2010,
+      "work": "Birds Way",
+      "awardingBody": "MEDIAWAVE International Film and Music Festival",
+      "source": "https://americas.dafilms.com/film/8305-birds-way",
+      "confidence": "high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "Best Romanian Documentary",
+      "year": 2009,
+      "work": "Birds Way",
+      "awardingBody": "ASTRA Film Festival",
+      "source": "https://americas.dafilms.com/film/8305-birds-way",
+      "confidence": "high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "Best film made by an anthropologist",
+      "year": 2011,
+      "work": "Birds Way",
+      "awardingBody": "ETNOFILM Festival",
+      "source": "https://americas.dafilms.com/film/8305-birds-way",
+      "confidence": "high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "Special Jury Prize",
+      "year": 2010,
+      "work": "Birds Way",
+      "awardingBody": "Romanian-Hungarian Film Festival / Film.Dok",
+      "source": "https://americas.dafilms.com/film/8305-birds-way",
+      "confidence": "high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "Special Mention of the Jury",
+      "year": 2011,
+      "work": "Birds Way",
+      "awardingBody": "Royal Anthropological Institute Film Festival",
+      "source": "https://americas.dafilms.com/film/8305-birds-way",
+      "confidence": "high"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "award": "Pécs 2010 European Capital of Culture Prize",
+      "year": 2010,
+      "work": "3Weddings",
+      "source": "https://campfilm.eu/films/3weddings/",
+      "confidence": "medium-high"
+    }
+  ],
+  "researchStatus": {
+    "verifiedAwardHolders": ["ao. Univ.-Prof. Dr. Seidler Andrea", "Dr. Trencsényi Klára DLA"],
+    "searchedWithoutSufficientAwardEvidence": [
+      "Schneider Erzsébet",
+      "Kiss Ágnes",
+      "Bajka Kinga Csengele",
+      "Makfalvi Rita",
+      "Boronkai Gabriella",
+      "Noszkó Niki",
+      "Korchma Zsombor",
+      "Fersztl Barnabás",
+      "Pecze Ádám",
+      "Hierholcz Anna",
+      "Dapin Hajnalka Judit"
+    ],
+    "rule": "Absence from this list means no sufficiently strong award evidence was found in the current research pass; it does not mean the person has never received an award."
+  },
+  "interpretationRule": "Individual awards strengthen the documented professional authority of specific educators and specialists and can contribute to the institution-level quality graph. They must not be generalized into a claim that every BMI teacher is award-winning.",
+  "lastReviewed": "2026-09-07"
+}
