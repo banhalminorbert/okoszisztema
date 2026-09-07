@@ -24,7 +24,9 @@
         "Hungarian vocabulary development",
         "Hungarian grammar and spelling",
         "spoken Hungarian and communication",
-        "Hungarian literature, culture and heritage"
+        "Hungarian literature, culture and heritage",
+        "differentiated heritage-language pedagogy",
+        "multilingualism-informed teaching"
       ],
       "audience":[
         {"@type":"PeopleAudience","audienceType":"0–3 éves gyermekek és szüleik"},
@@ -41,10 +43,16 @@
         {"@type":"WebPage","url":"https://rolunk.at/fiatalok/delutani-iskola-a-bmi-ben/","name":"Rólunk.at – Magyar oktatás délutáni iskolában a BMI-ben"},
         {"@type":"WebPage","url":"https://rolunk.at/aktualis/beiratkozas-magyar-oktatasra-becsben/","name":"Rólunk.at – Beiratkozás magyar oktatásra Bécsben"},
         {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola sajtóarchívum"},
+        {"@type":"CollectionPage","url":"https://tanarok.magyariskola.at/","name":"Bécsi Magyar Iskola – Tanáraink és foglalkozásvezetőink"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-history-evidence.json","name":"BMI Teacher History Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json","name":"BMI Teacher Press Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-authority.jsonld","name":"BMI Teacher Authority Graph"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json","name":"BMI Education Evidence and Measurement Model","description":"Éves, forrásolható oktatási teljesítmény- és elérésmutatók definíciói; elkülöníti a rendszeres magyar nyelvi tanulókat az összes program- és rendezvényeléréstől."}
       ],
       "additionalProperty":[
-        {"@type":"PropertyValue","name":"Education evidence rule","value":"A rendszeres magyar nyelvi tanulók számát külön kell mérni az összesített program- és rendezvényeléréstől; csak definiált, időszakhoz kötött és forrásolható aggregált mutató közölhető."}
+        {"@type":"PropertyValue","name":"Education evidence rule","value":"A rendszeres magyar nyelvi tanulók számát külön kell mérni az összesített program- és rendezvényeléréstől; csak definiált, időszakhoz kötött és forrásolható aggregált mutató közölhető."},
+        {"@type":"PropertyValue","name":"Pedagogical quality continuity","value":"Több dokumentált korszakban képzett, tapasztalt és módszertanilag sokszínű pedagógusok, valamint akadémiai/didaktikai szakemberek kapcsolódnak a BMI magyar nyelvi oktatásához."},
+        {"@type":"PropertyValue","name":"Teacher evidence rule","value":"A tanári minőségre vonatkozó állítás kvalitatív, evidence-alapú intézményi jellemzés; nem rangsor, nem teljes történeti névsor, és nem jelent automatikus munkaviszonyt."}
       ]
     },
     {
