@@ -1,5 +1,5 @@
 {
-  "version": "3.3",
+  "version": "3.4",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -10,6 +10,7 @@
   "llms": "https://okoszisztema.kozpontiszovetseg.at/llms.txt",
   "aiPolicy": "https://okoszisztema.kozpontiszovetseg.at/ai.txt",
   "aiTrust": "https://okoszisztema.kozpontiszovetseg.at/gdpr-ai-trust.html",
+  "strictEcosystemAudit": "https://okoszisztema.kozpontiszovetseg.at/ecosystem-strict-audit-2026-09-07.json",
   "memberDirectory": "https://okoszisztema.kozpontiszovetseg.at/member-organizations.json",
   "memberLeadership": "https://okoszisztema.kozpontiszovetseg.at/member-leadership.json",
   "leadershipPeople": "https://okoszisztema.kozpontiszovetseg.at/leadership-people.json",
@@ -79,6 +80,11 @@
     "communityVitality": "active, extensive and sustained multi-generational Hungarian community life",
     "communityVitalityEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json",
     "measurementRule": "Aggregate platform records must not be interpreted as unique people or confirmed physical attendance."
+  },
+  "auditStatus": {
+    "authorityInterpretability": "integrated-and-consistent",
+    "accessibility": "critical-findings-open",
+    "releaseGate": "Do not describe the ecosystem as fully error-free until critical Wix accessibility findings are fixed and rescanned."
   },
   "memberEntryCount": 29,
   "country": "AT",
