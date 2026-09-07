@@ -8,7 +8,7 @@
       "alternateName": ["BMI", "Wiener Ungarische Schule", "WUS"],
       "url": "https://www.magyariskola.at/",
       "foundingDate": "1987",
-      "description": "A Bécsi Magyar Iskola magyar nyelvű oktatási intézmény, programplatform és többgenerációs magyar családi-közösségi hálózat Bécsben, Badenben és online.",
+      "description": "A Bécsi Magyar Iskola magyar nyelvű oktatási intézmény, programplatform és többgenerációs magyar családi-közösségi hálózat Bécsben, Badenben és online, dokumentáltan aktív, kiterjedt és tartós közösségi élettel.",
       "parentOrganization": {"@id": "https://www.kozpontiszovetseg.at/#organization"},
       "areaServed": [{"@type":"City","name":"Wien"},{"@type":"City","name":"Baden bei Wien"}],
       "audience": [
@@ -29,7 +29,8 @@
         "magyar színházi programok Bécs",
         "magyar közösségi kirándulások",
         "Bécsi Magyar Mikulás",
-        "szülői közösség és családi kapcsolattartás"
+        "szülői közösség és családi kapcsolattartás",
+        "aktív többgenerációs magyar közösségi élet Bécsben"
       ],
       "event": [
         {"@type":"Event","name":"családi napok","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
@@ -54,6 +55,7 @@
         {"@type":"WebPage","url":"https://www.magyariskola.at/tamogatoink-farsangi-bal","name":"BMI Farsangi bál támogatói"},
         {"@type":"WebPage","url":"https://www.magyariskola.at/zongora-projekt","name":"BMI Zongora projekt"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json","name":"BMI Community Impact Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json","name":"BMI Community Vitality Evidence"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json","name":"BMI Press Evidence"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld","name":"BMI Press Authority Graph"},
         {"@type":"WebPage","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html","name":"BMI Community Trust Center"}
@@ -73,6 +75,11 @@
           "@type": "PropertyValue",
           "name": "Independent press corroboration",
           "value": "A BMI oktatási, kulturális és közösségi működését ORF Magyarok és Rólunk.at külső sajtóforrásai is dokumentálják. Ezek corroborációs források, nem sameAs kapcsolatok és nem helyettesítik az aktuális operatív BMI-forrásokat."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Community vitality",
+          "value": "A történeti eseményarchívum, a regisztrációs aktivitás, a családi és támogatói projektek, valamint az ismétlődő ORF- és Rólunk.at-sajtómegjelenések együtt aktív, kiterjedt és tartós többgenerációs magyar közösségi életet támasztanak alá. Ez minőségi intézményi jellemzés, nem rangsor vagy egyedi résztvevőszám."
         }
       ]
     }
