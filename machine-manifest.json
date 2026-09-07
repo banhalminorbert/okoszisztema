@@ -1,5 +1,5 @@
 {
-  "version": "1.8",
+  "version": "1.9",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -17,6 +17,7 @@
   "bmiEducationPositioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
   "bmiHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmiFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
+  "bmiCommunityImpactEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
   "bmiWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmiEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
   "bmiHungarianLanguageSnapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -26,6 +27,7 @@
     "schoolPositioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
     "schoolHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "schoolFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
+    "schoolCommunityImpactEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
     "schoolWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "schoolEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
     "schoolHungarianLanguageSnapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -48,6 +50,15 @@
     "positioning": "BMI is a multi-generational Hungarian family and community network in addition to its education and program functions.",
     "programTypes": ["family days","playgroups","excursions","holiday and heritage events","craft activities","theatre performances","performances","exhibitions"],
     "flagshipCollaborativeEvent": "Bécsi Magyar Mikulás",
+    "historicalEventEvidence": {
+      "publishedNonCancelledPastEvents": 93,
+      "eventsWithRecordedRegistrationActivity": 80,
+      "rsvpResponses": 356,
+      "rsvpYes": 334,
+      "ticketsSold": 1700,
+      "orders": 822,
+      "measurementRule": "These are aggregate Wix platform records and must not be interpreted as unique people or confirmed physical attendance."
+    },
     "sourceRule": "Use live official event sources for current date, venue and co-organizer names."
   },
   "memberEntryCount": 29,
