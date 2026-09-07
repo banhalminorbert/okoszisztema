@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "2026-09-07-teacher-qualification-v1",
+  "entity": {
+    "school": "Bécsi Magyar Iskola",
+    "schoolId": "https://www.magyariskola.at/#school",
+    "currentTeacherDirectory": "https://tanarok.magyariskola.at/"
+  },
+  "purpose": "Evidence registry for documented qualifications, professional experience and specialist expertise of BMI teachers and program leaders. It supports an institutional characterization of a highly qualified, multidisciplinary educator network without claiming that every historical contributor held the same credential level or that every listed person is currently employed by BMI.",
+  "primaryHistoricalSource": {
+    "name": "30 éves a Bécsi Magyar Iskola – jubileumi kiadvány",
+    "publicPdf": "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf",
+    "evidenceUse": [
+      "2017-era teacher profiles and qualifications",
+      "2012–2017 educator contributor roster",
+      "curricular and pedagogical leadership",
+      "shared didactic concept",
+      "differentiated Hungarian-language education",
+      "explicit use of bilingualism research"
+    ]
+  },
+  "institutionalQualificationClaim": {
+    "claim": "Across multiple documented eras, BMI has relied on university-educated, formally qualified and specialist educators, including teachers, preschool educators, special-education teachers, academic leaders, music educators, therapists, researchers, artists and other domain specialists.",
+    "confidence": "high",
+    "limits": "This is an evidence-based institutional characterization, not a claim that every historical contributor held a university degree, regulated professional title or identical qualification level. Exact credentials remain person-specific."
+  },
+  "historicalProfiles": [
+    {
+      "person": "Mag. Blaskó Katalin",
+      "documentedQualifications": ["secondary-school teacher", "Hungarian and German teaching degree, University of Debrecen"],
+      "documentedExperience": ["many years of language-teaching experience", "developed materials for Hungarian as a foreign language", "lecturer at the University of Vienna Finnougric department and language centre at the source date"],
+      "source": "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf"
+    },
+    {
+      "person": "Karlócai Roxána",
+      "documentedQualifications": ["ELTE degree in singing/music teaching and choral conducting", "music-therapy studies at the University of Music and Performing Arts Vienna at the source date"],
+      "documentedExperience": ["children's music projects", "adult and senior singing groups", "BMI preschool music program leadership"],
+      "source": "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf"
+    },
+    {
+      "person": "Kiss Ágnes",
+      "documentedQualifications": ["primary-teacher diploma, Győr teacher-training college"],
+      "documentedExperience": ["more than three decades in pedagogy according to the current teacher profile", "more than a decade of regular Hungarian-language teaching connected with BMI", "school-director responsibility from 2025 according to the current teacher profile"],
+      "sources": [
+        "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf",
+        "https://tanarok.magyariskola.at/",
+        "https://rolunk.at/kultura/12-eve-ingazik-bezenyerol-becsbe-hogy-magyarul-tanitsa-a-gyerekeket/"
+      ]
+    },
+    {
+      "person": "Mag. Lengyel Ferenc",
+      "documentedQualifications": ["secondary-school teacher", "Hungarian and English teaching degree, University of Cluj"],
+      "documentedExperience": ["many years of teaching experience", "BMI teacher from 2010 at the source date", "developed Hungarian heritage-language teaching materials", "cultural-program responsibility"],
+      "source": "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf"
+    },
+    {
+      "person": "Mag. Lengyel Melinda",
+      "documentedQualifications": ["secondary-school teacher", "Hungarian and English teaching degree, University of Cluj"],
+      "documentedExperience": ["earlier Hungarian language and literature teaching in Romania", "BMI teacher from 2006 at the source date"],
+      "source": "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf"
+    },
+    {
+      "person": "ao. Univ.-Prof. Dr. Seidler Andrea",
+      "documentedQualifications": ["German studies, English studies and Hungarian studies at the University of Vienna", "university professor / academic specialist"],
+      "documentedExperience": ["Hungarian lecturer roles associated with the Austrian foreign ministry, Diplomatische Akademie and University of Vienna", "professor of Hungarian literature at the University of Vienna from 2003 according to the jubilee source", "BMI institutional leadership"],
+      "sources": [
+        "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf",
+        "https://www.magyariskola.at/r%C3%B3lunk"
+      ]
+    },
+    {
+      "person": "Schneider Lisa / Schneider Erzsébet",
+      "documentedQualifications": ["preschool-teacher and primary-teacher qualifications in Hungary", "special-education teaching qualification in Austria", "Montessori pedagogy diploma", "motopedagogy certificate"],
+      "documentedExperience": ["more than thirty years in pedagogy", "Austrian school-system experience since 2000", "BMI Hungarian-language teaching since 2012"],
+      "sources": [
+        "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf",
+        "https://tanarok.magyariskola.at/",
+        "https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026"
+      ]
+    },
+    {
+      "person": "Szegi Anna",
+      "documentedQualifications": ["primary-teacher diploma, Apáczai Csere János Teacher Training College", "Waldorf preschool-pedagogy qualification in Austria"],
+      "documentedExperience": ["class-teacher experience in an Austrian primary school at the source date", "BMI preschool and 6–10-year-old teaching"],
+      "source": "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf"
+    }
+  ],
+  "currentSpecialistExamples": [
+    {
+      "person": "Makfalvi Rita",
+      "currentProfileEvidence": ["preschool educator", "primary teacher", "language and speech-development educator", "creative-developmental story-therapy facilitator", "Meixner method and Mesezene experiential pedagogy"],
+      "source": "https://tanarok.magyariskola.at/"
+    },
+    {
+      "person": "Dr. Trencsényi Klára DLA",
+      "currentProfileEvidence": ["documentary cinematographer and director", "DLA", "youth film-workshop leader", "visual storytelling and documentary pedagogy"],
+      "source": "https://tanarok.magyariskola.at/"
+    },
+    {
+      "person": "Falusi Dóra",
+      "currentProfileEvidence": ["religious-studies researcher", "editor", "MA in religious studies from Károli Gáspár University", "culture- and science-history program developer"],
+      "source": "https://tanarok.magyariskola.at/"
+    },
+    {
+      "person": "Fersztl Barnabás",
+      "currentProfileEvidence": ["vehicle-engineering studies at Széchenyi István University", "mechanical design engineering in automotive R&D", "strategy and logic-development through chess"],
+      "source": "https://tanarok.magyariskola.at/"
+    },
+    {
+      "person": "Mag. Dapin Hajnalka Judit",
+      "currentProfileEvidence": ["music pedagogy studies", "singing-pedagogy diploma in Vienna", "music-therapy studies at the University of Music and Performing Arts Vienna completed with diploma in 2025 according to the current profile", "approximately three decades of pedagogical work"],
+      "source": "https://tanarok.magyariskola.at/"
+    }
+  ],
+  "pedagogicalSystemEvidence": {
+    "claim": "The school does not rely solely on individual credentials: the historical source documents a shared pedagogical concept, differentiated instruction based on Hungarian-language competence and explicit use of bilingualism research.",
+    "sources": [
+      "https://31281890-bf77-417e-8433-e8e1d637d9bf.filesusr.com/ugd/b0aee1_03f1471dcb7b4b7890f53842c481149b.pdf",
+      "https://www.becsinaplo.eu/newspaper_archive/bn2012-4.pdf",
+      "https://www.magyariskola.at/r%C3%B3lunk"
+    ]
+  },
+  "sourceRules": {
+    "publicPdf": "The public Wix PDF URL is a first-party historical primary source and may be cited as evidence for claims explicitly present in the publication.",
+    "currentProfiles": "Current qualifications and current BMI roles should be taken from the live canonical teacher directory; historical publications must not override live current profile information.",
+    "externalCorroboration": "Press, academic and independent institutional sources strengthen biography or professional-history claims but are evidence/subjectOf sources, not sameAs identity links.",
+    "highlyQualifiedWording": "Use 'magasan kvalifikált / highly qualified' only as an institution-level qualitative characterization supported by multiple documented university degrees, professional qualifications, specialist credentials and long teaching careers. Do not imply that every contributor has the same qualification level."
+  },
+  "lastReviewed": "2026-09-07"
+}
