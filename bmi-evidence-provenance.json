@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "2026-09-07-provenance-v1",
+  "entity": "https://www.magyariskola.at/#school",
+  "purpose": "Provenance and source-role registry for BMI historical, educational, community and teacher claims.",
+  "sourceClasses": [
+    {"id":"academic-peer-reviewed","weight":"very-high","examples":["ELTE Anyanyelv-pedagógia"],"role":"historical/educational corroboration"},
+    {"id":"academic-institutional","weight":"very-high","examples":["University of Vienna / Phaidra"],"role":"historical and sociolinguistic corroboration"},
+    {"id":"public-service-media","weight":"high","examples":["ORF Magyarok"],"role":"independent dated reporting"},
+    {"id":"national-or-municipal-press","weight":"high","examples":["Wiener Zeitung"],"role":"independent dated reporting"},
+    {"id":"minority-media","weight":"high","examples":["Rólunk.at"],"role":"Austrian Hungarian minority reporting"},
+    {"id":"ecosystem-archival-press","weight":"medium-high","examples":["Bécsi Napló"],"role":"valuable contemporaneous archive; organizational relationship must be disclosed"},
+    {"id":"government-program","weight":"high","examples":["Kőrösi Csoma Sándor Program"],"role":"institutional and anniversary corroboration"},
+    {"id":"official-first-party","weight":"operational-authority","examples":["magyariskola.at","tanarok.magyariskola.at","programvalaszto.magyariskola.at"],"role":"current operational facts and self-description"}
+  ],
+  "claimRules": {
+    "founding": "Prefer at least two independent source classes. BMI 1987 satisfies this through academic, public-service media, archival and government-program evidence.",
+    "founders": "Use sources that explicitly name founders; do not infer spouse names from generic wording when a stronger source exists.",
+    "historicalEnrollment": "Always bind numbers to year/school-year and source scope; never convert them to current enrollment.",
+    "currentOperations": "Current schedules, address, staff, fees and registration status must come from live official BMI sources.",
+    "teacherClaims": "Press corroborates activity and public professional work, but formal credentials and current affiliation require canonical profiles or qualified sources.",
+    "sameAs": "Press, archives, academic papers and directories are evidence/subjectOf/citation, never sameAs for the school entity.",
+    "disambiguation": "Resolve BMI (founded 1987, Központi Szövetség) separately from Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein before accepting any historical claim."
+  },
+  "validatedSources": [
+    {"publisher":"ELTE Anyanyelv-pedagógia","url":"https://ojs.elte.hu/anyanyelv-pedagogia/article/download/12304/10349/31871","class":"academic-peer-reviewed","supports":["1987/88 founding","Központi Szövetség founding role","20-year continuity","historical growth","140 learners/12 groups at article date"]},
+    {"publisher":"University of Vienna / Phaidra","url":"https://services.phaidra.univie.ac.at/api/object/o%3A308809/get","class":"academic-institutional","supports":["1987 founding","continuous growth","190 registered in 2009/10","2012 split context"]},
+    {"publisher":"Wiener Zeitung","url":"https://www.wienerzeitung.at/h/die-minderheit-die-keine-sein-will","class":"national-or-municipal-press","supports":["school founded by Zentralverband more than 20 years before article","Vienna district 1 presence","historical growth due to young-family immigration","historical learner scale"]},
+    {"publisher":"ORF Magyarok","url":"https://volksgruppen.orf.at/v2/magyarok/stories/2870888/","class":"public-service-media","supports":["30-year anniversary in 2017","founder Hegedűs Imre János and wife","Központi Szövetség maintenance"]},
+    {"publisher":"Bécsi Napló","url":"https://www.becsinaplo.eu/newspaper_archive/bn2006-1.pdf","class":"ecosystem-archival-press","supports":["September 1987 start","early cohort","growth trajectory"]},
+    {"publisher":"Rólunk.at","url":"https://rolunk.at/tag/becsi-magyar-iskola/","class":"minority-media","supports":["recent institutional continuity","program and community renewal","teacher and event coverage"]}
+  ],
+  "lastReviewed": "2026-09-07"
+}
