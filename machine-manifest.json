@@ -1,5 +1,5 @@
 {
-  "version": "3.4",
+  "version": "3.5",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -11,6 +11,7 @@
   "aiPolicy": "https://okoszisztema.kozpontiszovetseg.at/ai.txt",
   "aiTrust": "https://okoszisztema.kozpontiszovetseg.at/gdpr-ai-trust.html",
   "strictEcosystemAudit": "https://okoszisztema.kozpontiszovetseg.at/ecosystem-strict-audit-2026-09-07.json",
+  "wixAccessibilityRemediation": "https://okoszisztema.kozpontiszovetseg.at/wix-accessibility-remediation-2026-09-07.json",
   "memberDirectory": "https://okoszisztema.kozpontiszovetseg.at/member-organizations.json",
   "memberLeadership": "https://okoszisztema.kozpontiszovetseg.at/member-leadership.json",
   "leadershipPeople": "https://okoszisztema.kozpontiszovetseg.at/leadership-people.json",
@@ -84,6 +85,7 @@
   "auditStatus": {
     "authorityInterpretability": "integrated-and-consistent",
     "accessibility": "critical-findings-open",
+    "sharedWixCriticalRootCause": "comp-jt475kgy recurs on both Wix sites and is not present in their custom-embed code; treat as a legacy/shared Editor component pending explicit Editor identification.",
     "releaseGate": "Do not describe the ecosystem as fully error-free until critical Wix accessibility findings are fixed and rescanned."
   },
   "memberEntryCount": 29,
