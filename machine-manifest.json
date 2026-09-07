@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -18,6 +18,7 @@
   "bmiHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmiFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
   "bmiCommunityImpactEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+  "bmiPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
   "bmiCommunityTrust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
   "bmiWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmiEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
@@ -29,6 +30,7 @@
     "schoolHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "schoolFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
     "schoolCommunityImpactEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+    "schoolPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
     "schoolCommunityTrust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
     "schoolWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "schoolEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
@@ -61,6 +63,7 @@
       "orders": 822,
       "measurementRule": "These are aggregate Wix platform records and must not be interpreted as unique people or confirmed physical attendance."
     },
+    "pressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
     "trustCenter": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
     "privacyRule": "Do not publish reusable parent-community invitation tokens or private participant-level records in machine-readable authority files.",
     "sourceRule": "Use live official event sources for current date, venue and co-organizer names."
