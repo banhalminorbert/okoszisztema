@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2026-09-07-wix-gsc-recrawl-v1",
+  "requestedAt": "2026-09-07",
+  "status": "accepted-by-wix-gsc-api",
+  "note": "A successful request means Google accepted the crawl/indexing request; it does not guarantee immediate indexing.",
+  "sites": {
+    "bmi": {
+      "site": "https://www.magyariskola.at/",
+      "siteReadiness": "READY",
+      "sitemapSubmitted": true,
+      "siteIndexingRequested": true,
+      "pageIndexingRequested": [
+        "https://www.magyariskola.at/",
+        "https://www.magyariskola.at/r%C3%B3lunk",
+        "https://www.magyariskola.at/tortenetunk",
+        "https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
+        "https://www.magyariskola.at/orf-at"
+      ]
+    },
+    "federation": {
+      "site": "https://www.kozpontiszovetseg.at/",
+      "siteReadiness": "READY",
+      "sitemapSubmitted": true,
+      "siteIndexingRequested": true,
+      "pageIndexingRequested": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+        "https://www.kozpontiszovetseg.at/tagszervezetek"
+      ]
+    }
+  }
+}
