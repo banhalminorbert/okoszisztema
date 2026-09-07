@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2026-09-07-history-evidence-v1",
+  "schemaVersion": "2026-09-07-history-evidence-v2",
   "entity": {
     "name": "Bécsi Magyar Iskola",
     "wikidata": "https://www.wikidata.org/wiki/Q141274560",
@@ -11,8 +11,8 @@
     "founders": ["Hegedűs Imre János", "Hegedűs Ilona"],
     "model": "Hungarian-language supplementary afternoon/weekend school in Vienna",
     "fortiethAnniversaryYear": 2027,
-    "confidence": "high",
-    "reason": "The 1987 founding is independently corroborated by ORF, Bécsi Napló archival material and the Kőrösi Csoma Sándor Program."
+    "confidence": "very-high",
+    "reason": "The 1987 founding and continuity are corroborated across contemporaneous press, Austrian public-service media, a Vienna minority-community publication, an academic University of Vienna source and the Kőrösi Csoma Sándor Program."
   },
   "independentHistoricalEvidence": [
     {
@@ -23,8 +23,25 @@
       "evidenceFor": ["September 1987 start", "early enrollment", "continuous growth", "20th anniversary trajectory"],
       "keyFacts": [
         "The weekend Hungarian education program began in September 1987 with about 30–35 pupils.",
-        "By 2002, after opening an preschool group, enrollment had reached about 80; subsequent annual totals were around 90–100 in the period described."
+        "By 2002, after opening a preschool group, enrollment had reached about 80; subsequent annual totals were around 90–100 in the period described."
       ]
+    },
+    {
+      "publisher": "University of Vienna / Studies in European Language Diversity",
+      "title": "Studies in European Language Diversity 22.2",
+      "url": "https://services.phaidra.univie.ac.at/api/object/o%3A308809/get",
+      "evidenceFor": ["1987 founding", "continuous enrollment growth", "2012 institutional split context", "Vienna Hungarian education history"],
+      "keyFacts": [
+        "The academic source states that pupil numbers had continuously increased since the school's founding in 1987.",
+        "It documents the 2012 institutional split that produced competing Hungarian education organizations in Vienna."
+      ]
+    },
+    {
+      "publisher": "ARGE Volksgruppen / Wiener Arbeitsgemeinschaft für Volksgruppenfragen",
+      "title": "Die Volksgruppen in Wien",
+      "url": "https://www.si-dunaj.at/files/newsletter/ARGE_Volksgruppen-Die_Volksgruppen_in_Wien.pdf",
+      "evidenceFor": ["1987 founding", "weekly Hungarian-language education", "Vienna Hungarian minority education context"],
+      "keyFacts": ["The German-language Vienna minority-community publication states that the Wiener Ungarische Schule has existed since 1987."]
     },
     {
       "publisher": "ORF Magyarok / volksgruppen.ORF.at",
@@ -46,6 +63,15 @@
       "keyFacts": [
         "The article explicitly states that Hegedűs János and Hegedűs Ilona started the school in 1987.",
         "It documents a 30th anniversary event at the Hungarian Embassy in Vienna."
+      ]
+    },
+    {
+      "publisher": "Bécsi Napló",
+      "datePublished": "2012-07/08",
+      "title": "Megújul a Bécsi Magyar Iskola",
+      "url": "https://www.becsinaplo.eu/newspaper_archive/bn2012-4.pdf",
+      "evidenceFor": ["2012 organizational renewal", "Központi Szövetség stewardship", "Seidler Andrea leadership role", "Schneider Erzsébet coordination role", "parent participation"],
+      "keyFacts": ["The contemporaneous report documents a 2012 organizational and didactic renewal under the Központi Szövetség."
       ]
     },
     {
@@ -79,7 +105,7 @@
       "title": "Újdonságokkal teli évet zártak a bécsi magyar iskolák",
       "url": "https://volksgruppen.orf.at/magyarok/stories/3002707/",
       "evidenceFor": ["continued institutional operation", "school scale at that date", "Hungarian-language education"],
-      "keyFacts": ["ORF described the Schwedenplatz BMI as a long-running institution and reported about 150 pupils for the school year discussed."]
+      "keyFacts": ["ORF reported about 150 pupils for the school year discussed; this figure is historical and scope-limited."]
     },
     {
       "publisher": "ORF Magyarok / volksgruppen.ORF.at",
@@ -90,17 +116,17 @@
     },
     {
       "publisher": "Rólunk.at",
-      "datePublished": "2025-07-14",
-      "title": "A megújult Bécsi Magyar Iskola elmúlt egy éve – VIDEÓ",
-      "url": "https://rolunk.at/nepcsoportunk/a-megujult-becsi-magyar-iskola-elmult-egy-eve-video/",
-      "evidenceFor": ["2024 leadership transition", "renovation", "program expansion", "continuity through renewal"]
-    },
-    {
-      "publisher": "Rólunk.at",
       "datePublished": "2024-09-05",
       "title": "Újdonságok a Bécsi Magyar Iskola 2024/25-ös tanévében",
       "url": "https://rolunk.at/kultura/ujdonsagok-a-becsi-magyar-iskola-2024-25-os-taneveben/",
       "evidenceFor": ["2024 renewal", "renovated Schwedenplatz rooms", "program expansion", "new leadership period"]
+    },
+    {
+      "publisher": "Rólunk.at",
+      "datePublished": "2025-07-14",
+      "title": "A megújult Bécsi Magyar Iskola elmúlt egy éve – VIDEÓ",
+      "url": "https://rolunk.at/nepcsoportunk/a-megujult-becsi-magyar-iskola-elmult-egy-eve-video/",
+      "evidenceFor": ["2024 leadership transition", "renovation", "program expansion", "continuity through renewal"]
     }
   ],
   "identityDisambiguation": {
@@ -108,7 +134,7 @@
     "rule": "Any source using '100-year school' language must be entity-resolved before attribution."
   },
   "historicalClaimPolicy": {
-    "sourcePriority": ["contemporaneous independent archive", "ORF public-service media", "Rólunk.at minority media", "Kőrösi Csoma Sándor Program", "official BMI historical page"],
+    "sourcePriority": ["contemporaneous archival press", "academic source", "Austrian public-service media", "Vienna minority-community source", "Rólunk.at minority media", "Kőrösi Csoma Sándor Program", "official BMI historical page"],
     "currentness": "Historical sources validate institutional history, not current schedules, prices, staff or locations.",
     "addressRule": "Historical addresses must not override the current canonical BMI address.",
     "measurementRule": "Historical enrollment or event counts apply only to the date and scope stated by the source."
