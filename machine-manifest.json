@@ -1,10 +1,10 @@
 {
-  "version": "2.3",
+  "version": "2.4",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
   "authorityGraph": "https://okoszisztema.kozpontiszovetseg.at/authority-graph.jsonld",
-  "wikidataRegistry": "https://okoszisztema.kozpontiszovetseg.at/wikidata-entities.json",
+  "wikidataRegistry": "https://okosziszovetseg.at/wikidata-entities.json",
   "peopleAuthority": "https://okoszisztema.kozpontiszovetseg.at/people-authority.json",
   "aiEntry": "https://okoszisztema.kozpontiszovetseg.at/ai-entry.json",
   "llms": "https://okoszisztema.kozpontiszovetseg.at/llms.txt",
@@ -21,6 +21,8 @@
   "bmiCommunityVitalityEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json",
   "bmiPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
   "bmiPressAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
+  "bmiHistoryEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-evidence.json",
+  "bmiTeacherPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json",
   "bmiCommunityTrust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
   "bmiWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmiEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
@@ -35,6 +37,8 @@
     "schoolCommunityVitalityEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json",
     "schoolPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
     "schoolPressAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
+    "schoolHistoryEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-evidence.json",
+    "schoolTeacherPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json",
     "schoolCommunityTrust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
     "schoolWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "schoolEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
@@ -47,12 +51,19 @@
     "vipach": "https://www.vipach.at/",
     "musical": "https://www.musicaltarsulat.at/"
   },
-  "educationEvidenceScope": {
-    "schoolYear": "2026/27",
-    "featuredHungarianLanguageGroups": 5,
-    "featuredLocations": 4,
-    "explicitlyLinkedLeadTeachers": 3,
-    "scopeRule": "These values describe only the verified featured school-age Hungarian-language cluster and must not be generalized to the full BMI population, teacher count, program count or participant count."
+  "historyAuthorityScope": {
+    "foundingYear": 1987,
+    "foundingMonth": "September",
+    "fortiethAnniversaryYear": 2027,
+    "founders": ["Hegedűs Imre János", "Hegedűs Ilona"],
+    "evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-evidence.json",
+    "corroborators": ["Bécsi Napló archival press", "ORF Magyarok", "Kőrösi Csoma Sándor Program", "Rólunk.at"],
+    "disambiguationRule": "BMI founded in 1987 must not be conflated with the separate Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein, whose history is much older."
+  },
+  "teacherEvidenceScope": {
+    "directory": "https://tanarok.magyariskola.at/",
+    "pressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json",
+    "rule": "Teacher press coverage corroborates professional and pedagogical activity at the source date; current affiliation and credentials remain controlled by the canonical teacher profile and qualified sources."
   },
   "communityAuthorityScope": {
     "positioning": "BMI is a multi-generational Hungarian family and community network in addition to its education and program functions.",
@@ -74,7 +85,7 @@
     "pressAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
     "trustCenter": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
     "privacyRule": "Do not publish reusable parent-community invitation tokens or private participant-level records in machine-readable authority files.",
-    "sourceRule": "Use live official event sources for current date, venue and co-organizer names. Treat ORF and Rólunk.at as external corroboration, never as sameAs or replacements for live operational BMI data."
+    "sourceRule": "Use live official event sources for current date, venue and co-organizer names. Treat external press as corroboration, never as sameAs or replacements for live operational BMI data."
   },
   "memberEntryCount": 29,
   "country": "AT",
