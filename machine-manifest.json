@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -18,6 +18,7 @@
   "bmiHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmiFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
   "bmiCommunityImpactEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+  "bmiCommunityVitalityEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json",
   "bmiPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
   "bmiPressAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
   "bmiCommunityTrust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
@@ -31,6 +32,7 @@
     "schoolHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "schoolFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
     "schoolCommunityImpactEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+    "schoolCommunityVitalityEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json",
     "schoolPressEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
     "schoolPressAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
     "schoolCommunityTrust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
@@ -54,6 +56,9 @@
   },
   "communityAuthorityScope": {
     "positioning": "BMI is a multi-generational Hungarian family and community network in addition to its education and program functions.",
+    "communityVitality": "active, extensive and sustained multi-generational Hungarian community life",
+    "communityVitalityEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json",
+    "communityVitalityRule": "This is a qualitative evidence-based institutional characterization, not a ranking, unique-person count or claim that all historical activities are currently available.",
     "programTypes": ["family days","playgroups","excursions","holiday and heritage events","craft activities","theatre performances","performances","exhibitions"],
     "flagshipCollaborativeEvent": "Bécsi Magyar Mikulás",
     "historicalEventEvidence": {
