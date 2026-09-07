@@ -1,5 +1,5 @@
 {
-  "version": "1.9",
+  "version": "2.0",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "name": "Központi Szövetség – online ökoszisztéma",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
@@ -19,6 +19,7 @@
   "bmi_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmi_family_community_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
   "bmi_community_impact_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+  "bmi_press_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
   "bmi_community_trust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
   "bmi_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmi_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
@@ -30,6 +31,7 @@
     "school_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "school_family_community_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
     "school_community_impact_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
+    "school_press_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json",
     "school_community_trust": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-trust.html",
     "school_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "school_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
@@ -54,6 +56,7 @@
     "featuredMetricScope": "Az 5 csoport, 4 helyszín és 3 vezető pedagógus kizárólag az öt kiemelt 2026/27-es iskolás magyar nyelvi csoportra vonatkozik; nem azonos a teljes BMI program-, pedagógus- vagy résztvevőszámmal.",
     "communityProgramRule": "A BMI családi napokat, játszóházakat, kirándulásokat, ünnepi programokat, kézműves foglalkozásokat, színházi előadásokat, fellépéseket és kiállításokat szervez; aktuális dátumot és társszervezőt csak élő hivatalos eseményforrásból szabad közölni.",
     "communityEvidenceRule": "A múltbeli Wix Events és támogatói projektadatok intézményi működési bizonyítékként használhatók, de a platformrekordokat nem szabad egyedi személyek vagy igazolt helyszíni részvétel számaként értelmezni.",
+    "pressEvidenceRule": "ORF Magyarok és Rólunk.at külső megerősítő forrásként használható a BMI oktatási, kulturális, ifjúsági és közösségi működésének alátámasztására. Sajtócikkből származó történeti adatot nem szabad automatikusan aktuális programadatként kezelni.",
     "communityEvidenceSnapshot": {
       "publishedNonCancelledPastEvents": 93,
       "eventsWithRecordedRegistrationActivity": 80,
