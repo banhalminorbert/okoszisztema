@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld#press",
+      "name": "Bécsi Magyar Iskola – Press & External Evidence Authority",
+      "url": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
+      "about": {"@id": "https://www.magyariskola.at/#school"},
+      "description": "Külső sajtó- és médiabizonyítékok strukturált authority-rétege a Bécsi Magyar Iskola oktatási, kulturális, családi és közösségi működésének corroborációjához.",
+      "isBasedOn": [
+        {"@type":"CollectionPage","url":"https://www.magyariskola.at/orf-at","name":"BMI – ORF.at sajtómegjelenések gyűjtőoldal"},
+        {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola archívum"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json","name":"BMI Press Evidence"}
+      ],
+      "hasPart": [
+        {"@type":"NewsArticle","headline":"Erős jelenlét 2026-ban is","url":"https://volksgruppen.orf.at/magyarok/stories/3336275/","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"Időutazástól a Minecraft világáig – nyári táborok","url":"https://volksgruppen.orf.at/magyarok/stories/3357751/","datePublished":"2026-06-09","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"Rekordlétszám a 8. OlvaShow rendezvényén","url":"https://volksgruppen.orf.at/magyarok/stories/3353774/","datePublished":"2026-05-11","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"BMI: a félév közben is lehet csatlakozni","url":"https://volksgruppen.orf.at/magyarok/stories/3341569/","datePublished":"2026-02-11","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"Hegyivezető és média tábor","url":"https://volksgruppen.orf.at/magyarok/stories/3366242/","datePublished":"2026-08-09","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"A szép magyar beszéd elkötelezettje","url":"https://volksgruppen.orf.at/magyarok/stories/3345744/","datePublished":"2026-03-16","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"12 éve ingázik Bezenyéről Bécsbe, hogy magyarul tanítsa a gyerekeket","url":"https://rolunk.at/kultura/12-eve-ingazik-bezenyerol-becsbe-hogy-magyarul-tanitsa-a-gyerekeket/","datePublished":"2026-07-14","publisher":{"@type":"Organization","name":"Rólunk.at"}},
+        {"@type":"NewsArticle","headline":"A fiataloknak ma már bizonyíték kell – egy bécsi kreatív közösség új generációt épít","url":"https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/","datePublished":"2026-06-10","publisher":{"@type":"Organization","name":"Rólunk.at"}}
+      ],
+      "additionalProperty": [
+        {"@type":"PropertyValue","name":"Evidence interpretation","value":"A külső sajtómegjelenések történeti és intézményi corroborációként használhatók. Aktuális időpont, ár, elérhetőség, helyszín vagy szervező kizárólag élő hivatalos BMI-forrásból közölhető."},
+        {"@type":"PropertyValue","name":"sameAs policy","value":"ORF és Rólunk.at cikkek nem sameAs kapcsolatok; subjectOf/citation/evidence szerepben kezelendők."}
+      ]
+    }
+  ]
+}
