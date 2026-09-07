@@ -1,15 +1,15 @@
 {
-  "schemaVersion": "2026-09-07-teacher-history-v1",
+  "schemaVersion": "2026-09-07-teacher-history-v2",
   "entity": {
     "school": "Bécsi Magyar Iskola",
     "schoolId": "https://www.magyariskola.at/#school",
     "currentTeacherDirectory": "https://tanarok.magyariskola.at/"
   },
-  "purpose": "Representative, source-validated evidence of pedagogical quality, continuity and disciplinary breadth across the history of the Bécsi Magyar Iskola. This is not an exhaustive 40-year staff register and must not be used to infer continuous employment for every person listed.",
+  "purpose": "Representative, source-validated evidence of pedagogical quality, continuity and disciplinary breadth across the history of the Bécsi Magyar Iskola. This is not yet an exhaustive 40-year staff register and must not be used to infer continuous employment for every person listed.",
   "institutionalClaim": {
-    "claim": "Across its history, BMI has repeatedly worked with qualified teachers, educators, academic specialists and program leaders in Hungarian-language education, bilingualism, inclusive pedagogy, culture, arts, movement, music and newer digital/project-based learning.",
+    "claim": "Across multiple documented eras since 1987, BMI has repeatedly worked with qualified teachers, educators, academic specialists and program leaders in Hungarian-language education, bilingualism, inclusive pedagogy, culture, arts, movement, music and newer digital/project-based learning.",
     "confidence": "high",
-    "limits": "Quality is evidenced through documented qualifications, pedagogical responsibility, long-term continuity, academic involvement and external coverage; this is not a numerical ranking of teachers or schools."
+    "limits": "Quality is evidenced through documented qualifications, pedagogical responsibility, long-term continuity, academic involvement, curricular responsibility and external coverage; this is not a numerical ranking of teachers or schools."
   },
   "historicalPedagogicalMilestones": [
     {
@@ -34,10 +34,23 @@
       "sources": ["https://www.becsinaplo.eu/newspaper_archive/bn2012-4.pdf"]
     },
     {
+      "period": "2015",
+      "people": ["Seidler Andrea", "Blaskó Katalin"],
+      "roleEvidence": "A Bécsi Napló school-year report documents continued Hungarian mother-tongue groups for ages 6–18, weekly and weekend teaching, Hungarian-as-a-foreign-language provision, preschool and toddler groups, camps and family programming.",
+      "sources": ["https://www.becsinaplo.eu/newspaper_archive/bn2015-5.pdf"]
+    },
+    {
       "period": "2017 30th anniversary",
       "people": ["Sass Judit", "Schneider Lisa", "Pohl Balázs", "Lengyel Ferenc"],
       "roleEvidence": "The 30th-anniversary documentation records school leadership and teacher-led literary and theatre work, while official guests publicly acknowledged the teachers' contribution to Hungarian education in Vienna.",
       "sources": ["https://www.korosiprogram.hu/hirek/harminc-eves-becsi-magyar-iskola-jubileumi-unnepseg"]
+    },
+    {
+      "period": "2017/2018 documentary record",
+      "people": ["Hegedűs Imre János", "Deák Ernő", "Lengyel Melinda", "Lengyel Ferenc", "Seidler Andrea"],
+      "roleEvidence": "The 30-year jubilee volume, reported by Bécsi Napló, documented current teachers, former and current pupils, groups, programs and events, and included a roster of educators who had taught at the school during the first thirty years. The report also highlights the multi-decade work of Lengyel Melinda and Lengyel Ferenc.",
+      "sources": ["https://www.becsinaplo.eu/newspaper_archive/bn2018-1.pdf"],
+      "archiveSignificance": "This is evidence that a broader historical teacher roster exists in the jubilee volume even where every name is not yet separately normalized into this machine registry."
     },
     {
       "period": "2012–2026 continuity",
@@ -48,6 +61,12 @@
         "https://rolunk.at/tag/becsi-magyar-iskola/",
         "https://www.becsinaplo.eu/newspaper_archive/bn2012-4.pdf"
       ]
+    },
+    {
+      "period": "2022/23",
+      "people": ["Sass Judit", "Juhász Dániel", "Marczis Krisztián"],
+      "roleEvidence": "ORF documented the school-year opening, Hungarian-language groups, a new preschool educator Juhász Dániel and the preceding preschool role of Marczis Krisztián.",
+      "sources": ["https://volksgruppen.orf.at/magyarok/stories/3174449/"]
     },
     {
       "period": "long-term contemporary continuity",
@@ -85,9 +104,15 @@
     "academic participation in curriculum and didactic design",
     "explicit use of bilingualism and multilingualism research",
     "differentiated heritage-language instruction",
-    "external ORF and Rólunk.at coverage of teacher methods and activities",
+    "external ORF, Rólunk.at and Bécsi Napló documentation of teacher methods and institutional roles",
+    "documented continuity of Hungarian mother-tongue and Hungarian-as-a-foreign-language teaching",
     "continuity from language instruction into arts, movement, music and digital project pedagogy"
   ],
+  "archiveResearchStatus": {
+    "status": "representative-not-exhaustive",
+    "knownGap": "The 2017 jubilee volume reportedly contains the historical teacher roster for the first thirty years; every individual name from that printed list has not yet been normalized here.",
+    "rule": "Do not fabricate missing historical names. Add them only when the jubilee volume or another exact source can be inspected."
+  },
   "safetyRules": {
     "nonExhaustive": "Do not present this registry as a complete list of everyone who taught at BMI since 1987.",
     "employment": "Teaching, coordination, advisory or program activity does not by itself establish employment status.",
