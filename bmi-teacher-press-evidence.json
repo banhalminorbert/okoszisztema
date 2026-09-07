@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "2026-09-07-teacher-press-v1",
+  "entity": {
+    "school": "Bécsi Magyar Iskola",
+    "teacherDirectory": "https://tanarok.magyariskola.at/"
+  },
+  "purpose": "External press evidence for BMI teachers and program leaders. This layer corroborates professional continuity, pedagogical scope and community activity. It does not infer employment status, clinical credentials or current program availability beyond the source date.",
+  "verifiedTeacherPress": [
+    {
+      "person": "Bajka Kinga Csengele",
+      "publisher": "Rólunk.at",
+      "title": "Fabula bábtábor – Interjú Bajka Kinga Csengelével",
+      "datePublished": "2022-07-12",
+      "url": "https://rolunk.at/kultura/fabula-babtabor-interju-bajka-kinga-csengelevel/",
+      "evidenceFor": ["creative pedagogy", "drama and puppetry", "BMI summer camps", "child-led storytelling", "community programming"]
+    },
+    {
+      "person": "Bajka Kinga Csengele",
+      "publisher": "ORF Magyarok / volksgruppen.ORF.at",
+      "title": "Óvodapedagógust keres a Bécsi Magyar Iskola",
+      "datePublished": "2025-07-15",
+      "url": "https://volksgruppen.orf.at/magyarok/stories/3313675/",
+      "evidenceFor": ["BMI pedagogical approach", "Waldorf and Montessori methods", "play-based Hungarian-language learning", "teacher role"]
+    },
+    {
+      "person": "Bajka Kinga Csengele",
+      "publisher": "Rólunk.at",
+      "title": "Állat/barát kétnyelvű tábor a Bécsi Magyar Iskolában",
+      "datePublished": "2025-07-30",
+      "url": "https://rolunk.at/fiatalok/allat-barat-ketnyelvu-tabor-a-becsi-magyar-iskolaban/",
+      "evidenceFor": ["bilingual education", "creative summer camp", "community-building", "child confidence and language development"]
+    },
+    {
+      "person": "Schneider Erzsébet",
+      "publisher": "Rólunk.at",
+      "title": "A kétnyelvűség ajándék",
+      "datePublished": "2026-02-03",
+      "url": "https://rolunk.at/tag/becsi-magyar-iskola/",
+      "evidenceFor": ["heritage-language education", "bilingual children", "long-term pedagogy", "BMI afternoon education"],
+      "note": "The direct article is listed in the Rólunk.at BMI archive; the archive is retained as canonical discovery source when the direct URL is unstable."
+    },
+    {
+      "person": "Noszkó Niki",
+      "publisher": "Rólunk.at",
+      "title": "Valóban ijesztő a pszichodráma vagy csak úgy hangzik?",
+      "datePublished": "2025-10-10",
+      "url": "https://rolunk.at/magazin/valoban-ijeszto-a-pszichodrama-vagy-csak-ugy-hangzik/",
+      "evidenceFor": ["child psychodrama demonstration at BMI", "small-group method", "parent-informed community setting"]
+    },
+    {
+      "person": "Boronkai Gabriella",
+      "publisher": "ORF Magyarok / volksgruppen.ORF.at",
+      "title": "Ovistorna a Bécsi Magyar Iskolában",
+      "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2979033/index.html",
+      "evidenceFor": ["movement education", "preschool development", "BMI recurring activity", "teacher expertise"]
+    },
+    {
+      "person": "Boronkai Gabriella",
+      "publisher": "Rólunk.at",
+      "title": "Nyári táborok: Mesés világ",
+      "datePublished": "2021-08-21",
+      "url": "https://rolunk.at/fiatalok/nyari-taborok-meses-vilag/",
+      "evidenceFor": ["multi-year camp continuity", "creative pedagogy", "heritage-language context", "returning families"]
+    },
+    {
+      "person": "Boronkai Gabriella",
+      "publisher": "ORF Magyarok / volksgruppen.ORF.at",
+      "title": "Lelemények táborában a magyar gyerekek",
+      "datePublished": "2021-07-08",
+      "url": "https://volksgruppen.orf.at/magyarok/stories/3111883/",
+      "evidenceFor": ["BMI summer camp system", "creative and movement pedagogy", "documented teacher continuity"]
+    },
+    {
+      "person": "Korchma Zsombor",
+      "publisher": "Rólunk.at",
+      "title": "Kreatív Minecraft tábor Bécsben",
+      "datePublished": "2024-07-02",
+      "url": "https://rolunk.at/magazin/kreativ-minecraft-tabor-becsben/",
+      "evidenceFor": ["digital creativity", "architecture and history", "project-based learning", "teamwork"]
+    },
+    {
+      "person": "Kiss Ágnes",
+      "publisher": "Rólunk.at",
+      "title": "12 éve ingázik Bezenyéről Bécsbe, hogy magyarul tanítsa a gyerekeket",
+      "datePublished": "2026-07-14",
+      "url": "https://rolunk.at/kultura/12-eve-ingazik-bezenyerol-becsbe-hogy-magyarul-tanitsa-a-gyerekeket/",
+      "evidenceFor": ["teacher continuity", "Hungarian-language education", "diaspora commitment", "community continuity"]
+    }
+  ],
+  "teacherDirectoryRule": "The teacher directory is the canonical current profile source. Press articles corroborate historical professional activity and pedagogy at their publication date.",
+  "identityRule": "A press article must be matched to the exact person and institution before it is attached to a teacher profile. Similar names or articles about the separate Bécsi Magyar Iskolaegyesület must not be attributed to BMI.",
+  "credentialRule": "Professional or clinical credentials are only asserted when explicitly supported by the teacher profile and/or a qualified source; press coverage alone is not sufficient to infer regulated status.",
+  "lastReviewed": "2026-09-07"
+}
