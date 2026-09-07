@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "2026-09-07-wix-accessibility-remediation-v1",
+  "auditDate": "2026-09-07",
+  "sites": {
+    "bmi": {
+      "site": "https://www.magyariskola.at/",
+      "scanId": "0857bc74-fed4-46ca-9a0a-4036202a3ad6",
+      "status": "PARTIALLY_COMPLETED",
+      "findings": 298,
+      "critical": 43,
+      "serious": 255,
+      "failedPages": 1,
+      "rootCauseMap": {
+        "inaccessible-component": {
+          "count": 43,
+          "humanInputRequired": 43,
+          "elements": {
+            "comp-jt475kgy": {"count":41,"scope":"site-wide repeated component"},
+            "comp-jt47f9zu": {"count":1,"scope":"contact page"},
+            "comp-m8zzb3wl": {"count":1,"scope":"zongora project page"}
+          },
+          "wcag": ["4.1.2"],
+          "action": "Identify the component type in Wix Editor and replace or reconfigure it with a keyboard- and assistive-technology-compatible alternative. Do not guess semantics from the element ID alone."
+        },
+        "heading-structure": {
+          "count": 77,
+          "humanInputRequired": 77,
+          "dominantElement": {"id":"comp-m2i1527j","count":71},
+          "action": "Treat as a shared/template-level heading problem where possible; restore one meaningful H1 per page and sequential heading levels."
+        },
+        "image-alt": {
+          "count": 132,
+          "humanInputRequired": 132,
+          "affectedPageCount": 9,
+          "action": "Describe meaningful images from actual content and mark decorative images decorative. Do not synthesize alt text without checking the image."
+        },
+        "color-contrast": {
+          "count": 46,
+          "humanInputRequired": 0,
+          "dominantElement": {"id":"comp-m0mb7d7n","count":28,"scope":"repeated Wix Event detail-page text"},
+          "otherRepeatedElement": {"id":"comp-j7ei6mn6","count":6},
+          "wcag": ["1.4.3"],
+          "action": "Adjust foreground/background colors with minimal visual change and verify measured contrast ratio before publishing. Avoid blind CSS overrides because the scanner does not expose the current foreground/background pair."
+        }
+      },
+      "failedPage": {
+        "url": "https://buchhaltungbmi.wixsite.com/website/event-details/borsofozde-2026",
+        "status": "UNKNOWN_NOT_CLEAN",
+        "reason": "Accessibility analysis failed."
+      }
+    },
+    "federation": {
+      "site": "https://www.kozpontiszovetseg.at/",
+      "scanId": "5a67b0a2-71d1-492e-89f5-d116746139c8",
+      "status": "COMPLETED",
+      "findings": 157,
+      "critical": 10,
+      "serious": 147,
+      "failedPages": 0,
+      "rootCauseMap": {
+        "inaccessible-component": {
+          "count": 10,
+          "humanInputRequired": 10,
+          "elements": {
+            "comp-jt475kgy": {"count":9,"scope":"site-wide repeated component"},
+            "comp-jt47f9zu": {"count":1,"scope":"contact page"}
+          },
+          "wcag": ["4.1.2"]
+        },
+        "heading-structure": {
+          "count": 87,
+          "humanInputRequired": 87,
+          "dominantElements": [
+            {"id":"comp-j7ei6mn6","count":45},
+            {"id":"comp-m0pk70yv","count":42}
+          ]
+        },
+        "image-alt": {
+          "count": 51,
+          "humanInputRequired": 51,
+          "affectedPageCount": 10,
+          "repeatedElements": [
+            {"id":"comp-m2dmy3bd","count":9},
+            {"id":"comp-m41gw29z","count":9}
+          ]
+        },
+        "media-alternatives": {
+          "count": 9,
+          "humanInputRequired": 9,
+          "affectedPageCount": 8,
+          "action": "Add captions/transcripts or equivalent alternatives based on the actual media content."
+        }
+      }
+    }
+  },
+  "crossSiteFinding": {
+    "sharedCriticalElementIds": ["comp-jt475kgy", "comp-jt47f9zu"],
+    "interpretation": "The same legacy Wix Editor component IDs recur on both sites, strongly indicating a shared/copied template-level component rather than the BMI-only floating custom buttons.",
+    "customEmbedExclusion": "The active custom-embed inventories differ substantially between the two sites and do not contain these component IDs. The BMI-only csukas/help embeds therefore are not the identified source of the shared comp-jt475kgy critical finding."
+  },
+  "releaseGate": "Do not call either Wix site accessibility-clean until the shared critical components are identified in Editor, corrected, and both sites are rescanned."
+}
