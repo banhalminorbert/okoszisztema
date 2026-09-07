@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "2026-09-07-teacher-professional-recognition-v1",
+  "entity": {
+    "school": "Bécsi Magyar Iskola",
+    "teacherDirectory": "https://tanarok.magyariskola.at/"
+  },
+  "purpose": "Verified professional memberships, ambassador roles, chamber affiliations and other formal professional recognitions associated with named BMI teachers and specialists. These are modeled separately from awards because membership, chamber status and brand-ambassador roles are different evidence classes.",
+  "verifiedRecognition": [
+    {
+      "person": "Bánhalmi Norbert",
+      "currentBMIContext": "Photography educator listed in the current BMI teacher and program-leader directory.",
+      "recognition": [
+        {
+          "type": "brand-ambassador-role",
+          "name": "OM SYSTEM Ambassador",
+          "since": 2018,
+          "scope": "Hungary",
+          "sources": [
+            "https://www.norbertbanhalmi.com/about/",
+            "https://www.norbertbanhalmi.com/de-at/impressum",
+            "https://www.saatchiart.com/norbertbanhalmi"
+          ],
+          "confidence": "high",
+          "note": "Brand-ambassador status is professional recognition, not an academic degree or teaching credential."
+        },
+        {
+          "type": "professional-chamber-membership",
+          "name": "Wirtschaftskammer Wien / WKO – professional photography",
+          "sources": [
+            "https://firmen.wko.at/norbert-banhalmi-visuelle-strategische-partnerschaft-f%C3%BCr-f%C3%BChrungskr%C3%A4fte/wien/?firma=berufsfotograf&firmaid=2ac00da5-198a-4840-9678-3b5719ce154e&standortid=28&standortname=wien+18.+bezirk+%28w%C3%A4hring%29",
+            "https://www.norbertbanhalmi.com/de-at/impressum"
+          ],
+          "confidence": "very-high",
+          "note": "The WKO listing independently documents the regulated professional-photography business authorization and chamber context in Vienna."
+        },
+        {
+          "type": "professional-membership",
+          "name": "American Chamber of Commerce in Austria (AmCham Austria)",
+          "source": "https://www.norbertbanhalmi.com/de-at/impressum",
+          "confidence": "medium-high",
+          "note": "Membership is used as professional-network evidence, not as a teaching or academic qualification."
+        },
+        {
+          "type": "professional-membership",
+          "name": "World Federation of Hungarian Photographers / Magyar Fotóművészek Világszövetsége",
+          "sources": [
+            "https://www.norbertbanhalmi.com/about/",
+            "https://commons.wikimedia.org/wiki/User:B%C3%A1nhalmi_Norbert"
+          ],
+          "confidence": "medium-high",
+          "note": "Membership strengthens field-specific professional authority but is not equivalent to a regulated qualification."
+        },
+        {
+          "type": "honorary-membership",
+          "name": "Pannon Fotóművészek Egyesülete – honorary member",
+          "since": 2023,
+          "source": "https://www.norbertbanhalmi.com/about/",
+          "confidence": "medium",
+          "note": "Retained as first-party biography evidence until an independent institutional roster is available."
+        }
+      ],
+      "educationContext": [
+        "Information Engineering degree (2005)",
+        "New York Institute of Photography studies/qualification (2015)",
+        "Applied photographer qualification (2018)"
+      ],
+      "educationSource": "https://www.norbertbanhalmi.com/about/"
+    }
+  ],
+  "institutionalInterpretation": "BMI's educator network includes not only formally trained teachers and academic specialists, but also practitioners with externally visible professional standing, chamber status, field memberships and brand-ambassador recognition. These evidence classes strengthen practitioner authority while remaining distinct from academic or pedagogical qualifications.",
+  "safetyRules": {
+    "noEquivalence": "Do not treat a membership or ambassador role as equivalent to a university degree, teaching license or regulated pedagogical credential.",
+    "currentness": "Current membership and ambassador status should be revalidated from live sources when used as a current operational claim.",
+    "institutionalGeneralization": "Do not infer that every BMI educator has professional memberships or ambassador roles."
+  },
+  "lastReviewed": "2026-09-07"
+}
