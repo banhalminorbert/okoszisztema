@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://www.magyariskola.at/#school",
+      "name": "Bécsi Magyar Iskola",
+      "foundingDate": "1987-09",
+      "employee": [],
+      "subjectOf": [
+        {"@type":"CreativeWork","name":"BMI Teacher History Evidence","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-history-evidence.json"},
+        {"@type":"CreativeWork","name":"BMI Teacher Press Evidence","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json"},
+        {"@type":"CollectionPage","name":"BMI current teachers and program leaders","url":"https://tanarok.magyariskola.at/"}
+      ],
+      "additionalProperty": [
+        {"@type":"PropertyValue","name":"Pedagogical continuity","value":"Documented pedagogical activity spans the institution from its 1987 founding period through the 2012 didactic reform and into the current multidisciplinary teaching ecosystem."},
+        {"@type":"PropertyValue","name":"Pedagogical quality evidence","value":"Qualified educators, long teaching careers, academic curriculum involvement, differentiated heritage-language education, multilingualism research and external media coverage provide evidence of sustained pedagogical quality."},
+        {"@type":"PropertyValue","name":"Employment inference rule","value":"A historical teaching, advisory, coordination or program role is not automatically an employment relationship."}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-authority.jsonld#historical-pedagogical-figures",
+      "name": "Bécsi Magyar Iskola – validated pedagogical figures and eras",
+      "about": {"@id":"https://www.magyariskola.at/#school"},
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"item":{"@type":"Person","name":"Hegedűs Imre János","description":"Founder; documented early Hungarian-language teaching and community-building role."}},
+        {"@type":"ListItem","position":2,"item":{"@type":"Person","name":"Hegedűs Ilona","description":"Co-founder; documented foundational role in the school launched in 1987."}},
+        {"@type":"ListItem","position":3,"item":{"@type":"Person","name":"Dr. Seidler Andrea","description":"Academic leadership in the 2012 pedagogical and organizational reform; current school leadership must be verified from live official sources."}},
+        {"@type":"ListItem","position":4,"item":{"@type":"Person","name":"Mag. Blaskó Katalin","description":"Documented 2012 curriculum development and didactic leadership role."}},
+        {"@type":"ListItem","position":5,"item":{"@type":"Person","name":"Schneider Erzsébet","description":"Long-term Hungarian-language educator with documented special-education, Montessori and motopedagogical background."}},
+        {"@type":"ListItem","position":6,"item":{"@type":"Person","name":"Sass Judit","description":"Documented school leadership at the 30th anniversary period."}},
+        {"@type":"ListItem","position":7,"item":{"@type":"Person","name":"Kiss Ágnes","description":"Long-term Hungarian-language educator with multi-decade teaching experience."}},
+        {"@type":"ListItem","position":8,"item":{"@type":"Person","name":"Boronkai Gabriella","description":"Long-term BMI pedagogical activity in visual, movement and children's programs."}},
+        {"@type":"ListItem","position":9,"item":{"@type":"Person","name":"Bajka Kinga Csengele","description":"Contemporary creative, drama and child-centered pedagogy documented by current profiles and external media."}}
+      ]
+    }
+  ]
+}
