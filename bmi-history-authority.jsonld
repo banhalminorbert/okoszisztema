@@ -14,6 +14,8 @@
       "parentOrganization": {"@id":"https://www.kozpontiszovetseg.at/#organization"},
       "subjectOf": [
         {"@id":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-authority.jsonld#history"},
+        {"@type":"CreativeWork","name":"BMI canonical claim registry","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-claim-registry.json"},
+        {"@type":"ItemList","name":"BMI validated historical timeline","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-timeline.jsonld"},
         {"@type":"ScholarlyArticle","name":"Bemutatkozik a Bécsi Magyar Iskola","url":"https://ojs.elte.hu/anyanyelv-pedagogia/article/download/12304/10349/31871","identifier":"doi:10.21030/anyp.2008.3.4.17"},
         {"@type":"ScholarlyArticle","name":"Studies in European Language Diversity 22.2","url":"https://services.phaidra.univie.ac.at/api/object/o%3A308809/get"},
         {"@type":"NewsArticle","headline":"30 éves a Bécsi Magyar Iskola","url":"https://volksgruppen.orf.at/v2/magyarok/stories/2870888/","publisher":{"@type":"Organization","name":"ORF"}},
@@ -30,6 +32,8 @@
       "isBasedOn": [
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-evidence.json","name":"BMI History Evidence"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-evidence-provenance.json","name":"BMI Evidence Provenance"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-claim-registry.json","name":"BMI Claim Registry"},
+        {"@type":"ItemList","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-timeline.jsonld","name":"BMI Historical Timeline"},
         {"@type":"Periodical","name":"Bécsi Napló","url":"https://www.becsinaplo.eu/"},
         {"@type":"Organization","name":"ORF Magyarok","url":"https://volksgruppen.orf.at/magyarok/"},
         {"@type":"Periodical","name":"Rólunk.at","url":"https://rolunk.at/tag/becsi-magyar-iskola/"},
@@ -39,7 +43,8 @@
       "additionalProperty": [
         {"@type":"PropertyValue","name":"Founding claim confidence","value":"very-high"},
         {"@type":"PropertyValue","name":"Entity disambiguation","value":"A BMI (1987) nem azonos a Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein szervezettel."},
-        {"@type":"PropertyValue","name":"Currentness rule","value":"Történeti forrás nem írhatja felül az aktuális operatív adatokat, címeket, időpontokat vagy személyi állapotokat."}
+        {"@type":"PropertyValue","name":"Currentness rule","value":"Történeti forrás nem írhatja felül az aktuális operatív adatokat, címeket, időpontokat vagy személyi állapotokat."},
+        {"@type":"PropertyValue","name":"Conflict rule","value":"A legacy 1988 wording is treated as an inconsistency to correct, not as an alternative founding year."}
       ]
     }
   ]
