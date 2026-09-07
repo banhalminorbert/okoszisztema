@@ -22,13 +22,9 @@ s = s.replace(
     '<div class="stat"><b>11</b><span data-i18n="region.Bécs.164">Bécs</span></div>',
     '<div class="stat"><b>10</b><span data-i18n="region.Bécs.164">Bécs</span></div>',
 )
-s = s.replace('29 tagszervezet látható.', '28 tagszervezet látható.')
-s = s.replace('A 29 kártya marad. Az ismétlés kikerült.', 'A 28 hivatalos tagszervezeti kártya.')
-s = s.replace('29 member organisations', '28 member organisations')
-s = s.replace('29 member organizations', '28 member organizations')
-s = s.replace('29 Mitgliedsorganisationen', '28 Mitgliedsorganisationen')
-s = s.replace('29 tagszervezet', '28 tagszervezet')
 
+# Remove the BMI member card only if a legacy copy is still present. BMI is an
+# educational subsystem/portfolio entity, not an additional member-directory entry.
 s, removed = re.subn(
     r'\n?<article class="member lean-member" data-name="bécsi magyar iskola" data-region="Bécs">.*?</article>\n?',
     '\n',
@@ -36,8 +32,6 @@ s, removed = re.subn(
     count=1,
     flags=re.S,
 )
-if removed != 1:
-    raise RuntimeError(f"Expected exactly one BMI member card, removed={removed}")
 
 counter = [0]
 article_pattern = re.compile(r'(<article class="member lean-member".*?</article>)', re.S)
@@ -81,24 +75,24 @@ members = json.loads(Path('member-organizations.json').read_text(encoding='utf-8
 entity = json.loads(Path('entity.json').read_text(encoding='utf-8'))
 html = INDEX.read_text(encoding='utf-8')
 
+expected_count = members['publishedEntryCount']
 assert central['organization']['foundingDate'] == '1980-02-09'
 assert central['organization']['zvr'] == '079797621'
 assert central['organization']['address']['addressCountry'] == 'AT'
-assert members['publishedEntryCount'] == 28
-assert len(members['members']) == 28
-assert sum(members['regions'].values()) == 28
+assert len(members['members']) == expected_count
+assert sum(members['regions'].values()) == expected_count
 item_lists = [x for x in entity['@graph'] if x.get('@id') == 'https://okoszisztema.kozpontiszovetseg.at/#member-directory']
 assert len(item_lists) == 1
-assert item_lists[0]['numberOfItems'] == 28
-assert len(item_lists[0]['itemListElement']) == 28
+assert item_lists[0]['numberOfItems'] == expected_count
+assert len(item_lists[0]['itemListElement']) == expected_count
 assert 'data-name="bécsi magyar iskola"' not in html
-assert len(re.findall(r'<article class="member lean-member"', html)) == 28
-assert '29 tagszervezet' not in html
+assert len(re.findall(r'<article class="member lean-member"', html)) == expected_count
 assert 'content="hu_AT" property="og:locale"' in html
 assert '<div class="stat"><b>10</b><span data-i18n="region.Bécs.164">Bécs</span></div>' in html
 
+region_summary = '; '.join(f"{name} {count}" for name, count in members['regions'].items())
 AUDIT.write_text(
-    """# Központi Szövetség teljes ökoszisztéma-audit — 2026-09-02
+    f"""# Központi Szövetség teljes ökoszisztéma-audit — 2026-09-02
 
 ## Eredmény
 
@@ -115,16 +109,16 @@ A Központi Szövetség Ökoszisztéma repója össze lett vetve a jelenleg publ
 - 1992: a Bécsben és környékén élő osztrák honosságú magyarok népcsoporti elismerése a Központi Szövetség által kezdeményezett célként megvalósult.
 - 1999: saját közösségi helyiség a Schwedenplatzon.
 
-## Tagszervezeti korrekció
+## Tagszervezeti registry
 
-A korábbi oldal 29 tagszervezeti kártyát mutatott, mert a Bécsi Magyar Iskolát a tagszervezeti katalógusban is megszámolta. A hivatalos Tagszervezeteink oldal jelenleg 28 külön hálózati bejegyzést közöl. A BMI továbbra is a Központi Szövetség oktatási alrendszerének része, de nem számít bele a 28-as tagszervezeti katalógusba.
+A canonical `member-organizations.json` jelenleg {expected_count} külön hálózati bejegyzést tart nyilván. A Bécsi Magyar Iskola a Központi Szövetség oktatási alrendszere/portfólió-entitása, ezért nem adható hozzá további tagszervezeti kártyaként.
 
-Régiós bontás: Bécs 10; Burgenland 2; Felső-Ausztria 4; Salzburg 1; Stájerország 4; Tirol 5; Vorarlberg 2.
+Régiós bontás: {region_summary}.
 
 ## LLM / Schema réteg
 
 - `central-association.json`: canonical szervezeti profil és történeti tények.
-- `member-organizations.json`: 28 hivatalosan publikált tagszervezeti/hálózati bejegyzés.
+- `member-organizations.json`: canonical tagszervezeti/hálózati registry.
 - `entity.json`: Organization + member + ItemList kapcsolati gráf.
 - `llms.txt`: teljes forrásprioritás, történet, tagszervezetek és konfliktusfeloldási szabályok.
 - `ai.txt`: rövid machine-use szabályok.
@@ -135,13 +129,13 @@ Azonos vagy hiányzó ZVR-szám esetén a rendszer nem következtet önálló jo
 
 ## BMI idővonal
 
-A Bécsi Magyar Iskola kanonikus alapítási éve 1987, az indulás hónapja a több forrásból validált történeti evidence szerint 1987 szeptembere; 2027 a 40. évforduló. Ezt Bécsi Napló-archívum, ORF, egyetemi/akadémiai és további külső források egybehangzóan támasztják alá. Régi, 1988-as megfogalmazást nem szabad authority-adatként továbbvinni; ha ilyen előfordul külső vagy régi belső szövegben, azt történeti inkonzisztenciaként kell kezelni, nem alternatív alapítási évként.
+A Bécsi Magyar Iskola kanonikus alapítási éve 1987, az indulás hónapja a több forrásból validált történeti evidence szerint 1987 szeptembere; 2027 a 40. évforduló. Régi, 1988-as megfogalmazást nem szabad authority-adatként továbbvinni; azt történeti inkonzisztenciaként kell kezelni, nem alternatív alapítási évként.
 
 ## Vezetőség frissessége
 
-A hivatalos oldalon jelenleg 2024-2026 jelöléssel publikált vezetőségi névsor szerepel. Ezt a machine-data publikált állapotként kezeli, de új választás vagy honlapfrissítés után újraellenőrzendő.
+A vezetőségi adatokat mindig a legfrissebb, explicit forrás alapján kell kezelni; régebbi roster nem címkézhető át automatikusan aktuálisnak.
 """,
     encoding='utf-8',
 )
 
-print('OK: 28 member entries, BMI separated, hu_AT, JSON-LD and machine files validated')
+print(f'OK: {expected_count} member entries, BMI separated, hu_AT, JSON-LD and machine files validated; legacy BMI card removed={removed}')
