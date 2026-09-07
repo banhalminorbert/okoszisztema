@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2026-09-07-history-evidence-v2",
+  "schemaVersion": "2026-09-07-history-evidence-v3",
   "entity": {
     "name": "Bécsi Magyar Iskola",
     "wikidata": "https://www.wikidata.org/wiki/Q141274560",
@@ -12,14 +12,52 @@
     "model": "Hungarian-language supplementary afternoon/weekend school in Vienna",
     "fortiethAnniversaryYear": 2027,
     "confidence": "very-high",
-    "reason": "The 1987 founding and continuity are corroborated across contemporaneous press, Austrian public-service media, a Vienna minority-community publication, an academic University of Vienna source and the Kőrösi Csoma Sándor Program."
+    "reason": "The 1987 founding and long-term continuity are corroborated by archival press, Austrian public-service and national press, an ELTE scholarly publication, a University of Vienna academic source, minority-community documentation, the Kőrösi Csoma Sándor Program and recent Austrian Hungarian minority media.",
+    "authorityGraph": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-authority.jsonld",
+    "provenanceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-evidence-provenance.json"
   },
   "independentHistoricalEvidence": [
+    {
+      "publisher": "ELTE Anyanyelv-pedagógia",
+      "datePublished": "2008",
+      "title": "Bemutatkozik a Bécsi Magyar Iskola",
+      "url": "https://ojs.elte.hu/anyanyelv-pedagogia/article/download/12304/10349/31871",
+      "identifier": "doi:10.21030/anyp.2008.3.4.17",
+      "sourceClass": "academic-peer-reviewed",
+      "evidenceFor": ["1987–1988 founding", "Központi Szövetség founding role", "20-year continuity", "historic enrollment growth", "preschool and group expansion"],
+      "keyFacts": [
+        "The scholarly publication states that the school was founded in the 1987–1988 school year by the Központi Szövetség and a small committed team.",
+        "At the article date it reported 140 learners and 12 groups; these are historical figures only."
+      ]
+    },
+    {
+      "publisher": "University of Vienna / Studies in European Language Diversity",
+      "title": "Studies in European Language Diversity 22.2",
+      "url": "https://services.phaidra.univie.ac.at/api/object/o%3A308809/get",
+      "sourceClass": "academic-institutional",
+      "evidenceFor": ["1987 founding", "continuous enrollment growth", "2009/10 historical scale", "2012 institutional split context", "Vienna Hungarian education history"],
+      "keyFacts": [
+        "The academic source states that pupil numbers had continuously increased since the school's founding in 1987.",
+        "It reports 190 registered pupils in 2009/10 and documents the 2012 institutional split; both are historical, scope-limited facts."
+      ]
+    },
+    {
+      "publisher": "Wiener Zeitung",
+      "title": "Die Minderheit, die keine sein will",
+      "url": "https://www.wienerzeitung.at/h/die-minderheit-die-keine-sein-will",
+      "sourceClass": "national-or-municipal-press",
+      "evidenceFor": ["long-term institutional continuity", "Zentralverband founding role", "Vienna district 1 presence", "historical growth linked to young-family migration"],
+      "keyFacts": [
+        "The Wiener Zeitung described the Wiener Ungarische Schule in Vienna's first district as having been founded by the Zentralverband more than twenty years earlier.",
+        "It reported strong historical growth associated with immigration of young families; quoted learner numbers apply only to the article's school year."
+      ]
+    },
     {
       "publisher": "Bécsi Napló",
       "datePublished": "2006",
       "title": "Bécsi Napló XXVII. évfolyam 1. szám – Bécsi Magyar Iskola történeti összefoglaló",
       "url": "https://www.becsinaplo.eu/newspaper_archive/bn2006-1.pdf",
+      "sourceClass": "ecosystem-archival-press",
       "evidenceFor": ["September 1987 start", "early enrollment", "continuous growth", "20th anniversary trajectory"],
       "keyFacts": [
         "The weekend Hungarian education program began in September 1987 with about 30–35 pupils.",
@@ -27,19 +65,10 @@
       ]
     },
     {
-      "publisher": "University of Vienna / Studies in European Language Diversity",
-      "title": "Studies in European Language Diversity 22.2",
-      "url": "https://services.phaidra.univie.ac.at/api/object/o%3A308809/get",
-      "evidenceFor": ["1987 founding", "continuous enrollment growth", "2012 institutional split context", "Vienna Hungarian education history"],
-      "keyFacts": [
-        "The academic source states that pupil numbers had continuously increased since the school's founding in 1987.",
-        "It documents the 2012 institutional split that produced competing Hungarian education organizations in Vienna."
-      ]
-    },
-    {
       "publisher": "ARGE Volksgruppen / Wiener Arbeitsgemeinschaft für Volksgruppenfragen",
       "title": "Die Volksgruppen in Wien",
       "url": "https://www.si-dunaj.at/files/newsletter/ARGE_Volksgruppen-Die_Volksgruppen_in_Wien.pdf",
+      "sourceClass": "minority-community-institutional",
       "evidenceFor": ["1987 founding", "weekly Hungarian-language education", "Vienna Hungarian minority education context"],
       "keyFacts": ["The German-language Vienna minority-community publication states that the Wiener Ungarische Schule has existed since 1987."]
     },
@@ -48,6 +77,7 @@
       "datePublished": "2017-10",
       "title": "30 éves a Bécsi Magyar Iskola",
       "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2870888/",
+      "sourceClass": "public-service-media",
       "evidenceFor": ["30-year institutional continuity", "founders", "federation stewardship", "alumni and teacher continuity"],
       "keyFacts": [
         "ORF reported the school's 30th anniversary in 2017.",
@@ -59,6 +89,7 @@
       "datePublished": "2017",
       "title": "Harminc éves a Bécsi Magyar Iskola – jubileumi ünnepség",
       "url": "https://www.korosiprogram.hu/hirek/harminc-eves-becsi-magyar-iskola-jubileumi-unnepseg",
+      "sourceClass": "government-program",
       "evidenceFor": ["1987 founding", "Hegedűs founders", "30th anniversary", "institutional network"],
       "keyFacts": [
         "The article explicitly states that Hegedűs János and Hegedűs Ilona started the school in 1987.",
@@ -70,33 +101,23 @@
       "datePublished": "2012-07/08",
       "title": "Megújul a Bécsi Magyar Iskola",
       "url": "https://www.becsinaplo.eu/newspaper_archive/bn2012-4.pdf",
-      "evidenceFor": ["2012 organizational renewal", "Központi Szövetség stewardship", "Seidler Andrea leadership role", "Schneider Erzsébet coordination role", "parent participation"],
-      "keyFacts": ["The contemporaneous report documents a 2012 organizational and didactic renewal under the Központi Szövetség."
-      ]
+      "sourceClass": "ecosystem-archival-press",
+      "evidenceFor": ["2012 organizational renewal", "Központi Szövetség stewardship", "Seidler Andrea leadership role", "Schneider Erzsébet coordination role", "parent participation"]
     },
     {
       "publisher": "Bécsi Napló",
       "datePublished": "2018",
       "title": "Bécsi Napló XXXIX. évfolyam 1. szám – a BMI harmincéves jubileumi kötetéről",
       "url": "https://www.becsinaplo.eu/newspaper_archive/bn2018-1.pdf",
-      "evidenceFor": ["30-year documentary record", "founding memory", "teacher and student continuity", "institutional archive"],
-      "keyFacts": [
-        "The paper reports publication of a volume documenting thirty years of the school.",
-        "It states that the volume includes accounts by founder Hegedűs Imre János and records teachers, pupils, programs and events."
-      ]
-    },
-    {
-      "publisher": "Bécsi Napló",
-      "datePublished": "2012-11/12",
-      "title": "Bécsi Napló 2012/6 – school Christmas notice and Jókai Anna message",
-      "url": "https://www.becsinaplo.eu/newspaper_archive/bn2012-6.pdf",
-      "evidenceFor": ["institutional continuity in 2012", "Hungarian language preservation", "school community life"]
+      "sourceClass": "ecosystem-archival-press",
+      "evidenceFor": ["30-year documentary record", "founding memory", "teacher and student continuity", "institutional archive"]
     },
     {
       "publisher": "ORF Magyarok / volksgruppen.ORF.at",
       "datePublished": "2017-06-26",
       "title": "Évzáró kirándulás a Bécsi Magyar Iskolával",
       "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2851263/",
+      "sourceClass": "public-service-media",
       "evidenceFor": ["30th anniversary preparation", "teachers and families", "cultural excursions", "community life"]
     },
     {
@@ -104,14 +125,15 @@
       "datePublished": "2019-07-01",
       "title": "Újdonságokkal teli évet zártak a bécsi magyar iskolák",
       "url": "https://volksgruppen.orf.at/magyarok/stories/3002707/",
-      "evidenceFor": ["continued institutional operation", "school scale at that date", "Hungarian-language education"],
-      "keyFacts": ["ORF reported about 150 pupils for the school year discussed; this figure is historical and scope-limited."]
+      "sourceClass": "public-service-media",
+      "evidenceFor": ["continued institutional operation", "school scale at that date", "Hungarian-language education"]
     },
     {
       "publisher": "ORF Magyarok / volksgruppen.ORF.at",
       "datePublished": "2022-05-15",
       "title": "90 feletti résztvevő a jubileumi Verőfényen",
       "url": "https://volksgruppen.orf.at/magyarok/stories/3156456/",
+      "sourceClass": "public-service-media",
       "evidenceFor": ["long-running Verőfény tradition", "regional cultural reach", "Központi Szövetség stewardship", "community continuity"]
     },
     {
@@ -119,6 +141,7 @@
       "datePublished": "2024-09-05",
       "title": "Újdonságok a Bécsi Magyar Iskola 2024/25-ös tanévében",
       "url": "https://rolunk.at/kultura/ujdonsagok-a-becsi-magyar-iskola-2024-25-os-taneveben/",
+      "sourceClass": "minority-media",
       "evidenceFor": ["2024 renewal", "renovated Schwedenplatz rooms", "program expansion", "new leadership period"]
     },
     {
@@ -126,7 +149,22 @@
       "datePublished": "2025-07-14",
       "title": "A megújult Bécsi Magyar Iskola elmúlt egy éve – VIDEÓ",
       "url": "https://rolunk.at/nepcsoportunk/a-megujult-becsi-magyar-iskola-elmult-egy-eve-video/",
+      "sourceClass": "minority-media",
       "evidenceFor": ["2024 leadership transition", "renovation", "program expansion", "continuity through renewal"]
+    }
+  ],
+  "externalDirectoryEvidence": [
+    {
+      "publisher": "Hungarian Folklife Association",
+      "url": "https://hungarianfolklife.org/directory/",
+      "evidenceFor": ["international Hungarian community directory presence"],
+      "note": "Directory presence is discovery evidence only, not proof of founding date or current program details."
+    },
+    {
+      "publisher": "Österreichisches Institut für Ungarische Studien",
+      "url": "https://www.oeius.at/links",
+      "evidenceFor": ["Austrian Hungarian studies ecosystem recognition", "institutional discoverability"],
+      "note": "Link-directory evidence supports entity discovery but is lower-weight than dated historical or academic sources."
     }
   ],
   "identityDisambiguation": {
@@ -134,10 +172,11 @@
     "rule": "Any source using '100-year school' language must be entity-resolved before attribution."
   },
   "historicalClaimPolicy": {
-    "sourcePriority": ["contemporaneous archival press", "academic source", "Austrian public-service media", "Vienna minority-community source", "Rólunk.at minority media", "Kőrösi Csoma Sándor Program", "official BMI historical page"],
+    "sourcePriority": ["peer-reviewed/academic publication", "contemporaneous independent press", "Austrian public-service media", "government/institutional corroboration", "minority media", "ecosystem archival press", "official BMI historical page"],
     "currentness": "Historical sources validate institutional history, not current schedules, prices, staff or locations.",
     "addressRule": "Historical addresses must not override the current canonical BMI address.",
-    "measurementRule": "Historical enrollment or event counts apply only to the date and scope stated by the source."
+    "measurementRule": "Historical enrollment or event counts apply only to the date and scope stated by the source.",
+    "provenance": "https://okoszisztema.kozpontiszovetseg.at/bmi-evidence-provenance.json"
   },
   "lastReviewed": "2026-09-07"
 }
