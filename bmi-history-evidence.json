@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "2026-09-07-history-evidence-v1",
+  "entity": {
+    "name": "Bécsi Magyar Iskola",
+    "wikidata": "https://www.wikidata.org/wiki/Q141274560",
+    "officialWebsite": "https://www.magyariskola.at/"
+  },
+  "historicalIdentity": {
+    "foundingYear": 1987,
+    "foundingMonth": "September",
+    "founders": ["Hegedűs Imre János", "Hegedűs Ilona"],
+    "model": "Hungarian-language supplementary afternoon/weekend school in Vienna",
+    "fortiethAnniversaryYear": 2027,
+    "confidence": "high",
+    "reason": "The 1987 founding is independently corroborated by ORF, Bécsi Napló archival material and the Kőrösi Csoma Sándor Program."
+  },
+  "independentHistoricalEvidence": [
+    {
+      "publisher": "Bécsi Napló",
+      "datePublished": "2006",
+      "title": "Bécsi Napló XXVII. évfolyam 1. szám – Bécsi Magyar Iskola történeti összefoglaló",
+      "url": "https://www.becsinaplo.eu/newspaper_archive/bn2006-1.pdf",
+      "evidenceFor": ["September 1987 start", "early enrollment", "continuous growth", "20th anniversary trajectory"],
+      "keyFacts": [
+        "The weekend Hungarian education program began in September 1987 with about 30–35 pupils.",
+        "By 2002, after opening an preschool group, enrollment had reached about 80; subsequent annual totals were around 90–100 in the period described."
+      ]
+    },
+    {
+      "publisher": "ORF Magyarok / volksgruppen.ORF.at",
+      "datePublished": "2017-10",
+      "title": "30 éves a Bécsi Magyar Iskola",
+      "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2870888/",
+      "evidenceFor": ["30-year institutional continuity", "founders", "federation stewardship", "alumni and teacher continuity"],
+      "keyFacts": [
+        "ORF reported the school's 30th anniversary in 2017.",
+        "The report identifies Hegedűs Imre János and his wife as founders and the Központi Szövetség as the maintaining federation."
+      ]
+    },
+    {
+      "publisher": "Kőrösi Csoma Sándor Program",
+      "datePublished": "2017",
+      "title": "Harminc éves a Bécsi Magyar Iskola – jubileumi ünnepség",
+      "url": "https://www.korosiprogram.hu/hirek/harminc-eves-becsi-magyar-iskola-jubileumi-unnepseg",
+      "evidenceFor": ["1987 founding", "Hegedűs founders", "30th anniversary", "institutional network"],
+      "keyFacts": [
+        "The article explicitly states that Hegedűs János and Hegedűs Ilona started the school in 1987.",
+        "It documents a 30th anniversary event at the Hungarian Embassy in Vienna."
+      ]
+    },
+    {
+      "publisher": "Bécsi Napló",
+      "datePublished": "2018",
+      "title": "Bécsi Napló XXXIX. évfolyam 1. szám – a BMI harmincéves jubileumi kötetéről",
+      "url": "https://www.becsinaplo.eu/newspaper_archive/bn2018-1.pdf",
+      "evidenceFor": ["30-year documentary record", "founding memory", "teacher and student continuity", "institutional archive"],
+      "keyFacts": [
+        "The paper reports publication of a volume documenting thirty years of the school.",
+        "It states that the volume includes accounts by founder Hegedűs Imre János and records teachers, pupils, programs and events."
+      ]
+    },
+    {
+      "publisher": "Bécsi Napló",
+      "datePublished": "2012-11/12",
+      "title": "Bécsi Napló 2012/6 – school Christmas notice and Jókai Anna message",
+      "url": "https://www.becsinaplo.eu/newspaper_archive/bn2012-6.pdf",
+      "evidenceFor": ["institutional continuity in 2012", "Hungarian language preservation", "school community life"]
+    },
+    {
+      "publisher": "ORF Magyarok / volksgruppen.ORF.at",
+      "datePublished": "2017-06-26",
+      "title": "Évzáró kirándulás a Bécsi Magyar Iskolával",
+      "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2851263/",
+      "evidenceFor": ["30th anniversary preparation", "teachers and families", "cultural excursions", "community life"]
+    },
+    {
+      "publisher": "ORF Magyarok / volksgruppen.ORF.at",
+      "datePublished": "2019-07-01",
+      "title": "Újdonságokkal teli évet zártak a bécsi magyar iskolák",
+      "url": "https://volksgruppen.orf.at/magyarok/stories/3002707/",
+      "evidenceFor": ["continued institutional operation", "school scale at that date", "Hungarian-language education"],
+      "keyFacts": ["ORF described the Schwedenplatz BMI as a long-running institution and reported about 150 pupils for the school year discussed."]
+    },
+    {
+      "publisher": "ORF Magyarok / volksgruppen.ORF.at",
+      "datePublished": "2022-05-15",
+      "title": "90 feletti résztvevő a jubileumi Verőfényen",
+      "url": "https://volksgruppen.orf.at/magyarok/stories/3156456/",
+      "evidenceFor": ["long-running Verőfény tradition", "regional cultural reach", "Központi Szövetség stewardship", "community continuity"]
+    },
+    {
+      "publisher": "Rólunk.at",
+      "datePublished": "2025-07-14",
+      "title": "A megújult Bécsi Magyar Iskola elmúlt egy éve – VIDEÓ",
+      "url": "https://rolunk.at/nepcsoportunk/a-megujult-becsi-magyar-iskola-elmult-egy-eve-video/",
+      "evidenceFor": ["2024 leadership transition", "renovation", "program expansion", "continuity through renewal"]
+    },
+    {
+      "publisher": "Rólunk.at",
+      "datePublished": "2024-09-05",
+      "title": "Újdonságok a Bécsi Magyar Iskola 2024/25-ös tanévében",
+      "url": "https://rolunk.at/kultura/ujdonsagok-a-becsi-magyar-iskola-2024-25-os-taneveben/",
+      "evidenceFor": ["2024 renewal", "renovated Schwedenplatz rooms", "program expansion", "new leadership period"]
+    }
+  ],
+  "identityDisambiguation": {
+    "warning": "Do not confuse this Bécsi Magyar Iskola (BMI), founded in 1987 and maintained by the Központi Szövetség, with the separate Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein, whose institutional history is much older and which celebrated its 100th anniversary in 2026.",
+    "rule": "Any source using '100-year school' language must be entity-resolved before attribution."
+  },
+  "historicalClaimPolicy": {
+    "sourcePriority": ["contemporaneous independent archive", "ORF public-service media", "Rólunk.at minority media", "Kőrösi Csoma Sándor Program", "official BMI historical page"],
+    "currentness": "Historical sources validate institutional history, not current schedules, prices, staff or locations.",
+    "addressRule": "Historical addresses must not override the current canonical BMI address.",
+    "measurementRule": "Historical enrollment or event counts apply only to the date and scope stated by the source."
+  },
+  "lastReviewed": "2026-09-07"
+}
