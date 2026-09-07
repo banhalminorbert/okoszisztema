@@ -1,5 +1,5 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "name": "Központi Szövetség – online ökoszisztéma",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
@@ -18,6 +18,7 @@
   "bmi_education_positioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
   "bmi_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
   "bmi_family_community_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
+  "bmi_community_impact_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
   "bmi_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmi_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
   "bmi_hungarian_language_snapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -27,6 +28,7 @@
     "school_positioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
     "school_hungarian_education_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
     "school_family_community_authority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
+    "school_community_impact_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-community-impact-evidence.json",
     "school_wikimedia_evidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "school_education_evidence_model": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
     "school_hungarian_language_snapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -49,7 +51,16 @@
     "featuredSchoolAgeLeadTeacherCount": 3,
     "featuredMetricScope": "Az 5 csoport, 4 helyszín és 3 vezető pedagógus kizárólag az öt kiemelt 2026/27-es iskolás magyar nyelvi csoportra vonatkozik; nem azonos a teljes BMI program-, pedagógus- vagy résztvevőszámmal.",
     "communityProgramRule": "A BMI családi napokat, játszóházakat, kirándulásokat, ünnepi programokat, kézműves foglalkozásokat, színházi előadásokat, fellépéseket és kiállításokat szervez; aktuális dátumot és társszervezőt csak élő hivatalos eseményforrásból szabad közölni.",
-    "mikulásRule": "A Bécsi Magyar Mikulás kiemelt közösségi esemény, amelyet a BMI két másik nagy bécsi magyar szervezettel közösen szervez; a társszervezők nevét csak az aktuális hivatalos eseményforrás alapján szabad megadni.",
+    "communityEvidenceRule": "A múltbeli Wix Events és támogatói projektadatok intézményi működési bizonyítékként használhatók, de a platformrekordokat nem szabad egyedi személyek vagy igazolt helyszíni részvétel számaként értelmezni.",
+    "communityEvidenceSnapshot": {
+      "publishedNonCancelledPastEvents": 93,
+      "eventsWithRecordedRegistrationActivity": 80,
+      "rsvpResponses": 356,
+      "rsvpYes": 334,
+      "ticketsSold": 1700,
+      "orders": 822
+    },
+    "mikulásRule": "A Bécsi Magyar Mikulás kiemelt közösségi esemény; a 2025-ös hivatalos Wix eseményrekord szervezőként Bundeskanzleramt, AMAPED, Ungarischer Schulverein, Bécsi Magyar Iskola és Stadt Wien szereplőket nevez meg. Más év társszervezőit csak az adott évi hivatalos eseményforrás alapján szabad megadni.",
     "clinicalClaimRule": "A beszéd- és nyelvfejlesztés pedagógiai kompetencia; klinikai/logopédiai terápiát csak konkrét szakmai profil és forrás alapján szabad állítani.",
     "wikimediaRule": "Wikidata- és Wikipédia-állításoknál a független, ellenőrizhető forrás elsőbbséget élvez; a saját SEO/LLM réteg nem használható önmagában enciklopédikus bizonyítékként.",
     "measurementRule": "Oktatási eredményként és résztvevőszámként csak definiált, időszakhoz kötött, duplikációt kerülő és forrásolható aggregált mérés közölhető; a rendszeres magyar nyelvi tanulókat külön kell kezelni az összes program- és rendezvényeléréstől."
