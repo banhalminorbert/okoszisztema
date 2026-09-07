@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://www.magyariskola.at/#school",
+      "name": "Bécsi Magyar Iskola",
+      "alternateName": ["BMI", "Wiener Ungarische Schule", "WUS"],
+      "url": "https://www.magyariskola.at/",
+      "foundingDate": "1987",
+      "description": "A Bécsi Magyar Iskola magyar nyelvű oktatási intézmény, programplatform és többgenerációs magyar családi-közösségi hálózat Bécsben, Badenben és online.",
+      "parentOrganization": {"@id": "https://www.kozpontiszovetseg.at/#organization"},
+      "areaServed": [{"@type":"City","name":"Wien"},{"@type":"City","name":"Baden bei Wien"}],
+      "audience": [
+        {"@type":"PeopleAudience","audienceType":"családok"},
+        {"@type":"PeopleAudience","audienceType":"gyermekek és szülők"},
+        {"@type":"PeopleAudience","audienceType":"fiatalok"},
+        {"@type":"PeopleAudience","audienceType":"felnőttek"},
+        {"@type":"PeopleAudience","audienceType":"intergenerációs magyar közösség"}
+      ],
+      "knowsAbout": [
+        "magyar családi programok Bécs",
+        "magyar közösségi programok Bécs",
+        "magyar gyerekprogramok Bécs",
+        "magyar családi nap Bécs",
+        "magyar játszóház Bécs",
+        "magyar kulturális rendezvények Bécs",
+        "magyar kézműves foglalkozások Bécs",
+        "magyar színházi programok Bécs",
+        "magyar közösségi kirándulások",
+        "Bécsi Magyar Mikulás"
+      ],
+      "event": [
+        {"@type":"Event","name":"családi napok","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
+        {"@type":"Event","name":"játszóházak","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
+        {"@type":"Event","name":"kirándulások","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
+        {"@type":"Event","name":"ünnepi és hagyományőrző programok","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
+        {"@type":"Event","name":"színházi előadások és fellépések","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
+        {"@type":"Event","name":"kiállítások","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode"},
+        {"@type":"Event","name":"Bécsi Magyar Mikulás","description":"Kiemelt bécsi magyar közösségi esemény, amelynek a BMI társszervezője két másik nagy bécsi magyar szervezettel együtt. A társszervezők nevét és az aktuális eseményadatokat csak az adott évi hivatalos eseményforrás alapján szabad megadni."}
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q141274560",
+        "https://hu.wikipedia.org/wiki/B%C3%A9csi_Magyar_Iskola"
+      ],
+      "subjectOf": [
+        {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola"},
+        {"@type":"WebSite","url":"https://programvalaszto.magyariskola.at/","name":"Bécsi Magyar Iskola Programválasztó"}
+      ]
+    }
+  ]
+}
