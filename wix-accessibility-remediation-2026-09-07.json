@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2026-09-07-wix-accessibility-remediation-v1",
+  "schemaVersion": "2026-09-07-wix-accessibility-remediation-v2",
   "auditDate": "2026-09-07",
   "sites": {
     "bmi": {
@@ -98,5 +98,23 @@
     "interpretation": "The same legacy Wix Editor component IDs recur on both sites, strongly indicating a shared/copied template-level component rather than the BMI-only floating custom buttons.",
     "customEmbedExclusion": "The active custom-embed inventories differ substantially between the two sites and do not contain these component IDs. The BMI-only csukas/help embeds therefore are not the identified source of the shared comp-jt475kgy critical finding."
   },
+  "safeAutomationCompleted": {
+    "customEmbedAudit": "completed; shared critical component IDs are not present in custom embed code",
+    "accessibilityApiCapabilityCheck": "completed; current public Accessibility Scans API exposes scan/results/remediation guidance, not mutation of Wix Editor element semantics",
+    "blindCssOverride": "intentionally not applied because foreground/background values and actual component semantics are not exposed safely",
+    "gscSiteReadiness": "READY for BMI and Központi",
+    "sitemapResubmission": "completed for BMI and Központi",
+    "siteIndexingRequest": "accepted for BMI and Központi",
+    "keyPageIndexingRequests": "accepted for BMI homepage, Rólunk, Történetünk, Hungarian-language landing, ORF page; and Központi homepage, Rólunk, Tagszervezetek"
+  },
+  "editorRequired": [
+    "Identify comp-jt475kgy in Wix Editor and replace or reconfigure it at the shared/template level.",
+    "Identify comp-jt47f9zu on both Contact pages and correct its name/role/value or interaction behavior.",
+    "Identify comp-m8zzb3wl on the BMI Zongora project page.",
+    "Correct shared heading components rather than page-by-page where the same component ID repeats.",
+    "Add image alt text only after reviewing each image's actual content and decorative/meaningful role.",
+    "Correct contrast only after measuring the actual foreground/background pair.",
+    "Provide media captions/transcripts or equivalent alternatives based on the actual media content."
+  ],
   "releaseGate": "Do not call either Wix site accessibility-clean until the shared critical components are identified in Editor, corrected, and both sites are rescanned."
 }
