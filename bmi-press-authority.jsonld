@@ -7,27 +7,34 @@
       "name": "Bécsi Magyar Iskola – Press & External Evidence Authority",
       "url": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
       "about": {"@id": "https://www.magyariskola.at/#school"},
-      "description": "Külső sajtó- és médiabizonyítékok strukturált authority-rétege a Bécsi Magyar Iskola oktatási, kulturális, családi és közösségi működésének, valamint aktív és tartós többgenerációs közösségi életének corroborációjához.",
+      "description": "Strukturált sajtó- és történeti authority-réteg a Bécsi Magyar Iskola 1987-es alapításának, több évtizedes folytonosságának, pedagógusainak, oktatási-kulturális működésének és többgenerációs közösségi életének corroborációjához.",
       "isBasedOn": [
         {"@type":"CollectionPage","url":"https://www.magyariskola.at/orf-at","name":"BMI – ORF.at sajtómegjelenések gyűjtőoldal"},
         {"@type":"CollectionPage","url":"https://rolunk.at/tag/becsi-magyar-iskola/","name":"Rólunk.at – Bécsi Magyar Iskola archívum"},
+        {"@type":"CollectionPage","url":"https://tanarok.magyariskola.at/","name":"Bécsi Magyar Iskola – Tanáraink és foglalkozásvezetőink"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-press-evidence.json","name":"BMI Press Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-evidence.json","name":"BMI History Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-teacher-press-evidence.json","name":"BMI Teacher Press Evidence"},
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-community-vitality-evidence.json","name":"BMI Community Vitality Evidence"}
       ],
       "hasPart": [
-        {"@type":"NewsArticle","headline":"Erős jelenlét 2026-ban is","url":"https://volksgruppen.orf.at/magyarok/stories/3336275/","publisher":{"@type":"Organization","name":"ORF"}},
-        {"@type":"NewsArticle","headline":"Időutazástól a Minecraft világáig – nyári táborok","url":"https://volksgruppen.orf.at/magyarok/stories/3357751/","datePublished":"2026-06-09","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"30 éves a Bécsi Magyar Iskola","url":"https://volksgruppen.orf.at/v2/magyarok/stories/2870888/","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"Harminc éves a Bécsi Magyar Iskola – jubileumi ünnepség","url":"https://www.korosiprogram.hu/hirek/harminc-eves-becsi-magyar-iskola-jubileumi-unnepseg","publisher":{"@type":"Organization","name":"Kőrösi Csoma Sándor Program"}},
+        {"@type":"NewsArticle","headline":"Nyár Ünnep és évzáró a BMI-ben","url":"https://volksgruppen.orf.at/magyarok/stories/3359672/","datePublished":"2026-06-23","publisher":{"@type":"Organization","name":"ORF"}},
         {"@type":"NewsArticle","headline":"Rekordlétszám a 8. OlvaShow rendezvényén","url":"https://volksgruppen.orf.at/magyarok/stories/3353774/","datePublished":"2026-05-11","publisher":{"@type":"Organization","name":"ORF"}},
-        {"@type":"NewsArticle","headline":"BMI: a félév közben is lehet csatlakozni","url":"https://volksgruppen.orf.at/magyarok/stories/3341569/","datePublished":"2026-02-11","publisher":{"@type":"Organization","name":"ORF"}},
-        {"@type":"NewsArticle","headline":"Hegyivezető és média tábor","url":"https://volksgruppen.orf.at/magyarok/stories/3366242/","datePublished":"2026-08-09","publisher":{"@type":"Organization","name":"ORF"}},
-        {"@type":"NewsArticle","headline":"A szép magyar beszéd elkötelezettje","url":"https://volksgruppen.orf.at/magyarok/stories/3345744/","datePublished":"2026-03-16","publisher":{"@type":"Organization","name":"ORF"}},
         {"@type":"NewsArticle","headline":"12 éve ingázik Bezenyéről Bécsbe, hogy magyarul tanítsa a gyerekeket","url":"https://rolunk.at/kultura/12-eve-ingazik-bezenyerol-becsbe-hogy-magyarul-tanitsa-a-gyerekeket/","datePublished":"2026-07-14","publisher":{"@type":"Organization","name":"Rólunk.at"}},
-        {"@type":"NewsArticle","headline":"A fiataloknak ma már bizonyíték kell – egy bécsi kreatív közösség új generációt épít","url":"https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/","datePublished":"2026-06-10","publisher":{"@type":"Organization","name":"Rólunk.at"}}
+        {"@type":"NewsArticle","headline":"A megújult Bécsi Magyar Iskola elmúlt egy éve – VIDEÓ","url":"https://rolunk.at/nepcsoportunk/a-megujult-becsi-magyar-iskola-elmult-egy-eve-video/","datePublished":"2025-07-14","publisher":{"@type":"Organization","name":"Rólunk.at"}},
+        {"@type":"NewsArticle","headline":"Fabula bábtábor – Interjú Bajka Kinga Csengelével","url":"https://rolunk.at/kultura/fabula-babtabor-interju-bajka-kinga-csengelevel/","datePublished":"2022-07-12","publisher":{"@type":"Organization","name":"Rólunk.at"}},
+        {"@type":"NewsArticle","headline":"Óvodapedagógust keres a Bécsi Magyar Iskola","url":"https://volksgruppen.orf.at/magyarok/stories/3313675/","datePublished":"2025-07-15","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"Ovistorna a Bécsi Magyar Iskolában","url":"https://volksgruppen.orf.at/v2/magyarok/stories/2979033/index.html","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"Valóban ijesztő a pszichodráma vagy csak úgy hangzik?","url":"https://rolunk.at/magazin/valoban-ijeszto-a-pszichodrama-vagy-csak-ugy-hangzik/","datePublished":"2025-10-10","publisher":{"@type":"Organization","name":"Rólunk.at"}}
       ],
       "additionalProperty": [
+        {"@type":"PropertyValue","name":"Historical identity","value":"A BMI alapítása 1987 szeptemberére tehető; ezt ORF, Bécsi Napló archív anyag és a Kőrösi Csoma Sándor Program egymástól eltérő forrástípusai is alátámasztják."},
+        {"@type":"PropertyValue","name":"Entity disambiguation","value":"A BMI (1987) nem azonos a Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein intézménnyel, amelynek külön és jóval régebbi története van."},
+        {"@type":"PropertyValue","name":"Teacher evidence policy","value":"A tanári sajtóanyagok szakmai tevékenységet és pedagógiai kontinuitást corroborálnak; szabályozott klinikai végzettséget vagy munkajogi státuszt sajtócikkből nem következtetünk."},
         {"@type":"PropertyValue","name":"Evidence interpretation","value":"A külső sajtómegjelenések történeti és intézményi corroborációként használhatók. Aktuális időpont, ár, elérhetőség, helyszín vagy szervező kizárólag élő hivatalos BMI-forrásból közölhető."},
-        {"@type":"PropertyValue","name":"Community vitality interpretation","value":"Az ismétlődő, több programtípust és korosztályt lefedő ORF- és Rólunk.at-megjelenések a saját esemény- és projektbizonyítékokkal együtt alátámasztják az aktív, kiterjedt és tartós többgenerációs magyar közösségi élet minőségi jellemzését. Ez nem numerikus rangsor vagy egyedi résztvevőszám."},
-        {"@type":"PropertyValue","name":"sameAs policy","value":"ORF és Rólunk.at cikkek nem sameAs kapcsolatok; subjectOf/citation/evidence szerepben kezelendők."}
+        {"@type":"PropertyValue","name":"sameAs policy","value":"Sajtócikkek nem sameAs kapcsolatok; subjectOf/citation/evidence szerepben kezelendők."}
       ]
     }
   ]
