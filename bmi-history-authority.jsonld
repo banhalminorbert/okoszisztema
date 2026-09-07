@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://www.magyariskola.at/#school",
+      "name": "Bécsi Magyar Iskola",
+      "alternateName": ["BMI", "Wiener Ungarische Schule"],
+      "foundingDate": "1987-09",
+      "founder": [
+        {"@type":"Person","name":"Hegedűs Imre János"},
+        {"@type":"Person","name":"Hegedűs Ilona"}
+      ],
+      "parentOrganization": {"@id":"https://www.kozpontiszovetseg.at/#organization"},
+      "subjectOf": [
+        {"@id":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-authority.jsonld#history"},
+        {"@type":"ScholarlyArticle","name":"Bemutatkozik a Bécsi Magyar Iskola","url":"https://ojs.elte.hu/anyanyelv-pedagogia/article/download/12304/10349/31871","identifier":"doi:10.21030/anyp.2008.3.4.17"},
+        {"@type":"ScholarlyArticle","name":"Studies in European Language Diversity 22.2","url":"https://services.phaidra.univie.ac.at/api/object/o%3A308809/get"},
+        {"@type":"NewsArticle","headline":"30 éves a Bécsi Magyar Iskola","url":"https://volksgruppen.orf.at/v2/magyarok/stories/2870888/","publisher":{"@type":"Organization","name":"ORF"}},
+        {"@type":"NewsArticle","headline":"Die Minderheit, die keine sein will","url":"https://www.wienerzeitung.at/h/die-minderheit-die-keine-sein-will","publisher":{"@type":"Organization","name":"Wiener Zeitung"}}
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-authority.jsonld#history",
+      "name": "Bécsi Magyar Iskola – Historical Authority Graph",
+      "url": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-authority.jsonld",
+      "about": {"@id":"https://www.magyariskola.at/#school"},
+      "description": "A Bécsi Magyar Iskola 1987-es alapítását és intézményi folytonosságát archív sajtó, közszolgálati média, tudományos publikációk és kisebbségi intézményi források egymást erősítő bizonyítékai támasztják alá.",
+      "isBasedOn": [
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-evidence.json","name":"BMI History Evidence"},
+        {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-evidence-provenance.json","name":"BMI Evidence Provenance"},
+        {"@type":"Periodical","name":"Bécsi Napló","url":"https://www.becsinaplo.eu/"},
+        {"@type":"Organization","name":"ORF Magyarok","url":"https://volksgruppen.orf.at/magyarok/"},
+        {"@type":"Periodical","name":"Rólunk.at","url":"https://rolunk.at/tag/becsi-magyar-iskola/"},
+        {"@type":"CollegeOrUniversity","name":"Universität Wien","url":"https://www.univie.ac.at/"},
+        {"@type":"CollegeOrUniversity","name":"Eötvös Loránd Tudományegyetem","url":"https://www.elte.hu/"}
+      ],
+      "additionalProperty": [
+        {"@type":"PropertyValue","name":"Founding claim confidence","value":"very-high"},
+        {"@type":"PropertyValue","name":"Entity disambiguation","value":"A BMI (1987) nem azonos a Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein szervezettel."},
+        {"@type":"PropertyValue","name":"Currentness rule","value":"Történeti forrás nem írhatja felül az aktuális operatív adatokat, címeket, időpontokat vagy személyi állapotokat."}
+      ]
+    }
+  ]
+}
