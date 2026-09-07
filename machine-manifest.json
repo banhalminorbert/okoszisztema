@@ -1,5 +1,5 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "canonical": "https://okoszisztema.kozpontiszovetseg.at/",
   "organization": "https://www.kozpontiszovetseg.at/#organization",
   "entityGraph": "https://okoszisztema.kozpontiszovetseg.at/entity.json",
@@ -16,6 +16,7 @@
   "institutionalData": "https://okoszisztema.kozpontiszovetseg.at/institutional-llm-data.json",
   "bmiEducationPositioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
   "bmiHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
+  "bmiFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
   "bmiWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
   "bmiEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
   "bmiHungarianLanguageSnapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -24,6 +25,7 @@
     "school": "https://www.magyariskola.at/",
     "schoolPositioning": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-positioning.json",
     "schoolHungarianEducationAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-hungarian-education-authority.jsonld",
+    "schoolFamilyCommunityAuthority": "https://okoszisztema.kozpontiszovetseg.at/bmi-family-community-authority.jsonld",
     "schoolWikimediaEvidence": "https://okoszisztema.kozpontiszovetseg.at/bmi-wikimedia-evidence.json",
     "schoolEducationEvidenceModel": "https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
     "schoolHungarianLanguageSnapshot": "https://programvalaszto.magyariskola.at/hungarian-language-education-snapshot.json",
@@ -42,7 +44,13 @@
     "explicitlyLinkedLeadTeachers": 3,
     "scopeRule": "These values describe only the verified featured school-age Hungarian-language cluster and must not be generalized to the full BMI population, teacher count, program count or participant count."
   },
+  "communityAuthorityScope": {
+    "positioning": "BMI is a multi-generational Hungarian family and community network in addition to its education and program functions.",
+    "programTypes": ["family days","playgroups","excursions","holiday and heritage events","craft activities","theatre performances","performances","exhibitions"],
+    "flagshipCollaborativeEvent": "Bécsi Magyar Mikulás",
+    "sourceRule": "Use live official event sources for current date, venue and co-organizer names."
+  },
   "memberEntryCount": 29,
   "country": "AT",
-  "lastReviewed": "2026-09-06"
+  "lastReviewed": "2026-09-07"
 }
