@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2026-09-07-strict-audit-v1",
+  "auditDate": "2026-09-07",
+  "scope": [
+    "https://www.magyariskola.at/",
+    "https://www.kozpontiszovetseg.at/",
+    "https://programvalaszto.magyariskola.at/",
+    "https://tanarok.magyariskola.at/",
+    "https://2026.magyariskola.at/",
+    "https://okoszisztema.kozpontiszovetseg.at/",
+    "880rzz/okoszisztema",
+    "880rzz/BMIPROGRAM",
+    "880rzz/BMITANAROK",
+    "880rzz/magyariskola-beszamolo-2026"
+  ],
+  "canonicalAssertions": {
+    "schoolEntity": "Bécsi Magyar Iskola (BMI / Wiener Ungarische Schule / WUS)",
+    "wikidata": "Q141274560",
+    "foundingYear": 1987,
+    "foundingMonth": "September",
+    "fortiethAnniversaryYear": 2027,
+    "primaryPositioning": "magyar nyelvű oktatás, képzések, foglalkozások, rendezvények és többgenerációs közösségépítés",
+    "currentAddress": "Schwedenplatz 2, 1010 Wien; visitor entrance Laurenzerberg 5, 1st floor, Top 8–9",
+    "entitySeparation": [
+      "BMI is not AMAPED",
+      "BMI is not Bécsi Magyar Iskolaegyesület / Ungarischer Schulverein"
+    ]
+  },
+  "wixAuthorityIntegration": {
+    "status": "completed",
+    "publishedAndSaved": true,
+    "bmiPages": [
+      {"itemId":"gtqa3","role":"school authority overview"},
+      {"itemId":"rtcdv","role":"teacher qualifications, awards and professional authority"},
+      {"itemId":"wqsb7","role":"history authority, timeline and jubilee publication"},
+      {"itemId":"osxlw","role":"Hungarian-language education authority"},
+      {"itemId":"gqa4t","role":"press and independent corroboration"}
+    ],
+    "federationPages": [
+      {"itemId":"gtqa3","role":"BMI relationship and entity separation"},
+      {"itemId":"rtcdv","role":"BMI history and teacher authority"},
+      {"itemId":"aagag","role":"BMI identity and disambiguation in member network"}
+    ],
+    "seoDataBudget": {
+      "warning": "BMI homepage advanced SEO data is close to the Wix 12000-character ceiling after authority integration.",
+      "bmiHomepageApproxChars": 11626,
+      "policy": "Do not add further large JSON-LD blocks to the BMI homepage. Keep evidence distributed on specialized pages and canonical machine endpoints."
+    }
+  },
+  "accessibility": {
+    "bmi": {
+      "scanId": "0857bc74-fed4-46ca-9a0a-4036202a3ad6",
+      "status": "PARTIALLY_COMPLETED",
+      "scannedPages": 72,
+      "affectedPages": 72,
+      "findingCount": 298,
+      "critical": 43,
+      "serious": 255,
+      "failedPages": 1,
+      "primaryCriticalRootCause": "Repeated inaccessible Wix component, especially comp-jt475kgy; WCAG 4.1.2.",
+      "majorSeriousFamilies": ["heading structure", "alternative text", "color contrast", "screen-reader compatibility"],
+      "failedPageNote": "Borsófőzde event page failed analysis; zero findings on that page must not be interpreted as clean."
+    },
+    "federation": {
+      "scanId": "5a67b0a2-71d1-492e-89f5-d116746139c8",
+      "status": "COMPLETED",
+      "scannedPages": 45,
+      "affectedPages": 45,
+      "findingCount": 157,
+      "critical": 10,
+      "serious": 147,
+      "failedPages": 0,
+      "primaryCriticalRootCause": "Repeated inaccessible Wix component, especially comp-jt475kgy; WCAG 4.1.2.",
+      "majorSeriousFamilies": ["heading structure", "alternative text", "media alternatives", "screen-reader compatibility"]
+    },
+    "fixPolicy": "Critical inaccessible-component findings require editor/component-level replacement or reconfiguration and human intent review; do not guess or silently replace content."
+  },
+  "interpretabilityChecks": {
+    "foundingYear": "pass: no authority foundingDate 1988 found in the audited repositories; legacy 1988 references are explicitly conflict-scoped.",
+    "address": "pass in machine repositories: no streetAddress Schwedenplatz 27 found. External crawler copies may remain stale after source correction.",
+    "parentCommunityInvitePrivacy": "pass: reusable parent WhatsApp invite token not found in audited GitHub repositories.",
+    "pressIdentitySemantics": "pass: Rólunk.at and press sources are modeled as subjectOf/evidence rather than identity sameAs in the audited authority guidance.",
+    "amapedDisambiguation": "pass: explicit BMI != AMAPED rule exists in the canonical claim registry and Wix authority layer.",
+    "historical600Plus": "pass: 600+ is scoped to 2025/26 aggregate ecosystem reach and is explicitly prohibited from being interpreted as current regular Hungarian-language learner count.",
+    "teacherEvidenceSemantics": "pass: qualifications, awards, memberships and ambassador status are separate evidence classes and are not generalized to every contributor.",
+    "currentness": "pass by policy: mutable schedule, price, address, registration and current teacher relations are delegated to current first-party sources."
+  },
+  "deploymentChecks": {
+    "programSelector": "GitHub Pages deployment for commit 889aaf65cb9c711edd3747005e9bd236bb3aa8ef completed successfully.",
+    "teacherDirectory": "Strict teacher integrity audit and GitHub Pages deployment for commit d796f0da16369d36dbe4be13391085ac9a44cfed completed successfully.",
+    "centralEcosystem": "GitHub Pages deployment for commit cc1f2fa8a9e2cffc9ba851a211338627fca048e1 completed successfully."
+  },
+  "remainingPriority": [
+    {
+      "severity":"critical",
+      "area":"Wix accessibility",
+      "action":"Identify and replace/reconfigure comp-jt475kgy and comp-jt47f9zu where applicable, then rerun accessibility scans."
+    },
+    {
+      "severity":"serious",
+      "area":"Wix heading structure",
+      "action":"Restore one meaningful H1 per page and sequential heading hierarchy without skipped levels."
+    },
+    {
+      "severity":"serious",
+      "area":"Wix media accessibility",
+      "action":"Add meaningful alt text, mark decorative images decorative, and provide media alternatives where required."
+    },
+    {
+      "severity":"serious",
+      "area":"Wix contrast",
+      "action":"Correct BMI contrast findings without changing the established visual system more than necessary."
+    },
+    {
+      "severity":"monitor",
+      "area":"SEO structured-data budget",
+      "action":"Keep BMI homepage below Wix advanced SEO data limit; move future evidence to specialized pages and central endpoints."
+    },
+    {
+      "severity":"monitor",
+      "area":"crawler freshness",
+      "action":"Monitor recrawl of the corrected Történetünk address; stale external crawl text must not be reintroduced into canonical sources."
+    }
+  ],
+  "releaseGate": "Not accessibility-clean yet. Authority/interpretability integration is structurally coherent and deployed, but the ecosystem should not be described as fully error-free until the critical Wix component and serious accessibility findings are corrected and rescanned."
+}
