@@ -17,6 +17,29 @@ jobs:
           from pathlib import Path
           import json
 
+          old_school = 'https://www.magyariskola.at/' + '#school'
+          canonical_school = 'https://www.magyariskola.at/' + '#organization'
+          old_person = 'https://www.magyariskola.at/rolunk' + '#seidler-andrea'
+          canonical_person = 'https://www.magyariskola.at/' + '#seidler-andrea'
+
+          # Canonicalize legacy BMI entity IDs in machine-readable and public text layers.
+          normalized=[]
+          for p in Path('.').rglob('*'):
+              if not p.is_file():
+                  continue
+              if any(x in {'.git','node_modules','vendor'} for x in p.parts):
+                  continue
+              if p.suffix.lower() not in {'.json','.jsonld','.html','.txt','.md'}:
+                  continue
+              try:
+                  s=p.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              n=s.replace(old_school,canonical_school).replace(old_person,canonical_person)
+              if n!=s:
+                  p.write_text(n,encoding='utf-8')
+                  normalized.append(str(p))
+
           entity_path=Path('entity.json')
           if entity_path.exists():
               data=json.loads(entity_path.read_text(encoding='utf-8'))
@@ -38,7 +61,7 @@ jobs:
                       {'@type':'PropertyValue','propertyID':'ZVR-Zahl','value':'079797621'},
                       {'@type':'PropertyValue','propertyID':'Wikidata','value':'Q141274866'}
                   ]
-              bmi=byid.get('https://www.magyariskola.at/#school')
+              bmi=byid.get(canonical_school)
               if bmi:
                   bmi['sameAs']=['https://www.wikidata.org/wiki/Q141274560','https://hu.wikipedia.org/wiki/B%C3%A9csi_Magyar_Iskola']
                   subjects=bmi.get('subjectOf',[])
@@ -60,7 +83,7 @@ jobs:
               elif '</head>' in s: n=s.replace('</head>',block+'\n</head>',1)
               else: continue
               if n!=s: p.write_text(n,encoding='utf-8'); changed.append(str(p))
-          print('updated',len(changed),'HTML files')
+          print('canonicalized',len(normalized),'files; updated',len(changed),'HTML files')
           PY
       - name: Commit synchronized graph and HTML
         run: |
@@ -68,5 +91,5 @@ jobs:
           git config user.name "ecosystem-schema-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git commit -m "Normalize and sync Wikidata/Wikipedia/Rólunk authority graph"
+          git commit -m "Normalize BMI canonical entity IDs and sync authority graph"
           git push
