@@ -5,7 +5,7 @@
       "@type": "ItemList",
       "@id": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-timeline.jsonld#timeline",
       "name": "Bécsi Magyar Iskola – validált történeti idővonal",
-      "about": {"@id": "https://www.magyariskola.at/#school"},
+      "about": {"@id": "https://www.magyariskola.at/#organization"},
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": [
         {

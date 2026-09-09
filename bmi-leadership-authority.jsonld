@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "EducationalOrganization",
-      "@id": "https://www.magyariskola.at/#school",
+      "@id": "https://www.magyariskola.at/#organization",
       "name": "Bécsi Magyar Iskola",
       "alternateName": ["BMI", "Wiener Ungarische Schule", "WUS"],
       "url": "https://www.magyariskola.at/",
@@ -26,7 +26,7 @@
       ],
       "jobTitle": ["Bécsi Magyar Iskola vezetője", "hungarológus", "irodalomtörténész", "egyetemi tanár"],
       "affiliation": [
-        {"@id":"https://www.magyariskola.at/#school"},
+        {"@id":"https://www.magyariskola.at/#organization"},
         {"@type":"CollegeOrUniversity","name":"Universität Wien","url":"https://www.univie.ac.at/"}
       ],
       "knowsAbout": ["hungarológia", "magyarságtudomány", "magyar irodalomtudomány", "többnyelvűség", "közép-európai kulturális kapcsolatok"],

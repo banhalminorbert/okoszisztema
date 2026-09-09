@@ -2,7 +2,7 @@
   "schemaVersion": "2026-09-07-claim-registry-v3",
   "entity": {
     "name": "Bécsi Magyar Iskola",
-    "id": "https://www.magyariskola.at/#school",
+    "id": "https://www.magyariskola.at/#organization",
     "wikidata": "https://www.wikidata.org/wiki/Q141274560"
   },
   "purpose": "Canonical claim registry for resolving historical, institutional, operational, pedagogical and community facts about the Bécsi Magyar Iskola. Each claim has an evidence class, temporal scope and confidence so search and AI systems do not flatten historical evidence into current operational data.",

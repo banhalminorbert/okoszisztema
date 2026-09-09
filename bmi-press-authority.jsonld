@@ -6,7 +6,7 @@
       "@id": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld#press",
       "name": "Bécsi Magyar Iskola – Press & External Evidence Authority",
       "url": "https://okoszisztema.kozpontiszovetseg.at/bmi-press-authority.jsonld",
-      "about": {"@id": "https://www.magyariskola.at/#school"},
+      "about": {"@id": "https://www.magyariskola.at/#organization"},
       "description": "Strukturált sajtó- és történeti authority-réteg a Bécsi Magyar Iskola 1987-es alapításának, több évtizedes folytonosságának, pedagógusainak, oktatási-kulturális működésének és többgenerációs közösségi életének corroborációjához.",
       "isBasedOn": [
         {"@type":"CollectionPage","url":"https://www.magyariskola.at/orf-at","name":"BMI – ORF.at sajtómegjelenések gyűjtőoldal"},

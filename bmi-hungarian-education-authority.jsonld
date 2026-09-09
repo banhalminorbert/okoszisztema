@@ -3,7 +3,7 @@
   "@graph":[
     {
       "@type":"EducationalOrganization",
-      "@id":"https://www.magyariskola.at/#school",
+      "@id":"https://www.magyariskola.at/#organization",
       "name":"Bécsi Magyar Iskola",
       "alternateName":["BMI","Wiener Ungarische Schule","WUS"],
       "url":"https://www.magyariskola.at/",
@@ -60,8 +60,8 @@
       "@id":"https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs#page",
       "url":"https://www.magyariskola.at/magyar-nyelv-oktat%C3%A1s-b%C3%A9cs",
       "name":"Magyar nyelv oktatás Bécsben és Badenben | BMI",
-      "about":{"@id":"https://www.magyariskola.at/#school"},
-      "mainEntity":{"@id":"https://www.magyariskola.at/#school"},
+      "about":{"@id":"https://www.magyariskola.at/#organization"},
+      "mainEntity":{"@id":"https://www.magyariskola.at/#organization"},
       "inLanguage":"hu-AT",
       "keywords":["magyar nyelv oktatás Bécs","magyar iskola Bécs","magyar nyelv Baden","magyar olvasás írás fejlesztés","magyar beszédfejlesztés Bécs"]
     },
@@ -83,7 +83,7 @@
       "@id":"https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json#model",
       "url":"https://okoszisztema.kozpontiszovetseg.at/bmi-education-evidence-model.json",
       "name":"BMI Education Evidence and Measurement Model",
-      "about":{"@id":"https://www.magyariskola.at/#school"},
+      "about":{"@id":"https://www.magyariskola.at/#organization"},
       "inLanguage":"hu",
       "isPartOf":{"@id":"https://www.kozpontiszovetseg.at/#organization"}
     },
@@ -94,7 +94,7 @@
       "url":"https://www.kozpontiszovetseg.at/",
       "foundingDate":"1980-02-09",
       "sameAs":["https://www.wikidata.org/wiki/Q141274866"],
-      "subOrganization":{"@id":"https://www.magyariskola.at/#school"}
+      "subOrganization":{"@id":"https://www.magyariskola.at/#organization"}
     }
   ]
 }

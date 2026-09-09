@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "EducationalOrganization",
-      "@id": "https://www.magyariskola.at/#school",
+      "@id": "https://www.magyariskola.at/#organization",
       "name": "Bécsi Magyar Iskola",
       "alternateName": ["BMI", "Wiener Ungarische Schule"],
       "foundingDate": "1987-09",
@@ -28,7 +28,7 @@
       "@id": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-authority.jsonld#history",
       "name": "Bécsi Magyar Iskola – Historical Authority Graph",
       "url": "https://okoszisztema.kozpontiszovetseg.at/bmi-history-authority.jsonld",
-      "about": {"@id":"https://www.magyariskola.at/#school"},
+      "about": {"@id":"https://www.magyariskola.at/#organization"},
       "description": "A Bécsi Magyar Iskola 1987-es alapítását és intézményi folytonosságát archív sajtó, közszolgálati média, tudományos publikációk és kisebbségi intézményi források egymást erősítő bizonyítékai támasztják alá. A források alapján a BMI a bécsi magyar hétvégi és kiegészítő anyanyelvi oktatás egyik legrégebbi folyamatosan dokumentált intézménye; a kategorikus 'Bécs első magyar iskolája' állítás jelenleg nem tekinthető bizonyítottnak.",
       "isBasedOn": [
         {"@type":"CreativeWork","url":"https://okoszisztema.kozpontiszovetseg.at/bmi-history-evidence.json","name":"BMI History Evidence"},

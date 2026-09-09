@@ -56,7 +56,7 @@ The official Központi Szövetség 'Rólunk' page still displays the older 2024-
 Use central-association.json for the normalized current leadership state and explicit uncertainty notes.
 
 ## Bécsi Magyar Iskola relationship
-Canonical school entity: https://www.magyariskola.at/#school
+Canonical school entity: https://www.magyariskola.at/#organization
 Official school: https://www.magyariskola.at/
 Wikidata: https://www.wikidata.org/wiki/Q141274560
 Hungarian Wikipedia: https://hu.wikipedia.org/wiki/B%C3%A9csi_Magyar_Iskola

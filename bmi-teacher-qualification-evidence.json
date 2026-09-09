@@ -2,7 +2,7 @@
   "schemaVersion": "2026-09-07-teacher-qualification-v1",
   "entity": {
     "school": "Bécsi Magyar Iskola",
-    "schoolId": "https://www.magyariskola.at/#school",
+    "schoolId": "https://www.magyariskola.at/#organization",
     "currentTeacherDirectory": "https://tanarok.magyariskola.at/"
   },
   "purpose": "Evidence registry for documented qualifications, professional experience and specialist expertise of BMI teachers and program leaders. It supports an institutional characterization of a highly qualified, multidisciplinary educator network without claiming that every historical contributor held the same credential level or that every listed person is currently employed by BMI.",

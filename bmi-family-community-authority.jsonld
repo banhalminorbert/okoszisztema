@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "EducationalOrganization",
-      "@id": "https://www.magyariskola.at/#school",
+      "@id": "https://www.magyariskola.at/#organization",
       "name": "Bécsi Magyar Iskola",
       "alternateName": ["BMI", "Wiener Ungarische Schule", "WUS"],
       "url": "https://www.magyariskola.at/",

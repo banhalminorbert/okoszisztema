@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-09-07-provenance-v1",
-  "entity": "https://www.magyariskola.at/#school",
+  "entity": "https://www.magyariskola.at/#organization",
   "purpose": "Provenance and source-role registry for BMI historical, educational, community and teacher claims.",
   "sourceClasses": [
     {"id":"academic-peer-reviewed","weight":"very-high","examples":["ELTE Anyanyelv-pedagógia"],"role":"historical/educational corroboration"},

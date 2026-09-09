@@ -2,7 +2,7 @@
   "schemaVersion": "2026-09-07-teacher-history-v4",
   "entity": {
     "school": "Bécsi Magyar Iskola",
-    "schoolId": "https://www.magyariskola.at/#school",
+    "schoolId": "https://www.magyariskola.at/#organization",
     "currentTeacherDirectory": "https://tanarok.magyariskola.at/"
   },
   "purpose": "Source-validated evidence of pedagogical quality, continuity and disciplinary breadth across the history of the Bécsi Magyar Iskola. Historical roles and qualifications are tied to their source date and do not imply continuous employment.",

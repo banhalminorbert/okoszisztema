@@ -37,7 +37,7 @@
       ],
       "subOrganization": [
         {
-          "@id": "https://www.magyariskola.at/#school"
+          "@id": "https://www.magyariskola.at/#organization"
         }
       ],
       "member": [
@@ -157,7 +157,7 @@
         "EducationalOrganization",
         "School"
       ],
-      "@id": "https://www.magyariskola.at/#school",
+      "@id": "https://www.magyariskola.at/#organization",
       "name": "Bécsi Magyar Iskola",
       "alternateName": [
         "BMI",
@@ -944,7 +944,7 @@
       "url": "https://programvalaszto.magyariskola.at/",
       "name": "Bécsi Magyar Iskola – Programválasztó",
       "isPartOf": {
-        "@id": "https://www.magyariskola.at/#school"
+        "@id": "https://www.magyariskola.at/#organization"
       }
     },
     {
@@ -953,7 +953,7 @@
       "url": "https://tanarok.magyariskola.at/",
       "name": "Bécsi Magyar Iskola – Tanáraink",
       "isPartOf": {
-        "@id": "https://www.magyariskola.at/#school"
+        "@id": "https://www.magyariskola.at/#organization"
       }
     },
     {
@@ -962,7 +962,7 @@
       "url": "https://zenebona.magyariskola.at/",
       "name": "ZENEBONA",
       "isPartOf": {
-        "@id": "https://www.magyariskola.at/#school"
+        "@id": "https://www.magyariskola.at/#organization"
       }
     },
     {
@@ -971,7 +971,7 @@
       "url": "https://taltosdob.magyariskola.at/",
       "name": "Világfa Sárkányai",
       "isPartOf": {
-        "@id": "https://www.magyariskola.at/#school"
+        "@id": "https://www.magyariskola.at/#organization"
       }
     },
     {
@@ -980,7 +980,7 @@
       "url": "https://2026.magyariskola.at/",
       "name": "Bécsi Magyar Iskola – 2025/26-os tanév beszámoló",
       "isPartOf": {
-        "@id": "https://www.magyariskola.at/#school"
+        "@id": "https://www.magyariskola.at/#organization"
       }
     },
     {
@@ -989,7 +989,7 @@
       "url": "https://www.vipach.at/",
       "name": "VIPACH – Vienna Photo Art & Creative Hub",
       "isPartOf": {
-        "@id": "https://www.magyariskola.at/#school"
+        "@id": "https://www.magyariskola.at/#organization"
       }
     },
     {
@@ -998,7 +998,7 @@
       "url": "https://www.musicaltarsulat.at/",
       "name": "Bécsi Magyar Musical Társulat",
       "isPartOf": {
-        "@id": "https://www.magyariskola.at/#school"
+        "@id": "https://www.magyariskola.at/#organization"
       }
     },
     {

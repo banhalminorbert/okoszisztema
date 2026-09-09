@@ -12,12 +12,12 @@
       "sameAs":["https://www.wikidata.org/wiki/Q141274866","https://hu.wikipedia.org/wiki/Ausztriai_Magyar_Egyes%C3%BCletek_%C3%A9s_Szervezetek_K%C3%B6zponti_Sz%C3%B6vets%C3%A9ge"],
       "identifier":[{"@type":"PropertyValue","propertyID":"Wikidata","value":"Q141274866"},{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}],
       "subjectOf":{"@type":"CollectionPage","url":"https://rolunk.at/tag/kozponti-szovetseg/","name":"Rólunk.at – Központi Szövetség sajtóarchívum"},
-      "subOrganization":{"@id":"https://www.magyariskola.at/#school"},
+      "subOrganization":{"@id":"https://www.magyariskola.at/#organization"},
       "additionalProperty":[{"@type":"PropertyValue","name":"Bécsi Magyar Iskola fenntartása","value":"A Központi Szövetség a Bécsi Magyar Iskola fenntartója; rendelkezésre bocsátja a Magyar Otthon helyiségeit és infrastruktúráját, valamint ellátja az iskola felügyeletét."}]
     },
     {
       "@type":"EducationalOrganization",
-      "@id":"https://www.magyariskola.at/#school",
+      "@id":"https://www.magyariskola.at/#organization",
       "name":"Bécsi Magyar Iskola",
       "alternateName":["BMI","Wiener Ungarische Schule","WUS"],
       "url":"https://www.magyariskola.at/",
@@ -62,7 +62,7 @@
       "url":"https://www.vipach.at/",
       "sameAs":["https://www.wikidata.org/wiki/Q138416887","https://hu.wikipedia.org/wiki/VIPACH"],
       "identifier":{"@type":"PropertyValue","propertyID":"Wikidata","value":"Q138416887"},
-      "parentOrganization":{"@id":"https://www.magyariskola.at/#school"},
+      "parentOrganization":{"@id":"https://www.magyariskola.at/#organization"},
       "founder":{"@id":"https://www.norbertbanhalmi.com/about/"}
     },
     {
@@ -76,7 +76,7 @@
       "jobTitle":["hungarológus","irodalomtörténész","egyetemi tanár","Központi Szövetség elnöke","Bécsi Magyar Iskola vezetője"],
       "sameAs":["https://www.wikidata.org/wiki/Q112411009","https://hu.wikipedia.org/wiki/Seidler_Andrea","https://finno-ugristik.univie.ac.at/en/about-us/people-de/seidler-a/"],
       "identifier":[{"@type":"PropertyValue","propertyID":"GND","value":"1179216911"},{"@type":"PropertyValue","propertyID":"VIAF","value":"69055277"},{"@type":"PropertyValue","propertyID":"ISNI","value":"0000000109125422"},{"@type":"PropertyValue","propertyID":"BnF","value":"127336370"},{"@type":"PropertyValue","propertyID":"LCCN","value":"n88142205"}],
-      "affiliation":[{"@id":"https://www.kozpontiszovetseg.at/#organization"},{"@id":"https://www.magyariskola.at/#school"},{"@type":"CollegeOrUniversity","name":"Universität Wien","url":"https://www.univie.ac.at/"}],
+      "affiliation":[{"@id":"https://www.kozpontiszovetseg.at/#organization"},{"@id":"https://www.magyariskola.at/#organization"},{"@type":"CollegeOrUniversity","name":"Universität Wien","url":"https://www.univie.ac.at/"}],
       "award":{"@type":"CreativeWork","name":"Tarnai Andor-díj","dateCreated":"2019"},
       "subjectOf":[{"@type":"CollectionPage","url":"https://rolunk.at/tag/seidler-andrea/","name":"Rólunk.at – Seidler Andrea sajtóarchívum"},{"@type":"NewsArticle","url":"https://volksgruppen.orf.at/magyarok/stories/3356526/","name":"Központi szövetség éves közgyűlése","datePublished":"2026-06-02"},{"@type":"NewsArticle","url":"https://volksgruppen.orf.at/magyarok/stories/3359672/","name":"Nyár Ünnep és évzáró a BMI-ben","datePublished":"2026-06-23"}]
     },
@@ -85,7 +85,7 @@
       "@id":"https://www.magyariskola.at/#bajka-kinga-csengele",
       "name":"Bajka Kinga Csengele",
       "jobTitle":"Szervezési és koordinációs feladatok, valamint kulturális rendezvények tervezése és lebonyolítása",
-      "affiliation":{"@id":"https://www.magyariskola.at/#school"}
+      "affiliation":{"@id":"https://www.magyariskola.at/#organization"}
     },
     {
       "@type":"Person",

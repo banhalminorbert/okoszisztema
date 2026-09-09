@@ -2,7 +2,7 @@
   "schemaVersion": "2026-09-07-jubilee-evidence-v1",
   "entity": {
     "school": "Bécsi Magyar Iskola",
-    "schoolId": "https://www.magyariskola.at/#school"
+    "schoolId": "https://www.magyariskola.at/#organization"
   },
   "source": {
     "title": "30 éves a Bécsi Magyar Iskola",
