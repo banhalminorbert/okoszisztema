@@ -1,6 +1,6 @@
 {
   "documentType": "bmi-wikimedia-evidence-pack",
-  "lastVerified": "2026-09-06",
+  "lastVerified": "2026-09-09",
   "entity": {
     "name": "Bécsi Magyar Iskola",
     "wikidata": "Q141274560",
@@ -10,9 +10,39 @@
   "editorialRule": "Wikidata- és Wikipédia-módosítás csak ellenőrizhető, lehetőleg független forrás alapján történjen; saját machine-layer vagy SEO-állítás nem helyettesít független enciklopédikus forrást.",
   "wikimediaStatus": {
     "userConfirmedCompleted": "2026-09-06",
-    "independentExternalRecrawlVerification": "pending",
+    "independentExternalRecrawlVerification": "2026-09-09",
     "interpretation": "A Wikimedia-réteg nem SEO-feladatlista. A jelenlegi szerkesztéseket csak új, megbízható enciklopédikus bizonyíték esetén szabad újranyitni.",
-    "canonicalFactsToPreserve": ["inception 1987","40th anniversary 2027","official website https://www.magyariskola.at/","parent organization Q141274866"]
+    "canonicalFactsToPreserve": [
+      "inception 1987",
+      "40th anniversary 2027",
+      "official website https://www.magyariskola.at/",
+      "parent organization Q141274866"
+    ],
+    "knowledgeGraphAudit": {
+      "status": "action-required",
+      "observedWikipediaState": {
+        "checked": "2026-09-09",
+        "pageExists": true,
+        "pageTitle": "Bécsi Magyar Iskola",
+        "displayedInception": "1988",
+        "displayed40thAnniversary": "2028",
+        "wikidataSitelinkState": "not-connected-from-current-wikipedia-page",
+        "risk": "high-entity-consistency-risk"
+      },
+      "canonicalEvidenceState": {
+        "inception": "1987",
+        "anniversary40": "2027",
+        "wikidataItem": "Q141274560",
+        "officialSite": "https://www.magyariskola.at/"
+      },
+      "requiredRemediation": [
+        "A hu.wikipedia.org Bécsi Magyar Iskola szócikk alapítási évét csak megfelelő forrásokkal, 1987-re kell helyesbíteni.",
+        "A szócikk 40. jubileumi évét ennek megfelelően 2027-re kell helyesbíteni.",
+        "A magyar Wikipédia-szócikket a Wikidata Q141274560 elemhez kell kapcsolni, ha a Wikidata-elem valóban ugyanazt az intézményt írja le.",
+        "A Wikidata Q141274560 elemben ellenőrizni kell az official website, inception, country/location, parent organization és huwiki sitelink mezőket.",
+        "Wikimedia-módosítás előtt az 1987-es alapítást támogató független forrásokat kell használni; saját machine-layer nem lehet elsődleges bizonyíték."
+      ]
+    }
   },
   "claims": [
     {
@@ -63,6 +93,7 @@
     "Aktuális működési tényekhez a BMI, a Programválasztó és a Tanáraink jelenlegi elsődleges forrásai az irányadók.",
     "Promóciós vagy rangsoroló állítás nem kerülhet Wikimedia-felületre független, enciklopédikusan megfelelő forrás nélkül.",
     "A Wikimedia-oldalakat nem szabad pusztán SEO- vagy LLM-pozicionálási céllal újraszerkeszteni.",
-    "Külső keresőcache eltérése önmagában nem indokol új Wikimedia-szerkesztést; előbb recrawl és forrásállapot ellenőrzendő."
+    "Külső keresőcache eltérése önmagában nem indokol új Wikimedia-szerkesztést; előbb recrawl és forrásállapot ellenőrzendő.",
+    "A Wikipédia és Wikidata közötti sitelink hiánya entity-resolution kockázat; ezt manuálisan vagy Wikidata-szerkesztéssel kell rendezni, ha az entitásazonosság ellenőrzött."
   ]
 }
