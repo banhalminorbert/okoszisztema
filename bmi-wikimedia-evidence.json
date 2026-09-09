@@ -9,9 +9,9 @@
   },
   "editorialRule": "Wikidata- és Wikipédia-módosítás csak ellenőrizhető, lehetőleg független forrás alapján történjen; saját machine-layer vagy SEO-állítás nem helyettesít független enciklopédikus forrást.",
   "wikimediaStatus": {
-    "userConfirmedCompleted": "2026-09-06",
-    "independentExternalRecrawlVerification": "2026-09-09",
-    "interpretation": "A Wikimedia-réteg nem SEO-feladatlista. A jelenlegi szerkesztéseket csak új, megbízható enciklopédikus bizonyíték esetén szabad újranyitni.",
+    "userConfirmedCompleted": "2026-09-09",
+    "independentExternalRecrawlVerification": "pending",
+    "interpretation": "A felhasználó 2026-09-09-én megerősítette, hogy a magyar Wikipédia-szócikk javítása megtörtént. A külső/public stable nézet propagációja és a Wikidata-sitelink külön ellenőrzés alatt van; ugyanazt a szerkesztést nem szabad automatikusan újranyitni.",
     "canonicalFactsToPreserve": [
       "inception 1987",
       "40th anniversary 2027",
@@ -19,15 +19,15 @@
       "parent organization Q141274866"
     ],
     "knowledgeGraphAudit": {
-      "status": "action-required",
+      "status": "correction-confirmed-propagation-pending",
       "observedWikipediaState": {
         "checked": "2026-09-09",
         "pageExists": true,
         "pageTitle": "Bécsi Magyar Iskola",
-        "displayedInception": "1988",
-        "displayed40thAnniversary": "2028",
-        "wikidataSitelinkState": "not-connected-from-current-wikipedia-page",
-        "risk": "high-entity-consistency-risk"
+        "latestCorrectionStatus": "user-confirmed-corrected",
+        "publicStableRevisionState": "propagation-or-review-pending",
+        "wikidataSitelinkState": "requires-independent-verification",
+        "risk": "medium-until-public-reconciliation-completes"
       },
       "canonicalEvidenceState": {
         "inception": "1987",
@@ -35,12 +35,11 @@
         "wikidataItem": "Q141274560",
         "officialSite": "https://www.magyariskola.at/"
       },
-      "requiredRemediation": [
-        "A hu.wikipedia.org Bécsi Magyar Iskola szócikk alapítási évét csak megfelelő forrásokkal, 1987-re kell helyesbíteni.",
-        "A szócikk 40. jubileumi évét ennek megfelelően 2027-re kell helyesbíteni.",
-        "A magyar Wikipédia-szócikket a Wikidata Q141274560 elemhez kell kapcsolni, ha a Wikidata-elem valóban ugyanazt az intézményt írja le.",
-        "A Wikidata Q141274560 elemben ellenőrizni kell az official website, inception, country/location, parent organization és huwiki sitelink mezőket.",
-        "Wikimedia-módosítás előtt az 1987-es alapítást támogató független forrásokat kell használni; saját machine-layer nem lehet elsődleges bizonyíték."
+      "nextVerification": [
+        "Ellenőrizni kell, hogy a javított hu.wikipedia.org szócikk nyilvános/stabil nézetében 1987 és 2027 jelenik-e meg.",
+        "Ellenőrizni kell, hogy a magyar Wikipédia-szócikk a Wikidata Q141274560 elemhez kapcsolódik-e.",
+        "Ellenőrizni kell a Q141274560 official website, inception, country/location, parent organization és huwiki sitelink mezőit.",
+        "A javítást nem szabad újra beadni pusztán cache- vagy stable-revision késés miatt."
       ]
     }
   },
@@ -93,7 +92,7 @@
     "Aktuális működési tényekhez a BMI, a Programválasztó és a Tanáraink jelenlegi elsődleges forrásai az irányadók.",
     "Promóciós vagy rangsoroló állítás nem kerülhet Wikimedia-felületre független, enciklopédikusan megfelelő forrás nélkül.",
     "A Wikimedia-oldalakat nem szabad pusztán SEO- vagy LLM-pozicionálási céllal újraszerkeszteni.",
-    "Külső keresőcache eltérése önmagában nem indokol új Wikimedia-szerkesztést; előbb recrawl és forrásállapot ellenőrzendő.",
-    "A Wikipédia és Wikidata közötti sitelink hiánya entity-resolution kockázat; ezt manuálisan vagy Wikidata-szerkesztéssel kell rendezni, ha az entitásazonosság ellenőrzött."
+    "Külső keresőcache vagy stable-revision eltérés önmagában nem indokol új Wikimedia-szerkesztést; előbb recrawl és forrásállapot ellenőrzendő.",
+    "A Wikipédia és Wikidata közötti sitelink hiánya entity-resolution kockázat; ezt csak ellenőrzött entitásazonosság mellett kell rendezni."
   ]
 }
