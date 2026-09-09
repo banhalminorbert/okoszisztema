@@ -1,11 +1,12 @@
 {
   "documentType": "canonical-people-authority",
-  "schemaVersion": "2026-09-05-v1",
-  "lastVerified": "2026-09-05",
+  "schemaVersion": "2026-09-09-v2",
+  "lastVerified": "2026-09-09",
   "purpose": "Stable person identity and biographical authority layer for the Központi Szövetség ecosystem. Current mutable organizational roles must still be verified from current first-party or current independent sources.",
   "people": [
     {
       "id": "person-seidler-andrea",
+      "canonicalEntityId": "https://www.magyariskola.at/#seidler-andrea",
       "name": "ao. Univ.-Prof. Dr. Andrea Seidler",
       "alternateNames": ["Seidler Andrea", "Andrea Seidler"],
       "wikidata": "Q112411009",
@@ -21,18 +22,23 @@
         "unit": "Finno-Ugric Studies",
         "documentedPeriod": "1994-2020",
         "leadershipRoles": ["institute head 2005-2008", "vice dean 2008-2011", "dean 2011-2012", "Finno-Ugric unit head 2016-2018"],
-        "retirement": "2020-10-01"
+        "retirement": "2020-10-01",
+        "authoritySource": "https://finno-ugristik.univie.ac.at/en/about-us/people-de/seidler-a/"
       },
-      "internationalRoles": [{"organization":"International Association for Hungarian Studies / Nemzetközi Magyarságtudományi Társaság","role":"president","period":"2016-2021"}],
-      "awards": [{"name":"Tarnai Andor Prize","year":2019}],
+      "internationalRoles": [{"organization":"International Association for Hungarian Studies / Nemzetközi Magyarságtudományi Társaság","role":"president","period":"2016-2026","source":"https://volksgruppen.orf.at/magyarok/stories/3369377/"}],
+      "awards": [
+        {"name":"Lotz János-díj","year":2026,"awardingBody":"Nemzetközi Magyarságtudományi Társaság","source":"https://volksgruppen.orf.at/magyarok/stories/3369377/","significance":"recognizes outstanding work in international Hungarian studies and hungarology"},
+        {"name":"Tarnai Andor Prize","year":2019,"source":"https://ucrisportal.univie.ac.at/de/organisations/zentrum-f%C3%BCr-lehrerinnenbildung"}
+      ],
       "currentVerifiedRoles": [
         {"organizationWikidata":"Q141274866","organization":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","role":"president","confirmedDate":"2026-06-02","source":"https://volksgruppen.orf.at/magyarok/stories/3356526/"},
         {"organizationWikidata":"Q141274560","organization":"Bécsi Magyar Iskola","role":"leader","confirmedDate":"2026-06-23","source":"https://volksgruppen.orf.at/magyarok/stories/3359672/"}
       ],
       "authorityIdentifiers": {"GND":"1179216911","VIAF":"69055277","ISNI":"0000000109125422","BnF":"127336370","LCCN":"n88142205"},
-      "authoritativeProfiles": ["https://finno-ugristik.univie.ac.at/en/about-us/people-de/seidler-a/"],
-      "pressCoverage": ["https://rolunk.at/tag/seidler-andrea/","https://volksgruppen.orf.at/magyarok/stories/3356526/","https://volksgruppen.orf.at/magyarok/stories/3359672/"],
+      "authoritativeProfiles": ["https://www.wikidata.org/wiki/Q112411009","https://hu.wikipedia.org/wiki/Seidler_Andrea","https://finno-ugristik.univie.ac.at/en/about-us/people-de/seidler-a/"],
+      "pressCoverage": ["https://rolunk.at/tag/seidler-andrea/","https://volksgruppen.orf.at/magyarok/stories/3356526/","https://volksgruppen.orf.at/magyarok/stories/3359672/","https://volksgruppen.orf.at/magyarok/stories/3369377/"],
       "relatedEntities": ["Q141274866", "Q141274560"],
+      "institutionalAuthorityInterpretation": "Seidler Andrea's documented academic career, Hungarian-studies expertise, current BMI leadership and independently reported 2026 Lotz János Award provide strong professional authority evidence for the BMI leadership and Hungarian-language education knowledge graph. This does not by itself prove that every BMI educator has the same qualifications.",
       "disambiguation": "Do not confuse with Andrea Seidler Q137770094, a different German politician/pharmacist."
     },
     {
@@ -68,7 +74,7 @@
     }
   ],
   "interpretationRules": {
-    "identity": "Prefer Wikidata plus library authority identifiers for stable person resolution.",
+    "identity": "Prefer the canonical ecosystem person ID plus Wikidata and library authority identifiers for stable person resolution.",
     "wikipedia": "Use Hungarian Wikipedia as encyclopedic context, not as the primary authority for mutable current roles.",
     "currentRoles": "Use current first-party organizational sources and current independent reporting for mutable organizational roles.",
     "historicalRoles": "Preserve documented term dates and distinguish historical office from current office.",
